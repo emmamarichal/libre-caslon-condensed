@@ -71,7 +71,7 @@ hintedPath=${ttfPath/".ttf"/"-hinted.ttf"}
 # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
 # ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
 echo "================================================"
-echo ttfautohint-vf $ttfPath $hintedPath
+echo ttfautohint-vf -I $ttfPath $hintedPath
 echo "================================================"
 ttfautohint-vf -I $ttfPath $hintedPath
 
