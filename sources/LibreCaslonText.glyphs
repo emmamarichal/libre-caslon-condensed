@@ -1,5 +1,5 @@
 {
-.appVersion = "1199";
+.appVersion = "1203";
 DisplayStrings = (
 "H@MABCDÐ/Dcroat GJKL/Eng PÞQRS/Schwa/Tbar UVWXYZ\012aæce/schwa f g/gcommaaccent  j/dotlessj/lacute tmnrnusßtu¸/uni015F w x yZz/c_t/f_f/f_f_b/f_f_h/f_f_i \012/f_f_j j/f_f_k/f_f_l/f_f_t/f_h/f_i/f_j/f_t \012s/s_t ª/uni03BC 357/three.denominator/five.denominator/seven.denominator/three.numerator/five.numerator/three.oldstyle/five.oldstyle/seven.oldstyle/three.tnum/five.tnum/threeinferior/fiveinferior/seveninferior ³/fivesuperior/sevensuperior ,;!¡?¿*/comma.tnum/semicolon.tnum {}/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/quoteright \"'/quotedbl.tnum/quotesingle.tnum/Euro ¢$/florin  \012$45 £78 /Euro 93 \012 /two.tnum/six.tnum/eight.tnum/one.tnum/nine.tnum/three.tnum  \012 /yen.tnum/five.tnum/dollar.tnum/two.tnum H/sterling.tnum H/eight.tnum  \012\012/Placeholder ¥c/cent.tnum  /dollar.tnum/sterling.tnum  /yen.tnum ~µ@&§/dagger/daggerdbl/servicemark/section.tnum/commaaccent ´/caron/circumflex `/hungarumlaut/tilde/caron.alt/caron.cap/circumflex.cap/tilde.cap",
 "tAÆBCDÐ/Dcroat EL/Eng ÞQRS/Schwa UVWXYZaæefg/gcommaaccent h/lacute mn/eng qrsßtuvwxy/c_t/f_b/f_f/f_f_b/f_f_h/f_f_i/f_f_j/f_f_k/f_f_l/f_f_t/f_h/f_i/f_j/f_k/f_l/f_t/s_t ª/uni03BC 357/three.denominator/five.denominator/three.numerator/five.numerator/seven.numerator/nine.numerator/three.oldstyle/five.oldstyle/three.tnum/five.tnum/threeinferior/fiveinferior/nineinferior ³/fivesuperior/ninesuperior ,;¡?¿*/comma.tnum/semicolon.tnum {}/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/quoteright \"'/quotedbl.tnum/quotesingle.tnum/Euro ¢$/florin £¥/cent.tnum/dollar.tnum/Euro.tnum/sterling.tnum/yen.tnum ~µ@&§©/dagger/daggerdbl/servicemark/section.tnum/commaaccent/caron/circumflex `/tilde/caron.alt/caron.cap/circumflex.cap/tilde.cap",
@@ -30343,7 +30343,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{954, 0}";
 }
 );
@@ -30441,7 +30441,7 @@ width = 1660;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{925, 0}";
 }
 );
@@ -30540,7 +30540,7 @@ width = 1538;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{929, 0}";
 }
 );
@@ -30645,7 +30645,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{791, 0}";
 }
 );
@@ -30729,7 +30729,7 @@ width = 1848;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{663, 0}";
 }
 );
@@ -30814,7 +30814,7 @@ width = 1614;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{680, 0}";
 }
 );
@@ -30905,7 +30905,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{674, 0}";
 }
 );
@@ -30992,7 +30992,7 @@ width = 1379;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{583, 0}";
 }
 );
@@ -31080,7 +31080,7 @@ width = 1165;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{595, 0}";
 }
 );
@@ -31174,11 +31174,11 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{672, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1398, 0}";
 }
 );
@@ -31299,11 +31299,11 @@ width = 2501;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{579, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1193, 0}";
 }
 );
@@ -31425,11 +31425,11 @@ width = 2176;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{591, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1221, 0}";
 }
 );
@@ -31557,11 +31557,11 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{676, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1335, 0}";
 }
 );
@@ -31675,11 +31675,11 @@ width = 2513;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{578, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1132, 0}";
 }
 );
@@ -31794,11 +31794,11 @@ width = 2188;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{591, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1159, 0}";
 }
 );
@@ -31919,11 +31919,11 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{674, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1329, 0}";
 }
 );
@@ -32019,11 +32019,11 @@ width = 1938;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{581, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1134, 0}";
 }
 );
@@ -32120,11 +32120,11 @@ width = 1629;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{593, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1160, 0}";
 }
 );
@@ -32227,11 +32227,11 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{676, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1344, 0}";
 }
 );
@@ -32343,11 +32343,11 @@ width = 1909;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{581, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1148, 0}";
 }
 );
@@ -32460,11 +32460,11 @@ width = 1608;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{594, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1174, 0}";
 }
 );
@@ -32583,11 +32583,11 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{673, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1329, 0}";
 }
 );
@@ -32696,11 +32696,11 @@ width = 2483;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{581, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1131, 0}";
 }
 );
@@ -32810,11 +32810,11 @@ width = 2144;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{593, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1157, 0}";
 }
 );
@@ -32930,11 +32930,11 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{673, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1329, 0}";
 }
 );
@@ -33027,11 +33027,11 @@ width = 1942;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{581, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1138, 0}";
 }
 );
@@ -33125,11 +33125,11 @@ width = 1624;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{593, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1163, 0}";
 }
 );
@@ -33229,11 +33229,11 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{674, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1373, 0}";
 }
 );
@@ -33346,11 +33346,11 @@ width = 2040;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{580, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1148, 0}";
 }
 );
@@ -33464,11 +33464,11 @@ width = 1734;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{593, 0}";
 },
 {
-name = caret_2;
+name = lig_carrot_temp_off_2;
 position = "{1178, 0}";
 }
 );
@@ -33588,7 +33588,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{681, 0}";
 }
 );
@@ -33670,7 +33670,7 @@ width = 1861;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{570, 0}";
 }
 );
@@ -33753,7 +33753,7 @@ width = 1624;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{585, 0}";
 }
 );
@@ -33842,7 +33842,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{675, 0}";
 }
 );
@@ -33906,7 +33906,7 @@ width = 1284;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{570, 0}";
 }
 );
@@ -33971,7 +33971,7 @@ width = 1067;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{584, 0}";
 }
 );
@@ -34042,7 +34042,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{691, 0}";
 }
 );
@@ -34122,7 +34122,7 @@ width = 1255;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{574, 0}";
 }
 );
@@ -34203,7 +34203,7 @@ width = 1047;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{590, 0}";
 }
 );
@@ -34290,7 +34290,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{673, 0}";
 }
 );
@@ -34367,7 +34367,7 @@ width = 1829;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{570, 0}";
 }
 );
@@ -34445,7 +34445,7 @@ width = 1581;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{584, 0}";
 }
 );
@@ -34529,7 +34529,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{673, 0}";
 }
 );
@@ -34590,7 +34590,7 @@ width = 1289;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{574, 0}";
 }
 );
@@ -34652,7 +34652,7 @@ width = 1063;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{587, 0}";
 }
 );
@@ -34720,7 +34720,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{732, 0}";
 }
 );
@@ -34801,7 +34801,7 @@ width = 1386;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{586, 0}";
 }
 );
@@ -34883,7 +34883,7 @@ width = 1172;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{605, 0}";
 }
 );
@@ -34971,7 +34971,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{796, 0}";
 }
 );
@@ -35078,7 +35078,7 @@ width = 1506;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{732, 0}";
 }
 );
@@ -35186,7 +35186,7 @@ width = 1316;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{741, 0}";
 }
 );
@@ -35293,7 +35293,7 @@ width = 1342;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{796, 0}";
 }
 );
@@ -35402,7 +35402,7 @@ width = 1506;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{741, 0}";
 }
 );
