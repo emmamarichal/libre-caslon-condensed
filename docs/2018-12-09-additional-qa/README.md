@@ -224,7 +224,7 @@ This ampersand has curves that are a bit lumpy, and its contrast is uneven:
 
 It's still not perfect, but it's a little more graceful:
 
-![](assets/2019-01-08-16-40-17.png)
+![](assets/2019-01-09-13-21-08.png)
 
 A big thing that has bothered me in the Italic is the `/f`. An `/f` in this tall italic form should lean slightly back in the middle section, because without that lean-back, it will appear to lean _forward_ due to the long swashes.
 
@@ -234,7 +234,7 @@ Here's the original:
 
 And here's my revision:
 
-![](assets/2019-01-09-13-21-08.png)
+![](assets/2019-01-15-15-38-24.png)
 
 It's not a huge change, but I've made an effort to make the overall "mass" of the lette have the same overall lean of the surrounding letters. Here are the new outlines (black) over the previous outlines (in gray):
 
