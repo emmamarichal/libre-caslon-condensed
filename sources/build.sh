@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 
+cd sources
 
 echo "Generating Static fonts"
 mkdir -p ../fonts

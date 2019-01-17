@@ -1,7 +1,14 @@
 Libre Caslon Text Fonts
 ======================
 
+<details>
+<summary>Background Information</summary>
+
+# Description
+
 ![](sample.jpg)
+
+The original description of these fonts, borrowed from the Impalari repo, is:
 
 > The Libre Caslon fonts are unique Caslons. They are different to all other Caslons out there.
 > 
@@ -46,6 +53,17 @@ This project was unchanged for some time, and Stephen Nixon was later contracted
 
 Impallari's website is no longer available at its normal domain, but it can be seen in its most recent active form via Archive.org's Wayback Machine: [Libre Caslon Display and Text, Impallari.com, 26 Dec 2017](https://web.archive.org/web/20171226183904/http://www.impallari.com:80/projects/overview/libre-caslon-dis
 
+# Variable font upgrade project documentation
+
+Notes were taken throughout the variable font upgrade project and added to the [docs](/docs) directory. I tend to take notes while working anyway, in order to think through problems and record solutions for later reference. In this project, I have included these in the repo so that others might find references to solve similar problems, especially because variable font-making processes are relatively new, and there is a general scarcity of online knowledge on font mastering. Because they were often made alongside work, the notes can at times be a bit disjointed. Hopefully they are still helpful to others! 
+
+If you have any questions about the project or the notes, feel free to [file an issue](/issues) or to reach out to Stephen Nixon via Twitter ([@thundernixon](https://twitter.com/thundernixon)) or other social media (typically also @thundernixon).
+
+</details>
+
+<details>
+<summary>Build Process</summary>
+
 # Build Process
 
 The sources can be built with FontMake, but I've put together some specific build scripts to pass the fonts through some steps that fix metadata issues.
@@ -58,7 +76,7 @@ To operate the scripts within this repo, install requirements with:
 pip install -r sources/scripts/requirements.txt
 ```
 
-(Caveat: this installs all Python 3 dependencies I've installed for Google Fonts work. I know this is messy – next time, I'll set up a virtual environment for each project. I hope to circle back in the future and make this requirements file cleaner. If you wish to install fewer requirements, you could alternatively install requirements when/if you run into errors.)
+You may want to use a virtual environment to keep the dependencies here separated from other projects on your computer. You can [read more virtualenv in this guide](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
 
 ## Step 2: Give permissions to build scripts
 
@@ -67,29 +85,21 @@ The first time you run the build, you will need to give run permissions to the b
 On the command line, navigate to the project folder (`cd Encode-Sans`), and then give permissions to the shell scripts with:
 
 ```
-chmod -R +x sources/scripts
+chmod +x sources/build.sh
 ```
 
-The `-R` applies your permission to each of the shell scripts in the directory, and the `+x` adds execute permissions. Before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything bad. The ones in this repo simply build from the Encode Sans GlyphsApp sources.
+The `+x` adds execute permission to the build shell script. 
+
+(Note: before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything bad. The ones in this repo simply build from the Encode Sans GlyphsApp sources.)
 
 ## Step 3: Run the build scripts!
 
 You can then build sources by running shell scripts in `sources/scripts/`.
 
-Build the Roman variable font with:
+Build the Roman variable font by running the command:
 
 ```
-sources/scripts/build-full.sh
+sources/scripts/build.sh
 ```
 
-Build the Roman static instances and Italic static instance (Regular Italic) with:
-
-```
-sources/scripts/build-statics.sh
-```
-
-# Variable font upgrade project documentation
-
-Notes were taken throughout the variable font upgrade project and added to the [docs](/docs) directory. I tend to take notes while working anyway, in order to think through problems and record solutions for later reference. In this project, I have included these in the repo so that others might find references to solve similar problems, especially because variable font-making processes are relatively new, and there is a general scarcity of online knowledge on font mastering. Because they were often made alongside work, the notes can at times be a bit disjointed. Hopefully they are still helpful to others! 
-
-If you have any questions about the project or the notes, feel free to [file an issue](/issues) or to reach out to Stephen Nixon via Twitter ([@thundernixon](https://twitter.com/thundernixon)) or other social media (typically also @thundernixon).
+</details>
