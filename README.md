@@ -104,4 +104,6 @@ If you've set up your dependencies correctly, it should build and place fonts in
 
 </details>
 
+---
+
 ![](sample.jpg)
