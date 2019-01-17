@@ -6,8 +6,6 @@ Libre Caslon Text Fonts
 
 # Description
 
-![](sample.jpg)
-
 The original description of these fonts, borrowed from the Impalari repo, is:
 
 > The Libre Caslon fonts are unique Caslons. They are different to all other Caslons out there.
@@ -96,10 +94,14 @@ The `+x` adds execute permission to the build shell script.
 
 You can then build sources by running shell scripts in `sources/scripts/`.
 
-Build the Roman variable font by running the command:
+Build the Roman variable font by running the following command while at the root of the directory:
 
 ```
 sources/scripts/build.sh
 ```
 
+If you've set up your dependencies correctly, it should build and place fonts into the `/fonts` sub-directory. If not, please let me know in the [issues](https://github.com/thundernixon/Libre-Caslon/issues).
+
 </details>
+
+![](sample.jpg)
