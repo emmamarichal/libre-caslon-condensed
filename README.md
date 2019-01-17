@@ -50,17 +50,21 @@ The original description of these fonts, borrowed from the Impalari repo, is:
 This project was unchanged for some time, and Stephen Nixon was later contracted to master it as a Variable Font.
 
 Impallari's website is no longer available at its normal domain, but it can be seen in its most recent active form via Archive.org's Wayback Machine: [Libre Caslon Display and Text, Impallari.com, 26 Dec 2017](https://web.archive.org/web/20171226183904/http://www.impallari.com:80/projects/overview/libre-caslon-dis
+</details>
 
-# Variable font upgrade project documentation
+<details>
+<summary>Variable font upgrade notes</summary>
+
+# Project notes
 
 Notes were taken throughout the variable font upgrade project and added to the [docs](/docs) directory. I tend to take notes while working anyway, in order to think through problems and record solutions for later reference. In this project, I have included these in the repo so that others might find references to solve similar problems, especially because variable font-making processes are relatively new, and there is a general scarcity of online knowledge on font mastering. Because they were often made alongside work, the notes can at times be a bit disjointed. Hopefully they are still helpful to others! 
 
-If you have any questions about the project or the notes, feel free to [file an issue](/issues) or to reach out to Stephen Nixon via Twitter ([@thundernixon](https://twitter.com/thundernixon)) or other social media (typically also @thundernixon).
+If you have any questions about the project or the notes, feel free to [file an issue](https://github.com/thundernixon/Libre-Caslon/issues) or to reach out to Stephen Nixon via Twitter ([@thundernixon](https://twitter.com/thundernixon)) or other social media (typically also @thundernixon).
 
 </details>
 
 <details>
-<summary>Build Process</summary>
+<summary>Build Instructions</summary>
 
 # Build Process
 
