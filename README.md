@@ -120,6 +120,12 @@ sources/build.sh
 
 If you've set up your dependencies correctly, it should build and place fonts into the `/fonts` sub-directory. If not, please let me know in the [issues](https://github.com/thundernixon/Libre-Caslon/issues).
 
+If you would like to run checks on the fonts, you can run:
+
+```
+sources/check.sh
+```
+
 </details>
 
 ---
