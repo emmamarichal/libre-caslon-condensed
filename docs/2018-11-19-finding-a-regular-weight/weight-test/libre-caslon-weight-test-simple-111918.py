@@ -80,7 +80,6 @@ placeText("Georgia", 4)
 
 # imgPath = "../assets/weight-test-book_text-111918.png"
 imgPath = "../assets/weight-test-book_text-"+ str(caslonWeight) +"og-111918.png"
-# imgPath = "../assets/weight-test-spacing_string-"+ str(caslonWeight) +"og-111918.png"
 # saveImage(imgPath)
 saveImage(imgPath, imageResolution=300)
 # os.system('open %s' % imgPath)
