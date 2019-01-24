@@ -439,3 +439,17 @@ This bottom stroke isn't quite smooth:
 ---
 
 Libre Caslon could probably be refined even further, but for now, the outlines are a lot better off than they were! Onto the next stage of publishing this.
+
+## Ogonek fixes
+
+Gah! I've come across an errant ogonek to fix:
+
+![](assets/2019-01-23-15-47-34.png)
+
+And this was just the start of the issue.
+
+The ogoneks were a bit of a mess – they were mostly following the principles of accents like the cedilla, being a lighter weight and generally in the middle of glyphs. However, [as Adam Twardoch says](http://www.twardoch.com/download/polishhowto/ogonek.html) and I've heard in person from Polish type designers, ogoneks should be more of a _part_ of letters, similar to parts such as the tails of a `g` or `Q`. I needed to refine their drawings, and add anchors to update their positioning. In order to stay efficient (both in input and output), I kept a component-based workflow, making 4 total components across upper and lowercase letters to account for round vs straight bottoms.
+
+![](assets/2019-01-23-18-51-04.png)
+
+![](assets/2019-01-23-18-51-15.png)
