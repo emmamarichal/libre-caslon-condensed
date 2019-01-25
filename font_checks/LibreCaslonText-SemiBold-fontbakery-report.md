@@ -8,8 +8,9 @@ Fontbakery version: 0.6.6
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.6 (latest)
+* :information_source: **INFO** fontbakery (0.6.7)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6
+  LATEST:    0.6.7
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -195,7 +196,6 @@ Fontbakery version: 0.6.6
 The following glyphs do not have the recommended number of contours:
 
 Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
 Glyph name: oe	Contours detected: 4	Expected: 3
 Glyph name: Uogonek	Contours detected: 2	Expected: 1
 Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -251,7 +251,7 @@ Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
 * [com.google.fonts/check/075](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/075)
 * :warning: **WARN** The following glyphs have coordinates which are out of bounds:
-[('IJ', 1324, 1323), ('IJ', 1324, 1267), ('Icircumflex', 639, 1447), ('Itilde', 569, 1658), ('Itilde', 628, 1658), ('uni01C7', 1787, 1323), ('uni01C7', 1787, 1267), ('cdotaccent', 493, 1385), ('cdotaccent', 557, 1385), ('cdotaccent', 623, 1385), ('edotaccent', 487, 1385), ('edotaccent', 551, 1385), ('edotaccent', 617, 1385), ('gdotaccent', 424, 1385), ('gdotaccent', 488, 1385), ('gdotaccent', 554, 1385), ('idieresis', 597, 1317), ('idieresis', 597, 1270), ('idieresis', 597, 1227), ('uni1E45', 525, 1385), ('uni1E45', 589, 1385), ('uni1E45', 655, 1385), ('zdotaccent', 438, 1385), ('zdotaccent', 502, 1385), ('zdotaccent', 568, 1385), ('onehalf', 76, 1162), ('onehalf', 76, 1213)]
+[('IJ', 1324, 1323), ('IJ', 1324, 1267), ('Icircumflex', 639, 1447), ('Itilde', 569, 1658), ('Itilde', 628, 1658), ('uni01C7', 1787, 1323), ('uni01C7', 1787, 1267), ('cdotaccent', 484, 1385), ('cdotaccent', 548, 1385), ('cdotaccent', 614, 1385), ('edotaccent', 487, 1385), ('edotaccent', 551, 1385), ('edotaccent', 617, 1385), ('gdotaccent', 422, 1385), ('gdotaccent', 486, 1385), ('gdotaccent', 552, 1385), ('idieresis', 597, 1317), ('idieresis', 597, 1270), ('idieresis', 597, 1227), ('uni1E45', 525, 1385), ('uni1E45', 589, 1385), ('uni1E45', 655, 1385), ('zdotaccent', 438, 1385), ('zdotaccent', 502, 1385), ('zdotaccent', 568, 1385), ('onehalf', 76, 1162), ('onehalf', 76, 1213)]
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
 
 </details>
@@ -578,10 +578,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 |  | fonts/LibreCaslonText-SemiBold.ttf |
 |:--- | ---:|
-| Dehinted Size | 76.1kb |
-| Hinted Size | 75.6kb |
-| Increase | -508 bytes |
-| Change   | -0.7 % |
+| Dehinted Size | 76.3kb |
+| Hinted Size | 75.8kb |
+| Increase | -504 bytes |
+| Change   | -0.6 % |
 
 
 </details>
@@ -628,7 +628,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [gasp, DSIG, GPOS, loca, GSUB, prep]
+* :information_source: **INFO** This font contains the following optional tables [loca, GPOS, prep, gasp, GSUB, DSIG]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

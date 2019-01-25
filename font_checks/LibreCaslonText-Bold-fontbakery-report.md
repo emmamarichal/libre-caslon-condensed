@@ -8,8 +8,9 @@ Fontbakery version: 0.6.6
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.6 (latest)
+* :information_source: **INFO** fontbakery (0.6.7)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6
+  LATEST:    0.6.7
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -195,7 +196,6 @@ Fontbakery version: 0.6.6
 The following glyphs do not have the recommended number of contours:
 
 Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
 Glyph name: oe	Contours detected: 4	Expected: 3
 Glyph name: Uogonek	Contours detected: 2	Expected: 1
 Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -569,8 +569,8 @@ Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
 |  | fonts/LibreCaslonText-Bold.ttf |
 |:--- | ---:|
-| Dehinted Size | 75.2kb |
-| Hinted Size | 74.8kb |
+| Dehinted Size | 75.3kb |
+| Hinted Size | 74.9kb |
 | Increase | -404 bytes |
 | Change   | -0.5 % |
 
@@ -619,7 +619,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GPOS, gasp, prep, GSUB, DSIG, loca]
+* :information_source: **INFO** This font contains the following optional tables [loca, GPOS, gasp, prep, GSUB, DSIG]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

@@ -1,5 +1,5 @@
 {
-.appVersion = "1203";
+.appVersion = "1204";
 DisplayStrings = (
 "Ha&H\012",
 "/f.fragment_dot  /f.fragment_dot_2  /f.fragment_1  /f.fragment_2  /f.fragment_3  /b.fragment_1  /h.fragment_1  /i.fragment_1  /j.fragment_1  /k.fragment_1  /l.fragment_1  /t.fragment_1 \012/f_b/f_f/f_f_b/f_f_h/f_f_i/f_f_j/f_f_k/f_f_l/f_f_t/f_h/f_i/f_j/f_k/f_l/f_t ß",
@@ -43,10 +43,6 @@ value = "";
 {
 name = openTypeNameUniqueID;
 value = "PabloImpallari,RodrigoFuenzalida: Libre Caslon Text Italic: 2012";
-},
-{
-name = openTypeNameVersion;
-value = "Version 1.002";
 },
 {
 name = openTypeOS2FamilyClass;
@@ -3416,7 +3412,7 @@ value = 1668;
 },
 {
 name = winDescent;
-value = 451;
+value = 459;
 },
 {
 name = underlineThickness;

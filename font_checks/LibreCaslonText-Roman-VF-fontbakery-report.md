@@ -8,8 +8,9 @@ Fontbakery version: 0.6.6
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.6 (latest)
+* :information_source: **INFO** fontbakery (0.6.7)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6
+  LATEST:    0.6.7
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -580,8 +581,8 @@ Fontbakery version: 0.6.6
 
 |  | fonts/LibreCaslonText-Roman-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 122.7kb |
-| Hinted Size | 122.2kb |
+| Dehinted Size | 123.0kb |
+| Hinted Size | 122.5kb |
 | Increase | -424 bytes |
 | Change   | -0.3 % |
 
@@ -630,7 +631,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [DSIG, GPOS, prep, GSUB, gasp, loca]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, prep, GSUB, gasp, loca, GPOS]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

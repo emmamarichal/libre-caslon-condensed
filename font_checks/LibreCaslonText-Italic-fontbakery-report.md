@@ -8,8 +8,9 @@ Fontbakery version: 0.6.6
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.6 (latest)
+* :information_source: **INFO** fontbakery (0.6.7)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6
+  LATEST:    0.6.7
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -186,13 +187,6 @@ Fontbakery version: 0.6.6
 </details>
 <details>
 <summary><b>[118] LibreCaslonText-Italic.ttf</b></summary>
-<details>
-<summary>:fire: <b>FAIL:</b> Checking font version fields (head and name table).</summary>
-
-* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
-* :fire: **FAIL** head version is ('2', '000'), name version string for platform 3, encoding 1, is ('1', '002') [code: mismatch]
-
-</details>
 <details>
 <summary>:warning: <b>WARN:</b> Checking post.italicAngle value.</summary>
 
@@ -605,7 +599,7 @@ Glyph name: wdieresis	Contours detected: 4	Expected: 3
 <summary>:information_source: <b>INFO:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/056)
-* :information_source: **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.002']
+* :information_source: **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.000']
 
 </details>
 <details>
@@ -635,7 +629,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/166)
-* :information_source: **INFO** Version string is: "Version 1.002"
+* :information_source: **INFO** Version string is: "Version 2.000"
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -644,7 +638,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [DSIG, GPOS, prep, loca, gasp, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, prep, loca, GPOS, gasp, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -953,6 +947,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Checking font version fields (head and name table).</summary>
+
+* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
+* :bread: **PASS** All font version fields match.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
 
 * [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
@@ -1078,5 +1079,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 6 | 61 | 7 | 68 |
-| 0% | 1% | 4% | 43% | 5% | 48% |
+| 0 | 0 | 6 | 61 | 7 | 69 |
+| 0% | 0% | 4% | 43% | 5% | 48% |

@@ -8,8 +8,9 @@ Fontbakery version: 0.6.6
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.6 (latest)
+* :information_source: **INFO** fontbakery (0.6.7)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6
+  LATEST:    0.6.7
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -196,7 +197,6 @@ The following glyphs do not have the recommended number of contours:
 
 Glyph name: equal	Contours detected: 1	Expected: 2
 Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
 Glyph name: oe	Contours detected: 4	Expected: 3
 Glyph name: Uogonek	Contours detected: 2	Expected: 1
 Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -252,7 +252,7 @@ Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
 * [com.google.fonts/check/075](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/075)
 * :warning: **WARN** The following glyphs have coordinates which are out of bounds:
-[('Abreve', 360, 1654), ('Abreve', 431, 1654), ('Abreve', 792, 1654), ('Abreve', 862, 1654), ('Adieresis', 746, 1636), ('Adieresis', 796, 1636), ('Adieresis', 845, 1636), ('Adieresis', 410, 1636), ('Adieresis', 459, 1636), ('Adieresis', 509, 1636), ('Edieresis', 748, 1636), ('Edieresis', 798, 1636), ('Edieresis', 847, 1636), ('Edieresis', 412, 1636), ('Edieresis', 461, 1636), ('Edieresis', 511, 1636), ('Ibreve', 94, 1654), ('Ibreve', 165, 1654), ('Ibreve', 526, 1654), ('Ibreve', 596, 1654), ('Idieresis', 460, 1662), ('Idieresis', 510, 1662), ('Idieresis', 559, 1662), ('Idieresis', 617, 1600), ('Idieresis', 617, 1557), ('Idieresis', 617, 1517), ('Idieresis', 124, 1662), ('Idieresis', 173, 1662), ('Idieresis', 223, 1662), ('Udieresis', 880, 1636), ('Udieresis', 930, 1636), ('Udieresis', 979, 1636), ('Udieresis', 544, 1636), ('Udieresis', 593, 1636), ('Udieresis', 643, 1636), ('uni01CB', 1843, 1268), ('uni01CB', 1843, 1217), ('uni01CB', 1843, 1166)]
+[('Abreve', 360, 1654), ('Abreve', 431, 1654), ('Abreve', 792, 1654), ('Abreve', 862, 1654), ('Adieresis', 746, 1636), ('Adieresis', 796, 1636), ('Adieresis', 845, 1636), ('Adieresis', 410, 1636), ('Adieresis', 459, 1636), ('Adieresis', 509, 1636), ('Edieresis', 748, 1636), ('Edieresis', 798, 1636), ('Edieresis', 847, 1636), ('Edieresis', 412, 1636), ('Edieresis', 461, 1636), ('Edieresis', 511, 1636), ('Ibreve', 94, 1654), ('Ibreve', 165, 1654), ('Ibreve', 526, 1654), ('Ibreve', 596, 1654), ('Idieresis', 460, 1662), ('Idieresis', 510, 1662), ('Idieresis', 559, 1662), ('Idieresis', 617, 1600), ('Idieresis', 617, 1557), ('Idieresis', 617, 1517), ('Idieresis', 124, 1662), ('Idieresis', 173, 1662), ('Idieresis', 223, 1662), ('Udieresis', 880, 1636), ('Udieresis', 930, 1636), ('Udieresis', 979, 1636), ('Udieresis', 544, 1636), ('Udieresis', 593, 1636), ('Udieresis', 643, 1636), ('uni01CB', 1843, 1268), ('uni01CB', 1843, 1217), ('uni01CB', 1843, 1166), ('uni01CC', 1521, 1268), ('uni01CC', 1521, 1217), ('uni01CC', 1521, 1166)]
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
 
 </details>
@@ -579,8 +579,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 |  | fonts/LibreCaslonText-Medium.ttf |
 |:--- | ---:|
-| Dehinted Size | 76.2kb |
-| Hinted Size | 75.7kb |
+| Dehinted Size | 76.3kb |
+| Hinted Size | 75.8kb |
 | Increase | -508 bytes |
 | Change   | -0.7 % |
 
@@ -629,7 +629,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [gasp, loca, prep, GPOS, GSUB, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [prep, GSUB, loca, GPOS, DSIG, gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

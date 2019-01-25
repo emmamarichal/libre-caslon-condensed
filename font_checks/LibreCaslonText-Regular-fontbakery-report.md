@@ -8,8 +8,9 @@ Fontbakery version: 0.6.6
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.6 (latest)
+* :information_source: **INFO** fontbakery (0.6.7)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6
+  LATEST:    0.6.7
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -569,9 +570,9 @@ Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
 |  | fonts/LibreCaslonText-Regular.ttf |
 |:--- | ---:|
-| Dehinted Size | 75.6kb |
-| Hinted Size | 75.2kb |
-| Increase | -448 bytes |
+| Dehinted Size | 75.8kb |
+| Hinted Size | 75.3kb |
+| Increase | -444 bytes |
 | Change   | -0.6 % |
 
 
@@ -619,7 +620,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [gasp, prep, GPOS, GSUB, loca, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, GSUB, loca, DSIG, gasp, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
