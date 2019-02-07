@@ -79,13 +79,13 @@ I suggest using a Python virtual environment to build this project. If you've ne
 First, set up a virtual environment with:
 
 ```
-virtualenv -p python3 virtual_env
+virtualenv -p python3 venv
 ```
 
 Here, `virtual_env` will be the name of the virtual environment and of the folder holding its dependencies. You need to activate it with:
 
 ```
-source virtual_env/bin/activate
+source venv/bin/activate
 ```
 
 To operate the scripts within this repo, install requirements with:
