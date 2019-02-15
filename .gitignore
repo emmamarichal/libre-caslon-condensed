@@ -8,4 +8,4 @@ instance_ttf/*.*
 instance_otf/*.*
 autohinted/*.*
 virtual_env/*
-venv/*
+venv
