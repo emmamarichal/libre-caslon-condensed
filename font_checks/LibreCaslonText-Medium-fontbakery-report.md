@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.8
+Fontbakery version: 0.6.10
 
 <details>
 <summary><b>[26] Family checks</b></summary>
@@ -9,8 +9,7 @@ Fontbakery version: 0.6.8
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
 * :information_source: **INFO** fontbakery (0.6.10)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.8
-  LATEST:    0.6.10
+  INSTALLED: 0.6.10 (latest)
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -193,7 +192,14 @@ Fontbakery version: 0.6.8
 <br>
 </details>
 <details>
-<summary><b>[117] LibreCaslonText-Medium.ttf</b></summary>
+<summary><b>[116] LibreCaslonText-Medium.ttf</b></summary>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:github_gfonts_ttFont> had an error: TypeError: argument of type 'NoneType' is not iterable
+
+</details>
 <details>
 <summary>:warning: <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -432,13 +438,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont, github_gfonts_ttFont
-
-</details>
-<details>
 <summary>:zzz: <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
@@ -629,7 +628,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GSUB, loca, GPOS, DSIG, gasp, prep]
+* :information_source: **INFO** This font contains the following optional tables [prep, GSUB, GPOS, loca, gasp, DSIG]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -931,13 +930,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Check glyphs have unique unicode codepoints.</summary>
-
-* [com.google.fonts/check/076](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/076)
-* :bread: **PASS** All glyphs have unique unicode codepoint assignments.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Check all glyphs have codepoints assigned.</summary>
 
 * [com.google.fonts/check/077](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/077)
@@ -1077,5 +1069,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 5 | 60 | 7 | 71 |
-| 0% | 0% | 3% | 42% | 5% | 50% |
+| 1 | 0 | 5 | 59 | 7 | 70 |
+| 1% | 0% | 4% | 42% | 5% | 49% |
