@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.10
+Fontbakery version: 0.6.11
 
 <details>
 <summary><b>[26] Family checks</b></summary>
@@ -8,8 +8,8 @@ Fontbakery version: 0.6.10
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.10)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.10 (latest)
+* :information_source: **INFO** fontbakery (0.6.11)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.11 (latest)
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -192,14 +192,7 @@ Fontbakery version: 0.6.10
 <br>
 </details>
 <details>
-<summary><b>[116] LibreCaslonText-Medium.ttf</b></summary>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
-* :broken_heart: **ERROR** The condition <FontBakeryCondition:github_gfonts_ttFont> had an error: TypeError: argument of type 'NoneType' is not iterable
-
-</details>
+<summary><b>[117] LibreCaslonText-Bold.ttf</b></summary>
 <details>
 <summary>:warning: <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -208,7 +201,6 @@ Fontbakery version: 0.6.10
 
 The following glyphs do not have the recommended number of contours:
 
-Glyph name: equal	Contours detected: 1	Expected: 2
 Glyph name: aogonek	Contours detected: 3	Expected: 2
 Glyph name: oe	Contours detected: 4	Expected: 3
 Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -221,7 +213,15 @@ Glyph name: uni01EB	Contours detected: 3	Expected: 2
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Libre Caslon Text Medium' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Libre Caslon Text' / SUBFAMILY_NAME = 'Bold'
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Monospace font has hhea.advanceWidthMax equal to each glyph's advanceWidth?</summary>
+
+* [com.google.fonts/check/079](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/079)
+* :warning: **WARN** This seems to be a monospaced font, so advanceWidth value should be the same across all glyphs, but 99.26% of them have a different value: A, Aacute, Abreve, Acircumflex, Adieresis, Agrave, Amacron, Aogonek, Aring, Aringacute, Atilde, AE, AEacute, B, C, Cacute, Ccaron, Ccedilla, Ccircumflex, Cdotaccent, D, Eth, Dcaron, Dcroat, uni1E0C, E, Eacute, Ebreve, Ecaron, Ecircumflex, Edieresis, Edotaccent, uni1EB8, Egrave, Emacron, Eogonek, uni1EBC, F, G, Gbreve, Gcircumflex, uni0122, Gdotaccent, H, Hbar, Hcircumflex, uni1E24, I, IJ, Iacute, Ibreve, Icircumflex, Idieresis, Idotaccent, uni1ECA, Igrave, Imacron, Iogonek, Itilde, J, Jcircumflex, K, uni0136, L, Lacute, Lcaron, uni013B, Ldot, Lslash, M, N, Nacute, Ncaron, uni0145, uni1E44, Eng, Ntilde, O, Oacute, Obreve, Ocircumflex, Odieresis, uni1ECC, Ograve, Ohungarumlaut, Omacron, uni01EA, Oslash, Oslashacute, Otilde, OE, P, Thorn, Q, R, Racute, Rcaron, uni0156, uni1E5A, S, Sacute, Scaron, Scircumflex, uni1E62, uni018F, T, Tbar, Tcaron, uni1E6C, U, Uacute, Ubreve, Ucircumflex, Udieresis, uni1EE4, Ugrave, Uhungarumlaut, Umacron, Uogonek, Uring, Utilde, V, W, Wacute, Wcircumflex, Wdieresis, Wgrave, X, Y, Yacute, Ycircumflex, Ydieresis, Ygrave, uni1EF8, Z, Zacute, Zcaron, Zdotaccent, uni1E92, uni015E, uni0162, uni01C5, uni01C7, uni01C8, uni01CA, uni01CB, uni01F2, uni0218, uni021A, a, aacute, abreve, acircumflex, adieresis, agrave, amacron, aogonek, aring, aringacute, atilde, ae, aeacute, b, c, cacute, ccaron, ccedilla, ccircumflex, cdotaccent, d, eth, dcaron, dcroat, uni1E0D, e, eacute, ebreve, ecaron, ecircumflex, edieresis, edotaccent, uni1EB9, egrave, emacron, eogonek, uni1EBD, uni0259, f, g, gbreve, gcircumflex, uni0123, gdotaccent, h, hbar, hcircumflex, uni1E25, i, dotlessi, iacute, ibreve, icircumflex, idieresis, uni1ECB, igrave, ij, imacron, iogonek, itilde, j, uni0237, jcircumflex, k, uni0137, kgreenlandic, l, lacute, lcaron, uni013C, ldot, lslash, m, n, nacute, napostrophe, ncaron, uni0146, uni1E45, eng, ntilde, o, oacute, obreve, ocircumflex, odieresis, uni1ECD, ograve, ohungarumlaut, omacron, uni01EB, oslash, oslashacute, otilde, oe, p, thorn, q, r, racute, rcaron, uni0157, uni1E5B, s, sacute, scaron, scircumflex, uni1E63, germandbls, t, tbar, tcaron, uni1E6D, u, uacute, ubreve, ucircumflex, udieresis, uni1EE5, ugrave, uhungarumlaut, umacron, uni015F, uni0163, uni01C6, uni01C9, uni01CC, uni01F3, uni0219, uni021B, uogonek, uring, utilde, v, w, wacute, wcircumflex, wdieresis, wgrave, x, y, yacute, ycircumflex, ydieresis, ygrave, uni1EF9, z, zacute, zcaron, zdotaccent, uni1E93, c_t, f_b, f_f, f_f_b, f_f_h, f_f_i, f_f_j, f_f_k, f_f_l, f_f_t, f_h, f_i, f_j, f_k, f_l, f_t, s_t, ordfeminine, ordmasculine, uni03BC, zero, one, two, three, four, five, six, seven, eight, nine, zero.denominator, one.denominator, two.denominator, three.denominator, four.denominator, five.denominator, six.denominator, seven.denominator, eight.denominator, nine.denominator, zero.numerator, one.numerator, two.numerator, three.numerator, four.numerator, five.numerator, six.numerator, seven.numerator, eight.numerator, nine.numerator, zero.oldstyle, one.oldstyle, two.oldstyle, three.oldstyle, four.oldstyle, five.oldstyle, six.oldstyle, seven.oldstyle, eight.oldstyle, nine.oldstyle, zero.tnum, one.tnum, two.tnum, three.tnum, four.tnum, five.tnum, six.tnum, seven.tnum, eight.tnum, nine.tnum, uni2080, uni2081, uni2082, uni2083, uni2084, uni2085, uni2086, uni2087, uni2088, uni2089, uni2070, uni00B9, uni00B2, uni00B3, uni2074, uni2075, uni2076, uni2077, uni2078, uni2079, fraction, onehalf, uni2153, uni2154, onequarter, threequarters, oneeighth, threeeighths, fiveeighths, seveneighths, period, comma, colon, semicolon, ellipsis, exclam, exclamdown, question, questiondown, periodcentered, bullet, asterisk, numbersign, slash, backslash, period.tnum, comma.tnum, colon.tnum, semicolon.tnum, periodcentered.tnum, numbersign.tnum, slash.tnum, parenleft, parenright, braceleft, braceright, bracketleft, bracketright, hyphen, uni00AD, endash, emdash, underscore, underscore.tnum, quotesinglbase, quotedblbase, quotedblleft, quotedblright, quoteleft, apostrophe, quoteright, guillemotleft, guillemotright, guilsinglleft, guilsinglright, quotedbl, quotesingle, quotedbl.tnum, quotesingle.tnum, space, uni00A0, CR, Euro, cent, currency, dollar, florin, sterling, yen, cent.tnum, dollar.tnum, Euro.tnum, sterling.tnum, yen.tnum, plus, minus, multiply, divide, equal, greater, less, plusminus, asciitilde, logicalnot, asciicircum, uni03BC.1, percent, perthousand, uni2215, uni2219, plus.tnum, minus.tnum, multiply.tnum, divide.tnum, equal.tnum, greater.tnum, less.tnum, plusminus.tnum, percent.tnum, at, ampersand, paragraph, section, copyright, registered, trademark, degree, bar, brokenbar, dagger, daggerdbl, uni2120, paragraph.tnum, section.tnum, degree.tnum, bar.tnum, uni0326, acute, breve, caron, cedilla, circumflex, dieresis, dotaccent, grave, hungarumlaut, macron, ogonek, ring, tilde, caron.alt, acute.cap, breve.cap, caron.cap, circumflex.cap, ogonek.curve.cap, dieresis.cap, dotaccent.cap, grave.cap, hungarumlaut.cap, macron.cap, ogonek.cap, ring.cap, tilde.cap, ogonek.curve, dotbelow [code: should-be-monospaced]
+* :warning: **WARN** Double-width and/or zero-width glyphs were detected. These glyphs should be set to the same width as all others and then add GPOS single pos lookups that zeros/doubles the widths as needed: uni0326 [code: variable-monospaced]
 
 </details>
 <details>
@@ -258,15 +258,6 @@ Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
 * [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/064)
 * :warning: **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Check for points out of bounds.</summary>
-
-* [com.google.fonts/check/075](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/075)
-* :warning: **WARN** The following glyphs have coordinates which are out of bounds:
-[('Abreve', 360, 1654), ('Abreve', 431, 1654), ('Abreve', 792, 1654), ('Abreve', 862, 1654), ('Adieresis', 746, 1636), ('Adieresis', 796, 1636), ('Adieresis', 845, 1636), ('Adieresis', 410, 1636), ('Adieresis', 459, 1636), ('Adieresis', 509, 1636), ('Edieresis', 748, 1636), ('Edieresis', 798, 1636), ('Edieresis', 847, 1636), ('Edieresis', 412, 1636), ('Edieresis', 461, 1636), ('Edieresis', 511, 1636), ('Ibreve', 94, 1654), ('Ibreve', 165, 1654), ('Ibreve', 526, 1654), ('Ibreve', 596, 1654), ('Idieresis', 460, 1662), ('Idieresis', 510, 1662), ('Idieresis', 559, 1662), ('Idieresis', 617, 1600), ('Idieresis', 617, 1557), ('Idieresis', 617, 1517), ('Idieresis', 124, 1662), ('Idieresis', 173, 1662), ('Idieresis', 223, 1662), ('Udieresis', 880, 1636), ('Udieresis', 930, 1636), ('Udieresis', 979, 1636), ('Udieresis', 544, 1636), ('Udieresis', 593, 1636), ('Udieresis', 643, 1636), ('uni01CB', 1843, 1268), ('uni01CB', 1843, 1217), ('uni01CB', 1843, 1166), ('uni01CC', 1521, 1268), ('uni01CC', 1521, 1217), ('uni01CC', 1521, 1166)]
-This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
 
 </details>
 <details>
@@ -438,6 +429,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
+* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
+
+</details>
+<details>
 <summary>:zzz: <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
@@ -494,6 +492,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> PPEM must be an integer on hinted fonts.</summary>
+
+* [com.google.fonts/check/integer_ppem_if_hinted](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/integer_ppem_if_hinted)
+* :zzz: **SKIP** Unfulfilled Conditions: is_hinted
+
+</details>
+<details>
 <summary>:zzz: <b>SKIP:</b> FontForge validation outputs error messages?</summary>
 
 * [com.google.fonts/check/038](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/038)
@@ -512,13 +517,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * [com.adobe.fonts/check/postscript_name_cff_vs_name](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/postscript_name_cff_vs_name)
 * :zzz: **SKIP** Unfulfilled Conditions: is_cff
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Monospace font has hhea.advanceWidthMax equal to each glyph's advanceWidth?</summary>
-
-* [com.google.fonts/check/079](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/079)
-* :zzz: **SKIP** Unfulfilled Conditions: seems_monospaced
 
 </details>
 <details>
@@ -576,12 +574,12 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/054)
 * :information_source: **INFO** Hinting filesize impact:
 
-|  | fonts/LibreCaslonText-Medium.ttf |
+|  | fonts/LibreCaslonText-Bold.ttf |
 |:--- | ---:|
-| Dehinted Size | 76.3kb |
-| Hinted Size | 75.8kb |
-| Increase | -508 bytes |
-| Change   | -0.7 % |
+| Dehinted Size | 75.3kb |
+| Hinted Size | 74.9kb |
+| Increase | -404 bytes |
+| Change   | -0.5 % |
 
 
 </details>
@@ -628,7 +626,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [prep, GSUB, GPOS, loca, gasp, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [prep, gasp, GSUB, DSIG, GPOS, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -636,7 +634,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Checking file is named canonically.</summary>
 
 * [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
-* :bread: **PASS** fonts/LibreCaslonText-Medium.ttf is named canonically.
+* :bread: **PASS** fonts/LibreCaslonText-Bold.ttf is named canonically.
 
 </details>
 <details>
@@ -750,7 +748,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Checking post.italicAngle value.</summary>
 
 * [com.google.fonts/check/130](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/130)
-* :bread: **PASS** Value of post.italicAngle is 0.0 with style='Medium'.
+* :bread: **PASS** Value of post.italicAngle is 0.0 with style='Bold'.
 
 </details>
 <details>
@@ -1056,6 +1054,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Check for points out of bounds.</summary>
+
+* [com.google.fonts/check/075](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/075)
+* :bread: **PASS** All glyph paths have coordinates within bounds!
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Does the number of glyphs in the loca table match the maxp table?</summary>
 
 * [com.google.fonts/check/180](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/180)
@@ -1069,5 +1074,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 0 | 5 | 59 | 7 | 70 |
-| 1% | 0% | 4% | 42% | 5% | 49% |
+| 0 | 0 | 5 | 60 | 7 | 71 |
+| 0% | 0% | 3% | 42% | 5% | 50% |
