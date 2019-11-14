@@ -6,7 +6,8 @@ DisplayStrings = (
 "ß/f_b/f_f/f_f_b/f_f_h/f_f_i/f_f_j/f_f_k/f_f_l/f_f_t/f_h/f_i/f_j/f_k/f_l/f_t",
 "A/Aringacute ÆDGJK/Eng/Oslashacute QSUVWHXYaæbcd/schwa fgh/dotlessi jt/Placeholder k/kgreenlandic lm/eng þqrsßtvwxy\012nnznn /f.fragment_dot/c_p/c_t/e_t/f_f/f_f_i/s_p/s_t/f.fragment_dot_2/f.fragment_1/f.fragment_2/f.fragment_3/i.fragment_1/j.fragment_1/l.fragment_1/t.fragment_1 ª/uni03BC 23578/two.denominator/three.denominator/five.denominator/seven.denominator/eight.denominator/two.numerator/three.numerator/five.numerator/seven.numerator/eight.numerator/two.oldstyle/three.oldstyle/five.oldstyle/seven.oldstyle/two.tnum/three.tnum/five.tnum/twoinferior/threeinferior/fiveinferior/eightinferior ²³/fivesuperior/sevensuperior/eightsuperior ,;!¡?¿*{}/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/quoteright \"'/quotedbl.tnum/quotesingle.tnum \012/Euro ¢$/florin N£4/sterling.tnum 8/yen.tnum 8~µ@&¶§©®/dagger/daggerdbl/servicemark  /ampersand.ss01  /section.tnum/commaaccent ´/breve/circumflex `/tilde/caron.alt/acute.cap/breve.cap/caron.cap/circumflex.cap/hungarumlaut.cap/tilde.cap",
 "HAHÆHKHMHNHHVHWHXHY",
-I
+HI,
+HI
 );
 classes = (
 {
@@ -6038,25 +6039,25 @@ width = 1477;
 anchors = (
 {
 name = bottom;
-position = "{520, 0}";
+position = "{590, 0}";
 },
 {
 name = topcap;
-position = "{1108, 1427}";
+position = "{1178, 1427}";
 }
 );
 guideLines = (
 {
-position = "{904, 1284}";
+position = "{974, 1284}";
 },
 {
-position = "{1542, 1251}";
+position = "{1612, 1251}";
 },
 {
-position = "{694, 39}";
+position = "{764, 39}";
 },
 {
-position = "{913, 72}";
+position = "{983, 72}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -6064,38 +6065,38 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1724 1323 LINE",
-"1226 1323 LINE",
-"1208 1284 LINE",
-"1351 1251 LINE",
-"1135 730 LINE",
-"522 730 LINE",
-"739 1251 LINE",
-"904 1284 LINE",
-"921 1323 LINE",
-"423 1323 LINE",
-"405 1284 LINE",
-"548 1251 LINE",
-"61 72 LINE",
-"-106 39 LINE",
-"-124 0 LINE",
-"373 0 LINE",
-"391 39 LINE",
-"249 72 LINE",
-"493 662 LINE",
-"1105 662 LINE",
-"861 72 LINE",
-"694 39 LINE",
-"677 0 LINE",
-"1176 0 LINE",
-"1192 39 LINE",
-"1052 72 LINE",
-"1542 1251 LINE",
-"1709 1284 LINE"
+"1834 1323 LINE",
+"1206 1323 LINE",
+"1188 1284 LINE",
+"1331 1251 LINE",
+"1115 730 LINE",
+"692 730 LINE",
+"909 1251 LINE",
+"1074 1284 LINE",
+"1091 1323 LINE",
+"433 1323 LINE",
+"415 1284 LINE",
+"558 1251 LINE",
+"71 72 LINE",
+"-96 39 LINE",
+"-114 0 LINE",
+"543 0 LINE",
+"561 39 LINE",
+"419 72 LINE",
+"663 662 LINE",
+"1085 662 LINE",
+"841 72 LINE",
+"674 39 LINE",
+"657 0 LINE",
+"1286 0 LINE",
+"1302 39 LINE",
+"1162 72 LINE",
+"1652 1251 LINE",
+"1819 1284 LINE"
 );
 }
 );
-width = 1477;
+width = 1545;
 }
 );
 leftKerningGroup = I;
