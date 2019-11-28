@@ -1,8 +1,5 @@
 {
 .appVersion = "1274";
-DisplayStrings = (
-"AÆBCDEFGHI/IJ \012KLMNO/OE PÞQRS\012/Schwa TUVWXYZ"
-);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
