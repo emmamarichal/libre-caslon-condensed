@@ -1,10 +1,5 @@
 {
 .appVersion = "1274";
-DisplayStrings = (
-"oeca\012odnodmod\012hodnuodgodco\012niouoniuniun\012noagggeongno\012nngnnoogoo\012onomonhomonomonomo\012ooecoonncnn\012\012Caslon is the name given to serif typefaces designed by William Caslon I (c. 1692/endash 1766) in London, or inspired by his work. Caslon worked as an engraver of punches, the masters used to stamp the moulds or matrices used to cast metal type. He worked in the tradition of what is now called old-style serif letter design, that produced letters with a relatively organic structure resembling handwriting with a pen.\012n/nacute/napostrophe/ncaron/ncommaaccent/ndotaccent ñ/uni01CC \012m\012h/hbar/hcircumflex/hdotbelow \012uú/ubreve ûü/udotbelow ù/uhungarumlaut/umacron \012/ogonek u/uogonek/uring/utilde \012\012/ogonek.cap/Aogonek/Eogonek/Iogonek  /ogonek.curve.cap/Oogonek/Uogonek \012/ogonek/aogonek/eogonek/iogonek/oogonek/uogonek \012\012     /Aogonek a/aogonek  /Eogonek e/eogonek  \012/Iogonek/iogonek  /Oogonek/ogonek/ogonek.curve o/ogonek.curve o/oogonek  /Uogonek/ogonek.curve/oogonek u/uogonek \012\012     /Aogonek/aogonek  /Eogonek/eogonek  \012/Iogonek/iogonek  /Oogonek/oogonek  /Uogonek/uogonek \012\012g/gbreve/gcircumflex/gcommaaccent/gdotaccent \012c/cacute/ccaron ç/ccircumflex/cdotaccent \012\012l/lcaron/lcommaaccent/ldot/lslash/uni01C9  k/kcommaaccent \012w/wacute/wcircumflex/wdieresis/wgrave \012yý/ycircumflex/ydieresis/ygrave/ytilde",
-"/leftArrow -<",
-"/rightArrow HIAMBURGEFONTSIV/leftArrow"
-);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
