@@ -1,5 +1,8 @@
 {
-.appVersion = "1274";
+.appVersion = "1277";
+DisplayStrings = (
+".,:;/ellipsis !¡?¿·/bullet *#///backslash/period.tnum/comma.tnum/colon.tnum/semicolon.tnum/periodcentered.tnum/numbersign.tnum/slash.tnum (){}[]-­/endash/emdash _/underscore.tnum/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/quoteright «»/guilsinglleft/guilsinglright \"'/quotedbl.tnum/quotesingle.tnum"
+);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
