@@ -9158,10 +9158,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"251 -256 LINE",
-"1519 1528 LINE",
-"1374 1528 LINE",
-"110 -256 LINE"
+"241 -256 LINE",
+"1509 1528 LINE",
+"1384 1528 LINE",
+"120 -256 LINE"
 );
 }
 );
@@ -9225,10 +9225,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"251 -256 LINE",
-"1519 1528 LINE",
-"1374 1528 LINE",
-"110 -256 LINE"
+"241 -256 LINE",
+"1509 1528 LINE",
+"1384 1528 LINE",
+"120 -256 LINE"
 );
 },
 {
@@ -15798,7 +15798,6 @@ width = 834;
 {
 components = (
 {
-alignment = -1;
 name = e;
 },
 {
@@ -15807,7 +15806,7 @@ transform = "{1, 0, 0, 1, 105, 25}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 834;
+width = 917;
 }
 );
 leftKerningGroup = e;
@@ -21251,10 +21250,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"110 -206 LINE",
-"1061 1131 LINE",
-"936 1131 LINE",
-"-10 -206 LINE"
+"85 -206 LINE",
+"1036 1131 LINE",
+"961 1131 LINE",
+"15 -206 LINE"
 );
 }
 );
@@ -21320,10 +21319,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"110 -206 LINE",
-"1061 1131 LINE",
-"936 1131 LINE",
-"-10 -206 LINE"
+"85 -206 LINE",
+"1036 1131 LINE",
+"961 1131 LINE",
+"15 -206 LINE"
 );
 }
 );
