@@ -74,12 +74,12 @@ The build process requires you to open up a terminal and navigate to this projec
 
 ## Step 1: Install Requirements
 
-I suggest using a Python virtual environment to build this project. If you've never set up a virtual environment before, [read more virtualenv in this guide](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
+I suggest using a Python virtual environment to build this project. If you've never set up a virtual environment before, it's worthwhile because it will save you time in the future. [Read more about virtual environments in this guide](https://towardsdatascience.com/virtual-environments-104c62d48c54).
 
 First, set up a virtual environment with:
 
 ```
-virtualenv -p python3 venv
+python3 -m venv venv
 ```
 
 Here, `venv` will be the name of the virtual environment and of the folder holding its dependencies. You need to activate it with:
@@ -88,13 +88,15 @@ Here, `venv` will be the name of the virtual environment and of the folder holdi
 source venv/bin/activate
 ```
 
-To operate the scripts within this repo, install requirements with:
+To operate the scripts within this repo, install requirements by pointing pip to the `requirements.txt` file:
 
 ```
 pip install -r requirements.txt
 ```
 
-To exit out of the virtual environment, you can use the command `deactivate` (just remember to start it up again if you come back).
+(If you wish to use similar dependencies on another project, you can just copy the same `requirements.txt` file.)
+
+To exit out of the virtual environment, you can use the command `deactivate`, or simply close out of that terminal session (just remember to start it up again when you come back).
 
 ## Step 2: Give permissions to build scripts
 
@@ -103,7 +105,7 @@ The first time you run the build, you will need to give run permissions to the b
 On the command line, navigate to the project folder (`cd Encode-Sans`), and then give permissions to the shell scripts with:
 
 ```
-chmod -R +x sources/scripts
+chmod -R +x sources
 ```
 
 The `-R` applies your permission to each of the shell scripts in the directory, and the `+x` adds execute permissions. Before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything bad. The ones in this repo simply build from the GlyphsApp sources and apply various fixes to the results.
