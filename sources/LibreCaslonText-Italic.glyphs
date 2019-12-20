@@ -1,7 +1,9 @@
 {
 .appVersion = "1280";
 DisplayStrings = (
-"/Euro ¢¤$/florin £¥\012+/minus/uni2219 ×÷=><±~¬/uni2215 ^µ%/perthousand @&¶§©®/trademark °|¦/dagger/daggerdbl/servicemark/ampersand.ss01"
+"/Euro ¢¤$/florin £¥\012+/minus/uni2219 ×÷=><±~¬/uni2215 ^µ%/perthousand @&¶§©®/trademark °|¦/dagger/daggerdbl/servicemark/ampersand.ss01",
+"0123456789/zero.denominator/one.denominator/two.denominator/three.denominator/four.denominator/five.denominator/six.denominator/seven.denominator/eight.denominator/nine.denominator/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior t",
+"/fraction ½/onethird/twothirds ¼¾/oneeighth/threeeighths/fiveeighths/seveneighths"
 );
 classes = (
 {
@@ -193,6 +195,7 @@ feature tnum;
 feature ordn;
 feature sinf;
 feature sups;
+feature dnom;
 feature onum;
 feature ss01;
 feature locl;
@@ -278,11 +281,29 @@ code = "	sub zero by zerosuperior;
 name = sups;
 },
 {
-code = "";
+code = "	sub zero by zero.denominator;
+	sub one by one.denominator;
+	sub two by two.denominator;
+	sub three by three.denominator;
+	sub four by four.denominator;
+	sub five by five.denominator;
+	sub six by six.denominator;
+	sub seven by seven.denominator;
+	sub eight by eight.denominator;
+	sub nine by nine.denominator;";
 name = dnom;
 },
 {
-code = "";
+code = "	sub zero by zero.numerator;
+	sub one by one.numerator;
+	sub two by two.numerator;
+	sub three by three.numerator;
+	sub four by four.numerator;
+	sub five by five.numerator;
+	sub six by six.numerator;
+	sub seven by seven.numerator;
+	sub eight by eight.numerator;
+	sub nine by nine.numerator;";
 name = numr;
 },
 {
@@ -45131,7 +45152,7 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 454, 0}";
+transform = "{1, 0, 0, 1, 494, 0}";
 },
 {
 alignment = -1;
@@ -45141,11 +45162,11 @@ transform = "{1, 0, 0, 1, 20, 0}";
 {
 alignment = -1;
 name = two.denominator;
-transform = "{1, 0, 0, 1, 904, 0}";
+transform = "{1, 0, 0, 1, 984, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1661;
+width = 1741;
 }
 );
 unicode = 00BD;
@@ -45179,7 +45200,7 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 464, 0}";
+transform = "{1, 0, 0, 1, 504, 0}";
 },
 {
 alignment = -1;
@@ -45189,11 +45210,11 @@ transform = "{1, 0, 0, 1, 20, 0}";
 {
 alignment = -1;
 name = three.denominator;
-transform = "{1, 0, 0, 1, 914, 0}";
+transform = "{1, 0, 0, 1, 994, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1637;
+width = 1717;
 }
 );
 unicode = 2153;
@@ -45227,12 +45248,12 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 577, 0}";
+transform = "{1, 0, 0, 1, 617, 0}";
 },
 {
 alignment = -1;
 name = three.denominator;
-transform = "{1, 0, 0, 1, 1013, 0}";
+transform = "{1, 0, 0, 1, 1093, 0}";
 },
 {
 alignment = -1;
@@ -45241,7 +45262,7 @@ transform = "{1, 0, 0, 1, 30, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1736;
+width = 1816;
 }
 );
 unicode = 2154;
@@ -45275,7 +45296,7 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 491, 0}";
+transform = "{1, 0, 0, 1, 531, 0}";
 },
 {
 alignment = -1;
@@ -45285,11 +45306,11 @@ transform = "{1, 0, 0, 1, 20, 0}";
 {
 alignment = -1;
 name = four.denominator;
-transform = "{1, 0, 0, 1, 872, 0}";
+transform = "{1, 0, 0, 1, 952, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1646;
+width = 1726;
 }
 );
 unicode = 00BC;
@@ -45323,12 +45344,12 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 548, 0}";
+transform = "{1, 0, 0, 1, 588, 0}";
 },
 {
 alignment = -1;
 name = four.denominator;
-transform = "{1, 0, 0, 1, 927, 0}";
+transform = "{1, 0, 0, 1, 1007, 0}";
 },
 {
 alignment = -1;
@@ -45337,7 +45358,7 @@ transform = "{1, 0, 0, 1, 20, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1701;
+width = 1781;
 }
 );
 unicode = 00BE;
@@ -45371,7 +45392,7 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 460, 0}";
+transform = "{1, 0, 0, 1, 490, 0}";
 },
 {
 alignment = -1;
@@ -45381,11 +45402,11 @@ transform = "{1, 0, 0, 1, 20, 0}";
 {
 alignment = -1;
 name = eight.denominator;
-transform = "{1, 0, 0, 1, 886, 0}";
+transform = "{1, 0, 0, 1, 956, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1600;
+width = 1670;
 }
 );
 unicode = 215B;
@@ -45419,12 +45440,12 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 509, 0}";
+transform = "{1, 0, 0, 1, 549, 0}";
 },
 {
 alignment = -1;
 name = eight.denominator;
-transform = "{1, 0, 0, 1, 941, 0}";
+transform = "{1, 0, 0, 1, 1021, 0}";
 },
 {
 alignment = -1;
@@ -45433,7 +45454,7 @@ transform = "{1, 0, 0, 1, 20, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1655;
+width = 1735;
 }
 );
 unicode = 215C;
@@ -45467,12 +45488,12 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 467, 0}";
+transform = "{1, 0, 0, 1, 507, 0}";
 },
 {
 alignment = -1;
 name = eight.denominator;
-transform = "{1, 0, 0, 1, 929, 0}";
+transform = "{1, 0, 0, 1, 1009, 0}";
 },
 {
 alignment = -1;
@@ -45480,7 +45501,7 @@ name = five.numerator;
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1643;
+width = 1723;
 }
 );
 unicode = 215D;
@@ -45514,12 +45535,12 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 443, 0}";
+transform = "{1, 0, 0, 1, 483, 0}";
 },
 {
 alignment = -1;
 name = eight.denominator;
-transform = "{1, 0, 0, 1, 977, 0}";
+transform = "{1, 0, 0, 1, 1057, 0}";
 },
 {
 alignment = -1;
@@ -45528,7 +45549,7 @@ transform = "{1, 0, 0, 1, 54, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 1691;
+width = 1771;
 }
 );
 unicode = 215E;
