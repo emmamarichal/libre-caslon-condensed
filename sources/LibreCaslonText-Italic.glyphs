@@ -1,7 +1,7 @@
 {
 .appVersion = "1290";
 DisplayStrings = (
-in
+"AAAÆAABAA\012ABBA\012CADAEAFAGAHAIAJAAKALAMANAA/Eng AOA/OE APAÞAQAARASA/uni1E9E A/Schwa AATAUAVAWAXAYAZA"
 );
 classes = (
 {
@@ -64390,9 +64390,17 @@ name = "Bold Italic";
 kerning = {
 master01 = {
 "@MMK_L_A" = {
-"@MMK_R_I" = 0;
+"@MMK_R_I" = -60;
 };
 "@MMK_L_I" = {
+"@MMK_R_A" = 0;
+};
+};
+"D3934E74-9B53-4E98-B19F-CD3DFEE08352" = {
+"@MMK_L_A" = {
+"@MMK_R_I" = -60;
+};
+B = {
 "@MMK_R_A" = 0;
 };
 };
