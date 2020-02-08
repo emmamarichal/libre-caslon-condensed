@@ -1,7 +1,7 @@
 {
 .appVersion = "1290";
 DisplayStrings = (
-"AAHOAA\012AAIAA\012OOÆOO\012IIÆII\012OOIOOIOIO\012OOHBOHO\012IIBII\012OOHOCOHO\012IICII\012ODOEOFOGOHOIOJOOKOLOMONO/Eng OOO/OE OPOÞOQOOROSO/uni1E9E O/Schwa OTOUOVOWOXOYOZO"
+"AAHOAA\012AAIAA\012OOÆOO\012IIÆII\012OOIOOIOIO\012OOHBOHO\012IIBII\012OOHOCOHO\012IICII\012OOHDOHO\012HHDHH\012OOÐOO/Dcaron OO/Dcroat OOOO/Ddotbelow OO\012OOEOO\012HHEHH\012OOHFOO/space/space \012HHFHH\012OOHGOHOCOO\012HHGHH\012OHOIO\012OHOJHOO\012HHJHH\012OOKOO\012HHKHH\012LOMONO/Eng OOO/OE OPOÞOQOOROSO/uni1E9E O/Schwa OTOUOVOWOXOYOZO"
 );
 classes = (
 {
@@ -6693,7 +6693,7 @@ nodes = (
 width = 1515;
 }
 );
-leftKerningGroup = O;
+leftKerningGroup = C;
 leftMetricsKey = O;
 rightKerningGroup = G;
 unicode = 0047;
@@ -6729,7 +6729,7 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 1515;
 }
 );
-leftKerningGroup = O;
+leftKerningGroup = C;
 rightKerningGroup = G;
 rightMetricsKey = G;
 unicode = 011E;
@@ -6765,7 +6765,7 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 1515;
 }
 );
-leftKerningGroup = O;
+leftKerningGroup = C;
 rightKerningGroup = G;
 rightMetricsKey = G;
 unicode = 011C;
@@ -6800,7 +6800,7 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 1515;
 }
 );
-leftKerningGroup = O;
+leftKerningGroup = C;
 rightKerningGroup = G;
 rightMetricsKey = G;
 unicode = 0122;
@@ -6836,7 +6836,7 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 1515;
 }
 );
-leftKerningGroup = O;
+leftKerningGroup = C;
 rightKerningGroup = G;
 rightMetricsKey = G;
 unicode = 0120;
@@ -64410,12 +64410,25 @@ master01 = {
 "@MMK_L_C" = {
 "@MMK_R_O" = -20;
 };
+"@MMK_L_D" = {
+"@MMK_R_O" = 10;
+};
+"@MMK_L_E" = {
+"@MMK_R_O" = -20;
+};
+"@MMK_L_F" = {
+"@MMK_R_O" = 40;
+};
 "@MMK_L_I" = {
 "@MMK_R_A" = -30;
 AE = -80;
 };
+"@MMK_L_K" = {
+"@MMK_R_O" = -150;
+};
 "@MMK_L_O" = {
 "@MMK_R_A" = -60;
+"@MMK_R_J" = -20;
 AE = -100;
 };
 };
@@ -64427,12 +64440,25 @@ AE = -100;
 "@MMK_L_C" = {
 "@MMK_R_O" = -20;
 };
+"@MMK_L_D" = {
+"@MMK_R_O" = 20;
+};
+"@MMK_L_E" = {
+"@MMK_R_O" = -20;
+};
+"@MMK_L_F" = {
+"@MMK_R_O" = 30;
+};
 "@MMK_L_I" = {
 "@MMK_R_A" = -20;
 AE = -70;
 };
+"@MMK_L_K" = {
+"@MMK_R_O" = -100;
+};
 "@MMK_L_O" = {
 "@MMK_R_A" = -50;
+"@MMK_R_J" = -20;
 AE = -80;
 };
 };
