@@ -1,7 +1,7 @@
 {
 .appVersion = "1296";
 DisplayStrings = (
-"HAVAHOAVAOH\012HAVHODOVAOH\012stopped/space at/space K,\012but/space re-do/space V/space and/space A/space to/space base/space forms/space O/space and/space I\012\012HHAHHOODAOHO\012HAHAHHAAHAHA\012KAKAO\012AAAÆABACADAEAFAGAHAIAJAAKALAMANAA/Eng AOA/OE APAÞAQAARASA/uni1E9E A/Schwa AATAUAVAWAXAYAZA\012\012KAKÆKBKCKDKEKFKGKHKIKJKKKKLKMKNK/Eng KOK/OE KPKÞKQKKRKSK/uni1E9E K/Schwa KTKUKVKWKXKYKZK"
+"HAVAHOAVAOH\012HAVHODOVAOH\012\012stopped/space at/space K,\012but/space re-do/space V/space and/space A/space to/space base/space forms/space O/space and/space I\012\012KAKÆKBKCKDKEKFKGKHKIKJKKKKLKMKNK/Eng KOK/OE KPKÞKQKKRKSK/uni1E9E K/Schwa KTKUKVKWKXKYKZK"
 );
 classes = (
 {
@@ -64760,7 +64760,7 @@ AE = -170;
 AE = -60;
 };
 "@MMK_L_V" = {
-"@MMK_R_A" = -240;
+"@MMK_R_A" = -260;
 "@MMK_R_C" = -80;
 "@MMK_R_O" = -120;
 AE = -300;
