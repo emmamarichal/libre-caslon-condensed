@@ -1,7 +1,7 @@
 {
 .appVersion = "1296";
 DisplayStrings = (
-"HMAMHOMAMOHHMAHODOAMOH\012\012HHBHHOHBHOHHHBHODOBHOH\012\012HOVOHOOVOOH\012HOVHODOVOOH\012\012\012stopped/space at/space K,\012but/space re-do/space V/space and/space A/space to/space base/space forms/space O/space and/space I\012\012KAKÆKBKCKDKEKFKGKHKIKJKKKKLKMKNK/Eng KOK/OE KPKÞKQKKRKSK/uni1E9E K/Schwa KTKUKVKWKXKYKZK"
+"HNTNHONTNOH\012HNTHOOTNOH\012IIAII\012HHBHHOHBHOHHHBHODOBHOH\012\012HOVOHOOVOOH\012HOVHODOVOOH\012\012\012stopped/space at/space K,\012but/space re-do/space V/space and/space A/space to/space base/space forms/space O/space and/space I\012\012KAKÆKBKCKDKEKFKGKHKIKJKKKKLKMKNK/Eng KOK/OE KPKÞKQKKRKSK/uni1E9E K/Schwa KTKUKVKWKXKYKZK"
 );
 classes = (
 {
@@ -13390,11 +13390,11 @@ name = N;
 },
 {
 name = J;
-transform = "{1, 0, 0, 1, 1389, 0}";
+transform = "{1, 0, 0, 1, 1359, 0}";
 }
 );
 layerId = master01;
-width = 2055;
+width = 2025;
 },
 {
 components = (
@@ -13403,11 +13403,11 @@ name = N;
 },
 {
 name = J;
-transform = "{1, 0, 0, 1, 1379, 0}";
+transform = "{1, 0, 0, 1, 1359, 0}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-width = 2121;
+width = 2101;
 }
 );
 leftKerningGroup = N;
@@ -64585,9 +64585,9 @@ kerning = {
 master01 = {
 "@MMK_L_A" = {
 "@MMK_R_C" = -150;
-"@MMK_R_I" = -90;
+"@MMK_R_I" = -40;
 "@MMK_R_J" = -80;
-"@MMK_R_N" = -80;
+"@MMK_R_N" = -50;
 "@MMK_R_O" = -130;
 "@MMK_R_OE" = -170;
 "@MMK_R_S" = -50;
@@ -64602,9 +64602,8 @@ AE = -170;
 };
 "@MMK_L_B" = {
 "@MMK_R_A" = -30;
-"@MMK_R_I" = -20;
 "@MMK_R_J" = -10;
-"@MMK_R_M" = -30;
+"@MMK_R_M" = -10;
 "@MMK_R_T" = -60;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -120;
@@ -64627,7 +64626,7 @@ AE = -30;
 "@MMK_R_C" = 0;
 "@MMK_R_I" = -40;
 "@MMK_R_J" = -20;
-"@MMK_R_M" = -50;
+"@MMK_R_M" = -20;
 "@MMK_R_N" = -60;
 "@MMK_R_O" = 30;
 "@MMK_R_S" = -50;
@@ -64644,7 +64643,6 @@ AE = -100;
 "@MMK_L_E" = {
 "@MMK_R_C" = -20;
 "@MMK_R_J" = -50;
-"@MMK_R_M" = -50;
 "@MMK_R_O" = -40;
 "@MMK_R_U" = -60;
 "@MMK_R_V" = -140;
@@ -64679,16 +64677,18 @@ AE = -190;
 AE = -70;
 };
 "@MMK_L_I" = {
-"@MMK_R_A" = -30;
+"@MMK_R_A" = -90;
+"@MMK_R_C" = -30;
 "@MMK_R_K" = -5;
 "@MMK_R_Schwa" = -20;
 "@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+"@MMK_R_uni1E9E" = -50;
 AE = -80;
 };
 "@MMK_L_J" = {
 "@MMK_R_A" = -90;
 "@MMK_R_C" = -40;
-"@MMK_R_M" = -20;
 "@MMK_R_Schwa" = -20;
 "@MMK_R_V" = -40;
 "@MMK_R_X" = -20;
@@ -64722,17 +64722,19 @@ AE = -60;
 AE = 70;
 };
 "@MMK_L_N" = {
-"@MMK_R_A" = -80;
+"@MMK_R_A" = -120;
 "@MMK_R_C" = -10;
+"@MMK_R_J" = -30;
 "@MMK_R_O" = 20;
-AE = -80;
+"@MMK_R_T" = -30;
+"@MMK_R_uni1E9E" = -30;
+AE = -140;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -60;
 "@MMK_R_I" = -35;
 "@MMK_R_J" = -20;
 "@MMK_R_K" = -30;
-"@MMK_R_M" = -30;
 "@MMK_R_N" = -30;
 "@MMK_R_T" = -60;
 "@MMK_R_U" = -40;
@@ -64807,9 +64809,9 @@ AE = -30;
 "D3934E74-9B53-4E98-B19F-CD3DFEE08352" = {
 "@MMK_L_A" = {
 "@MMK_R_C" = -150;
-"@MMK_R_I" = -90;
+"@MMK_R_I" = -40;
 "@MMK_R_J" = -70;
-"@MMK_R_N" = -80;
+"@MMK_R_N" = -50;
 "@MMK_R_O" = -130;
 "@MMK_R_OE" = -150;
 "@MMK_R_S" = -60;
@@ -64824,9 +64826,8 @@ AE = -30;
 AE = -160;
 };
 "@MMK_L_B" = {
-"@MMK_R_I" = -20;
 "@MMK_R_J" = -10;
-"@MMK_R_M" = -20;
+"@MMK_R_M" = 30;
 "@MMK_R_T" = -40;
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -110;
@@ -64847,7 +64848,6 @@ AE = -20;
 "@MMK_R_C" = 20;
 "@MMK_R_I" = -40;
 "@MMK_R_J" = -20;
-"@MMK_R_M" = -40;
 "@MMK_R_N" = -80;
 "@MMK_R_O" = 20;
 "@MMK_R_S" = -60;
@@ -64863,7 +64863,6 @@ AE = -100;
 "@MMK_L_E" = {
 "@MMK_R_C" = -20;
 "@MMK_R_J" = -40;
-"@MMK_R_M" = -50;
 "@MMK_R_O" = -20;
 "@MMK_R_Schwa" = 10;
 "@MMK_R_U" = -60;
@@ -64902,8 +64901,12 @@ AE = -180;
 AE = -60;
 };
 "@MMK_L_I" = {
+"@MMK_R_A" = -80;
+"@MMK_R_C" = -30;
 "@MMK_R_OE" = 20;
 "@MMK_R_Schwa" = -10;
+"@MMK_R_Y" = -20;
+"@MMK_R_uni1E9E" = -40;
 AE = -70;
 };
 "@MMK_L_J" = {
@@ -64940,15 +64943,17 @@ AE = -50;
 AE = 70;
 };
 "@MMK_L_N" = {
-"@MMK_R_A" = -80;
-AE = -40;
+"@MMK_R_A" = -100;
+"@MMK_R_J" = -20;
+"@MMK_R_T" = -20;
+"@MMK_R_uni1E9E" = -20;
+AE = -140;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -60;
 "@MMK_R_I" = -30;
 "@MMK_R_J" = -10;
 "@MMK_R_K" = -10;
-"@MMK_R_M" = -20;
 "@MMK_R_N" = -50;
 "@MMK_R_OE" = 20;
 "@MMK_R_T" = -50;
