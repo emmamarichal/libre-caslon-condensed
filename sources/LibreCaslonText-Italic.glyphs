@@ -1,7 +1,9 @@
 {
 .appVersion = "1296";
 DisplayStrings = (
-"HZYZHOZYZOH\012HZYHOOZYOH"
+"HZYZHOZYZOH\012HZYHOOZYOH",
+"nabanoabaon\012nabnoobaon",
+"aæbcdðe/schwa fghi/dotlessi j/dotlessj k/kgreenlandic lmn/eng o/oe pþqrßtuvwxyz/uni03BC/mu.001"
 );
 classes = (
 {
@@ -14307,7 +14309,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 rightMetricsKey = u;
 unicode = 0061;
 },
@@ -14342,7 +14344,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 00E1;
 },
 {
@@ -14376,7 +14378,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 0103;
 },
 {
@@ -14410,7 +14412,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 00E2;
 },
 {
@@ -14444,7 +14446,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 00E4;
 },
 {
@@ -14478,7 +14480,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 00E0;
 },
 {
@@ -14512,7 +14514,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 0101;
 },
 {
@@ -14594,7 +14596,7 @@ width = 1148;
 );
 leftKerningGroup = o;
 leftMetricsKey = a;
-rightKerningGroup = a;
+rightKerningGroup = u;
 rightMetricsKey = a;
 unicode = 0105;
 },
@@ -14629,7 +14631,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 00E5;
 },
 {
@@ -14675,7 +14677,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 01FB;
 },
 {
@@ -14709,7 +14711,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = a;
+rightKerningGroup = u;
 unicode = 00E3;
 },
 {
@@ -14984,7 +14986,7 @@ width = 1513;
 );
 leftKerningGroup = o;
 leftMetricsKey = a;
-rightKerningGroup = e;
+rightKerningGroup = u;
 rightMetricsKey = e;
 unicode = 00E6;
 },
@@ -15019,7 +15021,7 @@ width = 1382;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = e;
+rightKerningGroup = u;
 unicode = 01FD;
 },
 {
@@ -15824,7 +15826,7 @@ width = 1133;
 );
 leftKerningGroup = o;
 leftMetricsKey = a;
-rightKerningGroup = d;
+rightKerningGroup = u;
 rightMetricsKey = a;
 unicode = 0064;
 },
@@ -16098,7 +16100,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = d;
+rightKerningGroup = u;
 unicode = 010F;
 },
 {
@@ -16159,7 +16161,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = d;
+rightKerningGroup = u;
 unicode = 0111;
 },
 {
@@ -16193,7 +16195,7 @@ width = 1133;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = d;
+rightKerningGroup = u;
 unicode = 1E0D;
 },
 {
@@ -20530,8 +20532,8 @@ nodes = (
 width = 604;
 }
 );
-leftKerningGroup = l;
-rightKerningGroup = l;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 006C;
 },
 {
@@ -20564,8 +20566,8 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 604;
 }
 );
-leftKerningGroup = l;
-rightKerningGroup = l;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 013A;
 },
 {
@@ -20598,8 +20600,8 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 604;
 }
 );
-leftKerningGroup = l;
-rightKerningGroup = l;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 013E;
 },
 {
@@ -20632,8 +20634,8 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 604;
 }
 );
-leftKerningGroup = l;
-rightKerningGroup = l;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 013C;
 },
 {
@@ -20729,8 +20731,8 @@ nodes = (
 width = 829;
 }
 );
-leftKerningGroup = l;
-rightKerningGroup = l;
+leftKerningGroup = h;
+rightKerningGroup = u;
 unicode = 0142;
 },
 {
@@ -22161,7 +22163,9 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 1044;
 }
 );
+leftKerningGroup = o;
 leftMetricsKey = o;
+rightKerningGroup = o;
 rightMetricsKey = o;
 unicode = 01EB;
 },
@@ -23067,6 +23071,7 @@ nodes = (
 width = 1098;
 }
 );
+leftKerningGroup = o;
 leftMetricsKey = a;
 unicode = 0071;
 },
@@ -25919,6 +25924,8 @@ nodes = (
 width = 1180;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 0076;
 },
 {
@@ -39060,6 +39067,8 @@ nodes = (
 width = 1118;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 rightMetricsKey = u;
 unicode = 03BC;
 },
@@ -39221,7 +39230,9 @@ nodes = (
 width = 1118;
 }
 );
+leftKerningGroup = u;
 leftMetricsKey = uni03BC;
+rightKerningGroup = u;
 rightMetricsKey = uni03BC;
 },
 {
