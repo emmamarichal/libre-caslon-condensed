@@ -1,8 +1,5 @@
 {
 .appVersion = "1300";
-DisplayStrings = (
-nyvynoyvyonnyvnonyvonyvonvyo
-);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -64926,7 +64923,7 @@ x = -40;
 "@MMK_R_j" = -60;
 "@MMK_R_o" = -30;
 "@MMK_R_s" = -20;
-"@MMK_R_u" = -20;
+"@MMK_R_u" = -10;
 "@MMK_R_v" = -30;
 "@MMK_R_y" = -40;
 ae = -50;
@@ -64934,6 +64931,7 @@ c = -50;
 e = -50;
 kgreenlandic = -10;
 oe = -70;
+schwa = -30;
 x = -90;
 };
 "@MMK_L_j" = {
@@ -65029,7 +65027,7 @@ germandbls = -60;
 kgreenlandic = -60;
 schwa = -110;
 thorn = -80;
-uni03BC = -90;
+uni03BC = -120;
 x = -80;
 };
 "@MMK_L_s" = {
@@ -65114,14 +65112,18 @@ oe = -60;
 schwa = -80;
 u = -40;
 x = -90;
-uni03BC = -40;
+uni03BC = -60;
 v = -30;
 };
 "@MMK_L_z" = {
-"@MMK_R_a" = -20;
+"@MMK_R_a" = -40;
 "@MMK_R_g" = 20;
+"@MMK_R_h" = -20;
+"@MMK_R_j" = -30;
 "@MMK_R_o" = -20;
-ae = -60;
+ae = -70;
+kgreenlandic = -20;
+oe = -60;
 };
 ae = {
 "@MMK_R_a" = -60;
@@ -65154,6 +65156,7 @@ x = -40;
 };
 eth = {
 "@MMK_R_j" = -30;
+"@MMK_R_u" = -30;
 ae = -30;
 x = -20;
 };
@@ -65545,7 +65548,7 @@ x = -30;
 "@MMK_R_j" = -30;
 "@MMK_R_o" = -30;
 "@MMK_R_s" = -20;
-"@MMK_R_u" = -20;
+"@MMK_R_u" = -10;
 "@MMK_R_v" = -30;
 "@MMK_R_y" = -40;
 ae = -30;
@@ -65553,6 +65556,7 @@ c = -50;
 e = -50;
 kgreenlandic = -10;
 oe = -40;
+schwa = -30;
 x = -100;
 };
 "@MMK_L_j" = {
@@ -65648,7 +65652,7 @@ germandbls = -90;
 kgreenlandic = -60;
 schwa = -110;
 thorn = -90;
-uni03BC = -110;
+uni03BC = -130;
 x = -80;
 };
 "@MMK_L_s" = {
@@ -65733,18 +65737,22 @@ oe = -50;
 schwa = -90;
 u = -40;
 x = -90;
-uni03BC = -40;
+uni03BC = -60;
 v = -30;
 };
 "@MMK_L_y" = {
 "@MMK_R_o" = -20;
 };
 "@MMK_L_z" = {
-"@MMK_R_a" = -20;
+"@MMK_R_a" = -40;
 "@MMK_R_g" = 20;
+"@MMK_R_h" = -20;
+"@MMK_R_j" = -30;
 "@MMK_R_o" = -20;
-ae = -60;
+ae = -70;
+kgreenlandic = -20;
 schwa = -30;
+oe = -60;
 };
 ae = {
 "@MMK_R_f" = -70;
@@ -65779,6 +65787,7 @@ x = -40;
 };
 eth = {
 "@MMK_R_j" = -30;
+"@MMK_R_u" = -20;
 ae = -30;
 oe = -40;
 x = -50;
