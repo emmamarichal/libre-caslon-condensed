@@ -1,5 +1,8 @@
 {
 .appVersion = "1300";
+DisplayStrings = (
+nnvOvoovOvnnnnwOwoowOwnn
+);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -64746,6 +64749,7 @@ AE = -140;
 "@MMK_R_Y" = -160;
 "@MMK_R_Z" = -30;
 "@MMK_R_uni1E9E" = -40;
+"@MMK_R_v" = 40;
 AE = -120;
 };
 "@MMK_L_OE" = {
@@ -65365,6 +65369,7 @@ AE = -140;
 "@MMK_R_Y" = -160;
 "@MMK_R_Z" = -20;
 "@MMK_R_uni1E9E" = -30;
+"@MMK_R_v" = 40;
 AE = -100;
 };
 "@MMK_L_OE" = {
