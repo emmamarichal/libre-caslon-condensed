@@ -1,7 +1,7 @@
 {
 .appVersion = "1300";
 DisplayStrings = (
-"XooooXonnXnoonXnnnXaooaXannXæooæXænnXboobXbnnXcoocXcnnXdoodXdnnXðooðXðnnXeooeXennX/schwa oo/schwa X/schwa nnXfoofXfnnXgoogXgnnXhoohXhnnXiooiXinnXjoojXjnnXkookXknnX/kgreenlandic oo/kgreenlandic X/kgreenlandic nnXloolXlnnXmoomXmnnX/eng oo/eng X/eng nnX/oe oo/oe X/oe nnXpoopXpnnXþooþXþnnXqooqXqnnXroorXrnnXsoosXsnnXßooßXßnnXtootXtnnXuoouXunnXvoovXvnnXwoowXwnnXxooxXxnnXyooyXynnXzoozXznnX/uni03BC oo/uni03BC X/uni03BC nn"
+"HAOAHOAOAOHHAOHOOOAOHHAPAHOAPAOHHA\012HHPH\012OOPAOHHARAHOARAOHHARHO\012ORAOHHAÞAHOAÞAOHHAÞHOOÞAOH"
 );
 classes = (
 {
@@ -64860,7 +64860,7 @@ schwa = -60;
 x = -80;
 };
 "@MMK_L_O" = {
-"@MMK_R_A" = -60;
+"@MMK_R_A" = -70;
 "@MMK_R_I" = -35;
 "@MMK_R_J" = -20;
 "@MMK_R_K" = -30;
@@ -64884,7 +64884,7 @@ x = -40;
 "@MMK_R_O" = -60;
 };
 "@MMK_L_P" = {
-"@MMK_R_A" = -150;
+"@MMK_R_A" = -120;
 "@MMK_R_C" = 20;
 "@MMK_R_I" = -40;
 "@MMK_R_J" = -70;
@@ -64908,13 +64908,13 @@ uni03BC = -60;
 x = -60;
 };
 "@MMK_L_R" = {
-"@MMK_R_A" = -150;
+"@MMK_R_A" = -70;
 "@MMK_R_C" = -50;
-"@MMK_R_I" = -60;
+"@MMK_R_I" = -40;
 "@MMK_R_J" = -60;
 "@MMK_R_M" = -50;
 "@MMK_R_N" = -60;
-"@MMK_R_O" = -70;
+"@MMK_R_O" = -30;
 "@MMK_R_S" = 10;
 "@MMK_R_T" = -70;
 "@MMK_R_U" = -60;
@@ -64978,10 +64978,11 @@ uni03BC = -130;
 x = -70;
 };
 "@MMK_L_Thorn" = {
-"@MMK_R_A" = -50;
+"@MMK_R_A" = -70;
 "@MMK_R_C" = 30;
+"@MMK_R_I" = 50;
 "@MMK_R_J" = -70;
-"@MMK_R_O" = 20;
+"@MMK_R_O" = 70;
 "@MMK_R_T" = -120;
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -130;
@@ -65096,14 +65097,14 @@ x = -80;
 "@MMK_R_y" = -120;
 "@MMK_R_z" = -170;
 AE = -290;
+eth = -100;
 germandbls = -40;
+i = -30;
 kgreenlandic = -220;
 r = -220;
 schwa = -270;
 thorn = -30;
 x = -240;
-eth = -100;
-i = -30;
 };
 "@MMK_L_Z" = {
 "@MMK_R_A" = -40;
@@ -65599,6 +65600,9 @@ ae = -70;
 kgreenlandic = -20;
 oe = -60;
 };
+Schwa = {
+"@MMK_R_v" = 70;
+};
 ae = {
 "@MMK_R_a" = -60;
 "@MMK_R_f" = -40;
@@ -65621,8 +65625,8 @@ r = -40;
 schwa = -80;
 };
 d = {
-"@MMK_R_f" = 0;
 "@MMK_R_Y" = -160;
+"@MMK_R_f" = 0;
 };
 eng = {
 "@MMK_R_A" = -100;
@@ -65676,10 +65680,13 @@ ae = -60;
 b = -40;
 kgreenlandic = -60;
 };
+i = {
+"@MMK_R_Y" = -220;
+};
 l = {
-"@MMK_R_j" = -60;
 "@MMK_R_Y" = -140;
 "@MMK_R_Z" = -70;
+"@MMK_R_j" = -60;
 };
 oe = {
 "@MMK_R_a" = -70;
@@ -65740,12 +65747,6 @@ uni03BC = -50;
 y = {
 "@MMK_R_j" = 0;
 };
-Schwa = {
-"@MMK_R_v" = 70;
-};
-i = {
-"@MMK_R_Y" = -220;
-};
 };
 "D3934E74-9B53-4E98-B19F-CD3DFEE08352" = {
 "@MMK_L_A" = {
@@ -65753,7 +65754,7 @@ i = {
 "@MMK_R_I" = -40;
 "@MMK_R_J" = -70;
 "@MMK_R_N" = -50;
-"@MMK_R_O" = -130;
+"@MMK_R_O" = -120;
 "@MMK_R_OE" = -150;
 "@MMK_R_S" = -60;
 "@MMK_R_Schwa" = -20;
@@ -66034,7 +66035,7 @@ x = -30;
 "@MMK_R_O" = -60;
 };
 "@MMK_L_P" = {
-"@MMK_R_A" = -160;
+"@MMK_R_A" = -120;
 "@MMK_R_C" = 20;
 "@MMK_R_I" = -30;
 "@MMK_R_J" = -60;
@@ -66060,13 +66061,13 @@ uni03BC = -60;
 x = -60;
 };
 "@MMK_L_R" = {
-"@MMK_R_A" = -140;
+"@MMK_R_A" = -70;
 "@MMK_R_C" = -50;
-"@MMK_R_I" = -60;
+"@MMK_R_I" = -40;
 "@MMK_R_J" = -70;
 "@MMK_R_M" = -40;
 "@MMK_R_N" = -80;
-"@MMK_R_O" = -30;
+"@MMK_R_O" = -10;
 "@MMK_R_S" = -10;
 "@MMK_R_T" = -70;
 "@MMK_R_U" = -60;
@@ -66131,11 +66132,10 @@ uni03BC = -140;
 x = -70;
 };
 "@MMK_L_Thorn" = {
-"@MMK_R_A" = -110;
+"@MMK_R_A" = -70;
 "@MMK_R_C" = 20;
-"@MMK_R_I" = -40;
 "@MMK_R_J" = -70;
-"@MMK_R_O" = 40;
+"@MMK_R_O" = 70;
 "@MMK_R_T" = -120;
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -140;
@@ -66253,15 +66253,15 @@ x = -80;
 "@MMK_R_y" = -150;
 "@MMK_R_z" = -170;
 AE = -290;
+eth = -140;
 germandbls = -60;
+i = -60;
 kgreenlandic = -220;
 r = -210;
 schwa = -270;
 thorn = -40;
-x = -240;
-eth = -140;
-i = -60;
 uni03BC = -230;
+x = -240;
 };
 "@MMK_L_Z" = {
 "@MMK_R_A" = -20;
@@ -66500,10 +66500,10 @@ x = -60;
 };
 "@MMK_L_n" = {
 "@MMK_R_I" = -60;
+"@MMK_R_O" = 0;
 "@MMK_R_a" = -30;
 oe = -50;
 x = -100;
-"@MMK_R_O" = 0;
 };
 "@MMK_L_o" = {
 "@MMK_R_A" = -100;
@@ -66765,6 +66765,10 @@ kgreenlandic = -20;
 oe = -60;
 schwa = -30;
 };
+Schwa = {
+"@MMK_R_i" = 30;
+"@MMK_R_v" = 70;
+};
 ae = {
 "@MMK_R_f" = -70;
 "@MMK_R_g" = -50;
@@ -66789,8 +66793,8 @@ c = {
 oe = -80;
 };
 d = {
-"@MMK_R_f" = -10;
 "@MMK_R_Y" = -120;
+"@MMK_R_f" = -10;
 };
 eng = {
 "@MMK_R_A" = -70;
@@ -66846,10 +66850,13 @@ ae = -60;
 b = -40;
 kgreenlandic = -70;
 };
+i = {
+"@MMK_R_Y" = -190;
+};
 l = {
-"@MMK_R_j" = -50;
 "@MMK_R_Y" = -130;
 "@MMK_R_Z" = -60;
+"@MMK_R_j" = -50;
 };
 oe = {
 "@MMK_R_a" = -90;
@@ -66912,13 +66919,6 @@ uni03BC = -50;
 y = {
 "@MMK_R_j" = -20;
 b = -20;
-};
-Schwa = {
-"@MMK_R_i" = 30;
-"@MMK_R_v" = 70;
-};
-i = {
-"@MMK_R_Y" = -190;
 };
 };
 };
