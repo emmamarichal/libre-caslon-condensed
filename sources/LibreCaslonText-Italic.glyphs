@@ -2,8 +2,8 @@
 .appVersion = "1300";
 DisplayStrings = (
 "0070700717007270073700747007570076700777007870079700",
-"/zerosuperior/zerosuperior ¹¹¹/zerosuperior/zerosuperior ¹²¹/zerosuperior/zerosuperior ¹³¹/zerosuperior/zerosuperior \012/zerosuperior/zerosuperior ¹/foursuperior ¹/zerosuperior/zerosuperior ¹/fivesuperior ¹/zerosuperior/zerosuperior ¹/sixsuperior ¹/zerosuperior/zerosuperior \012/zerosuperior/zerosuperior ¹/sevensuperior ¹/zerosuperior/zerosuperior ¹/eightsuperior ¹/zerosuperior/zerosuperior ¹/ninesuperior ¹/zerosuperior/zerosuperior \012/zeroinferior/zeroinferior/oneinferior/oneinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/twoinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/threeinferior/oneinferior/zeroinferior/zeroinferior \012/zeroinferior/zeroinferior/oneinferior/fourinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/fiveinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/sixinferior/oneinferior/zeroinferior/zeroinferior \012/zeroinferior/zeroinferior/oneinferior/seveninferior/oneinferior/zeroinferior/zeroinferior/oneinferior/eightinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/nineinferior/oneinferior/zeroinferior/zeroinferior",
-"/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/one.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/two.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/three.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/four.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle \012/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/six.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/seven.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/eight.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/nine.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle"
+"/zerosuperior/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior ¹/ninesuperior/zerosuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³²¹/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/zerosuperior/ninesuperior ²/ninesuperior/zerosuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³²¹¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/zerosuperior/ninesuperior ³/ninesuperior/zerosuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³²¹\012/zerosuperior/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/zerosuperior/ninesuperior/foursuperior/ninesuperior/zerosuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³²/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fivesuperior/ninesuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³²¹\012/space ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/zerosuperior/ninesuperior/sixsuperior/ninesuperior/zerosuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³²¹\012/zerosuperior/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/eightsuperior/ninesuperior/sevensuperior/ninesuperior/eightsuperior/sevensuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³\012/zerosuperior/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/eightsuperior/ninesuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³²¹\012/zerosuperior/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/ninesuperior/ninesuperior/eightsuperior/sevensuperior/sixsuperior/fivesuperior/foursuperior ³²¹\012/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/oneinferior/nineinferior/eightinferior/seveninferior/sixinferior/fiveinferior/fourinferior/threeinferior/twoinferior/oneinferior/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/twoinferior/nineinferior/eightinferior/seveninferior/sixinferior/fiveinferior/fourinferior/threeinferior/twoinferior/oneinferior/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/seveninferior/zeroinferior/sixinferior/seveninferior/zeroinferior/eightinferior/nineinferior/threeinferior/nineinferior/eightinferior/seveninferior/sixinferior/fiveinferior/fourinferior/threeinferior/twoinferior/oneinferior/zeroinferior/oneinferior/twoinferior/threeinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/fourinferior/nineinferior/eightinferior/seveninferior/sixinferior/fiveinferior/threeinferior/fourinferior/twoinferior/oneinferior/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/fiveinferior/nineinferior/eightinferior/seveninferior/sixinferior/fiveinferior/fourinferior/threeinferior/twoinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/sixinferior/nineinferior/eightinferior/seveninferior/sixinferior/fiveinferior/fourinferior/threeinferior/twoinferior/oneinferior/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/seveninferior/nineinferior/eightinferior/seveninferior/sixinferior/fiveinferior/fourinferior/threeinferior/twoinferior/oneinferior/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/eightinferior/eightinferior/nineinferior/seveninferior/sixinferior/fiveinferior/fourinferior/threeinferior/twoinferior/oneinferior/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/zeroinferior/eightinferior/nineinferior/nineinferior/nineinferior/eightinferior/seveninferior/sixinferior/fiveinferior/fourinferior/threeinferior/twoinferior/oneinferior/zeroinferior/zeroinferior",
+"/zero.oldstyle/zero.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/zero.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/zero.oldstyle/four.oldstyle \012/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/one.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle \012/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/two.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/three.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/four.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle \012/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/five.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle \012/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/six.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/eight.oldstyle/nine.oldstyle/seven.oldstyle/nine.oldstyle/eight.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle \012/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/eight.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/six.oldstyle/seven.oldstyle/eight.oldstyle/nine.oldstyle/nine.oldstyle/nine.oldstyle/eight.oldstyle/seven.oldstyle/six.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle"
 );
 classes = (
 {
@@ -44088,7 +44088,7 @@ nodes = (
 );
 }
 );
-width = 861;
+width = 860;
 },
 {
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -46825,7 +46825,7 @@ nodes = (
 "257 136 OFFCURVE",
 "233 171 OFFCURVE",
 "233 242 CURVE SMOOTH",
-"233 375 OFFCURVE",
+"233 286 OFFCURVE",
 "323 545 OFFCURVE",
 "400 545 CURVE SMOOTH"
 );
@@ -65634,6 +65634,29 @@ eight = {
 nine = -30;
 seven = -30;
 };
+eight.oldstyle = {
+five.oldstyle = -20;
+nine.oldstyle = -40;
+one.oldstyle = -20;
+seven.oldstyle = -20;
+six.oldstyle = -20;
+};
+eightinferior = {
+fourinferior = -20;
+nineinferior = -30;
+oneinferior = -20;
+seveninferior = -60;
+threeinferior = -30;
+twoinferior = -30;
+};
+eightsuperior = {
+foursuperior = -20;
+ninesuperior = -30;
+onesuperior = -30;
+sevensuperior = -60;
+threesuperior = -30;
+twosuperior = -30;
+};
 eng = {
 "@MMK_R_A" = -100;
 "@MMK_R_O" = -90;
@@ -65672,8 +65695,53 @@ nine = -60;
 one = -10;
 seven = -30;
 };
+five.oldstyle = {
+eight.oldstyle = -40;
+nine.oldstyle = -40;
+one.oldstyle = -30;
+seven.oldstyle = -30;
+six.oldstyle = -40;
+three.oldstyle = -20;
+two.oldstyle = -20;
+zero.oldstyle = -50;
+};
+fiveinferior = {
+fourinferior = -20;
+nineinferior = -40;
+oneinferior = -40;
+seveninferior = -60;
+threeinferior = -20;
+twoinferior = -50;
+};
+fivesuperior = {
+foursuperior = -20;
+ninesuperior = -40;
+onesuperior = -40;
+sevensuperior = -60;
+threesuperior = -20;
+twosuperior = -50;
+};
 four = {
 nine = -30;
+};
+four.oldstyle = {
+eight.oldstyle = -50;
+five.oldstyle = -40;
+nine.oldstyle = -90;
+seven.oldstyle = -40;
+six.oldstyle = -40;
+};
+fourinferior = {
+nineinferior = -30;
+oneinferior = -30;
+seveninferior = -50;
+twoinferior = -50;
+};
+foursuperior = {
+ninesuperior = -30;
+onesuperior = -30;
+sevensuperior = -50;
+twosuperior = -50;
 };
 germandbls = {
 "@MMK_R_J" = -100;
@@ -65705,6 +65773,22 @@ l = {
 nine = {
 eight = -10;
 };
+nine.oldstyle = {
+one.oldstyle = -40;
+seven.oldstyle = -40;
+};
+nineinferior = {
+oneinferior = -40;
+seveninferior = -50;
+threeinferior = -20;
+twoinferior = -50;
+};
+ninesuperior = {
+onesuperior = -40;
+sevensuperior = -50;
+threesuperior = -20;
+twosuperior = -50;
+};
 oe = {
 "@MMK_R_a" = -70;
 "@MMK_R_h" = -50;
@@ -65731,21 +65815,19 @@ three.oldstyle = -40;
 };
 oneinferior = {
 eightinferior = -20;
-fiveinferior = -20;
 fourinferior = -50;
 nineinferior = -30;
-seveninferior = -40;
+seveninferior = -70;
 threeinferior = -20;
-twoinferior = -40;
+twoinferior = -70;
 };
 onesuperior = {
 eightsuperior = -20;
-fivesuperior = -20;
 foursuperior = -50;
-ninesuperior = -40;
-sevensuperior = -40;
+ninesuperior = -50;
+sevensuperior = -70;
 threesuperior = -20;
-twosuperior = -40;
+twosuperior = -70;
 };
 q = {
 "@MMK_R_I" = -50;
@@ -65771,9 +65853,42 @@ four = -40;
 six = -40;
 two = -30;
 };
+seven.oldstyle = {
+four.oldstyle = -80;
+};
+seveninferior = {
+fourinferior = -40;
+oneinferior = -20;
+twoinferior = -30;
+};
+sevensuperior = {
+foursuperior = -40;
+onesuperior = -20;
+twosuperior = -30;
+};
 six = {
 nine = -60;
 seven = -30;
+};
+six.oldstyle = {
+five.oldstyle = -20;
+nine.oldstyle = -30;
+one.oldstyle = -20;
+seven.oldstyle = -70;
+};
+sixinferior = {
+nineinferior = -50;
+oneinferior = -30;
+seveninferior = -70;
+threeinferior = -20;
+twoinferior = -30;
+};
+sixsuperior = {
+ninesuperior = -50;
+onesuperior = -30;
+sevensuperior = -70;
+threesuperior = -20;
+twosuperior = -30;
 };
 three = {
 nine = -30;
@@ -65784,6 +65899,14 @@ two = -20;
 };
 three.oldstyle = {
 five.oldstyle = -30;
+};
+threeinferior = {
+nineinferior = -30;
+seveninferior = -60;
+};
+threesuperior = {
+ninesuperior = -30;
+sevensuperior = -60;
 };
 two = {
 eight = -40;
@@ -65797,6 +65920,16 @@ two.oldstyle = {
 eight.oldstyle = -40;
 five.oldstyle = -50;
 seven.oldstyle = -50;
+};
+twoinferior = {
+fourinferior = -40;
+nineinferior = -40;
+seveninferior = -30;
+};
+twosuperior = {
+foursuperior = -40;
+ninesuperior = -40;
+sevensuperior = -30;
 };
 uni03BC = {
 "@MMK_R_j" = -40;
@@ -65836,6 +65969,7 @@ one = -20;
 seven = -10;
 };
 zero.oldstyle = {
+four.oldstyle = -40;
 one.oldstyle = -20;
 };
 zeroinferior = {
@@ -65854,7 +65988,7 @@ ninesuperior = -20;
 onesuperior = -20;
 sevensuperior = -50;
 sixsuperior = -10;
-twosuperior = -20;
+twosuperior = -30;
 };
 };
 "D3934E74-9B53-4E98-B19F-CD3DFEE08352" = {
@@ -66911,6 +67045,29 @@ eight = {
 nine = -20;
 seven = -30;
 };
+eight.oldstyle = {
+five.oldstyle = -20;
+nine.oldstyle = -40;
+one.oldstyle = -30;
+seven.oldstyle = -20;
+six.oldstyle = -20;
+};
+eightinferior = {
+fourinferior = -20;
+nineinferior = -60;
+oneinferior = -30;
+seveninferior = -90;
+threeinferior = -50;
+twoinferior = -50;
+};
+eightsuperior = {
+foursuperior = -20;
+ninesuperior = -60;
+onesuperior = -30;
+sevensuperior = -90;
+threesuperior = -50;
+twosuperior = -50;
+};
 eng = {
 "@MMK_R_A" = -70;
 "@MMK_R_O" = -90;
@@ -66951,8 +67108,54 @@ nine = -60;
 one = -40;
 seven = -40;
 };
+five.oldstyle = {
+eight.oldstyle = -40;
+nine.oldstyle = -40;
+one.oldstyle = -30;
+seven.oldstyle = -30;
+six.oldstyle = -40;
+three.oldstyle = -20;
+two.oldstyle = -20;
+zero.oldstyle = -40;
+};
+fiveinferior = {
+fourinferior = -20;
+nineinferior = -50;
+oneinferior = -40;
+seveninferior = -70;
+threeinferior = -30;
+twoinferior = -50;
+};
+fivesuperior = {
+foursuperior = -20;
+ninesuperior = -40;
+onesuperior = -40;
+sevensuperior = -70;
+threesuperior = -30;
+twosuperior = -50;
+};
 four = {
 nine = -30;
+};
+four.oldstyle = {
+eight.oldstyle = -50;
+five.oldstyle = -50;
+nine.oldstyle = -60;
+seven.oldstyle = -40;
+six.oldstyle = -40;
+};
+fourinferior = {
+nineinferior = -30;
+oneinferior = -30;
+seveninferior = -50;
+twoinferior = -50;
+};
+foursuperior = {
+fivesuperior = -20;
+ninesuperior = -30;
+onesuperior = -30;
+sevensuperior = -50;
+twosuperior = -50;
 };
 germandbls = {
 "@MMK_R_J" = -100;
@@ -66986,6 +67189,22 @@ eight = -20;
 seven = -20;
 two = -20;
 };
+nine.oldstyle = {
+one.oldstyle = -40;
+seven.oldstyle = -40;
+};
+nineinferior = {
+oneinferior = -30;
+seveninferior = -50;
+threeinferior = -20;
+twoinferior = -50;
+};
+ninesuperior = {
+onesuperior = -30;
+sevensuperior = -50;
+threesuperior = -20;
+twosuperior = -50;
+};
 oe = {
 "@MMK_R_a" = -90;
 "@MMK_R_h" = -70;
@@ -67011,20 +67230,18 @@ six.oldstyle = -30;
 three.oldstyle = -40;
 };
 oneinferior = {
-fiveinferior = -20;
 fourinferior = -50;
 nineinferior = -30;
-seveninferior = -40;
+seveninferior = -70;
 threeinferior = -20;
-twoinferior = -40;
+twoinferior = -60;
 };
 onesuperior = {
-fivesuperior = -20;
 foursuperior = -50;
 ninesuperior = -40;
-sevensuperior = -40;
+sevensuperior = -70;
 threesuperior = -20;
-twosuperior = -40;
+twosuperior = -60;
 };
 q = {
 "@MMK_R_I" = -60;
@@ -67050,9 +67267,41 @@ four = -40;
 six = -40;
 two = -30;
 };
+seven.oldstyle = {
+four.oldstyle = -70;
+};
+seveninferior = {
+fourinferior = -40;
+oneinferior = -20;
+twoinferior = -30;
+};
+sevensuperior = {
+foursuperior = -40;
+onesuperior = -20;
+twosuperior = -30;
+};
 six = {
 nine = -60;
 seven = -40;
+};
+six.oldstyle = {
+five.oldstyle = -20;
+one.oldstyle = -20;
+seven.oldstyle = -60;
+};
+sixinferior = {
+nineinferior = -50;
+oneinferior = -30;
+seveninferior = -120;
+threeinferior = -30;
+twoinferior = -30;
+};
+sixsuperior = {
+ninesuperior = -50;
+onesuperior = -30;
+sevensuperior = -90;
+threesuperior = -30;
+twosuperior = -30;
 };
 three = {
 nine = -30;
@@ -67063,6 +67312,14 @@ two = -20;
 };
 three.oldstyle = {
 five.oldstyle = -30;
+};
+threeinferior = {
+nineinferior = -30;
+seveninferior = -60;
+};
+threesuperior = {
+ninesuperior = -30;
+sevensuperior = -60;
 };
 two = {
 eight = -20;
@@ -67075,6 +67332,16 @@ two.oldstyle = {
 eight.oldstyle = -40;
 five.oldstyle = -50;
 seven.oldstyle = -40;
+};
+twoinferior = {
+fourinferior = -40;
+nineinferior = -40;
+seveninferior = -30;
+};
+twosuperior = {
+foursuperior = -40;
+ninesuperior = -40;
+sevensuperior = -30;
 };
 uni03BC = {
 "@MMK_R_j" = -50;
@@ -67117,6 +67384,7 @@ seven = -30;
 two = -20;
 };
 zero.oldstyle = {
+four.oldstyle = -50;
 one.oldstyle = -20;
 two.oldstyle = 0;
 };
@@ -67134,7 +67402,7 @@ ninesuperior = -20;
 onesuperior = -20;
 sevensuperior = -50;
 sixsuperior = -10;
-twosuperior = -20;
+twosuperior = -30;
 };
 };
 };
