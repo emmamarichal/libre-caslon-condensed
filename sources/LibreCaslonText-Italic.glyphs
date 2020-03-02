@@ -1,7 +1,9 @@
 {
 .appVersion = "1300";
 DisplayStrings = (
-"003030031300323003330034300353\0120036300373003830039300"
+"0070700717007270073700747007570076700777007870079700",
+"/zerosuperior/zerosuperior ¹¹¹/zerosuperior/zerosuperior ¹²¹/zerosuperior/zerosuperior ¹³¹/zerosuperior/zerosuperior \012/zerosuperior/zerosuperior ¹/foursuperior ¹/zerosuperior/zerosuperior ¹/fivesuperior ¹/zerosuperior/zerosuperior ¹/sixsuperior ¹/zerosuperior/zerosuperior \012/zerosuperior/zerosuperior ¹/sevensuperior ¹/zerosuperior/zerosuperior ¹/eightsuperior ¹/zerosuperior/zerosuperior ¹/ninesuperior ¹/zerosuperior/zerosuperior \012/zeroinferior/zeroinferior/oneinferior/oneinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/twoinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/threeinferior/oneinferior/zeroinferior/zeroinferior \012/zeroinferior/zeroinferior/oneinferior/fourinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/fiveinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/sixinferior/oneinferior/zeroinferior/zeroinferior \012/zeroinferior/zeroinferior/oneinferior/seveninferior/oneinferior/zeroinferior/zeroinferior/oneinferior/eightinferior/oneinferior/zeroinferior/zeroinferior/oneinferior/nineinferior/oneinferior/zeroinferior/zeroinferior",
+"/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/one.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/two.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/three.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/four.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/five.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle \012/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/six.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/seven.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/eight.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle \012/zero.oldstyle/zero.oldstyle/one.oldstyle/two.oldstyle/three.oldstyle/four.oldstyle/nine.oldstyle/four.oldstyle/three.oldstyle/two.oldstyle/one.oldstyle/zero.oldstyle/zero.oldstyle"
 );
 classes = (
 {
@@ -65628,6 +65630,10 @@ d = {
 "@MMK_R_Y" = -160;
 "@MMK_R_f" = 0;
 };
+eight = {
+nine = -30;
+seven = -30;
+};
 eng = {
 "@MMK_R_A" = -100;
 "@MMK_R_O" = -90;
@@ -65661,6 +65667,14 @@ AE = -120;
 ae = -30;
 x = -20;
 };
+five = {
+nine = -60;
+one = -10;
+seven = -30;
+};
+four = {
+nine = -30;
+};
 germandbls = {
 "@MMK_R_J" = -100;
 "@MMK_R_O" = -140;
@@ -65688,6 +65702,9 @@ l = {
 "@MMK_R_Z" = -70;
 "@MMK_R_j" = -60;
 };
+nine = {
+eight = -10;
+};
 oe = {
 "@MMK_R_a" = -70;
 "@MMK_R_h" = -50;
@@ -65697,11 +65714,38 @@ ae = -100;
 b = -60;
 };
 one = {
+four = -30;
 nine = -30;
 seven = -30;
 six = -30;
 three = -30;
 two = -20;
+};
+one.oldstyle = {
+eight.oldstyle = -50;
+five.oldstyle = -80;
+nine.oldstyle = -80;
+seven.oldstyle = -60;
+six.oldstyle = -30;
+three.oldstyle = -40;
+};
+oneinferior = {
+eightinferior = -20;
+fiveinferior = -20;
+fourinferior = -50;
+nineinferior = -30;
+seveninferior = -40;
+threeinferior = -20;
+twoinferior = -40;
+};
+onesuperior = {
+eightsuperior = -20;
+fivesuperior = -20;
+foursuperior = -50;
+ninesuperior = -40;
+sevensuperior = -40;
+threesuperior = -20;
+twosuperior = -40;
 };
 q = {
 "@MMK_R_I" = -50;
@@ -65721,12 +65765,25 @@ oe = -50;
 schwa = -40;
 x = -40;
 };
+seven = {
+eight = -20;
+four = -40;
+six = -40;
+two = -30;
+};
+six = {
+nine = -60;
+seven = -30;
+};
 three = {
 nine = -30;
 one = -30;
 seven = -30;
 six = -40;
 two = -20;
+};
+three.oldstyle = {
+five.oldstyle = -30;
 };
 two = {
 eight = -40;
@@ -65735,6 +65792,11 @@ nine = -30;
 seven = -30;
 six = -40;
 zero = -20;
+};
+two.oldstyle = {
+eight.oldstyle = -40;
+five.oldstyle = -50;
+seven.oldstyle = -50;
 };
 uni03BC = {
 "@MMK_R_j" = -40;
@@ -65772,6 +65834,27 @@ y = {
 zero = {
 one = -20;
 seven = -10;
+};
+zero.oldstyle = {
+one.oldstyle = -20;
+};
+zeroinferior = {
+fiveinferior = -20;
+fourinferior = -20;
+nineinferior = -20;
+oneinferior = -20;
+seveninferior = -50;
+sixinferior = -10;
+twoinferior = -20;
+};
+zerosuperior = {
+fivesuperior = -20;
+foursuperior = -20;
+ninesuperior = -20;
+onesuperior = -20;
+sevensuperior = -50;
+sixsuperior = -10;
+twosuperior = -20;
 };
 };
 "D3934E74-9B53-4E98-B19F-CD3DFEE08352" = {
@@ -66824,6 +66907,10 @@ d = {
 "@MMK_R_Y" = -120;
 "@MMK_R_f" = -10;
 };
+eight = {
+nine = -20;
+seven = -30;
+};
 eng = {
 "@MMK_R_A" = -70;
 "@MMK_R_O" = -90;
@@ -66859,6 +66946,14 @@ ae = -30;
 oe = -40;
 x = -50;
 };
+five = {
+nine = -60;
+one = -40;
+seven = -40;
+};
+four = {
+nine = -30;
+};
 germandbls = {
 "@MMK_R_J" = -100;
 "@MMK_R_O" = -140;
@@ -66887,6 +66982,8 @@ l = {
 "@MMK_R_j" = -50;
 };
 nine = {
+eight = -20;
+seven = -20;
 two = -20;
 };
 oe = {
@@ -66899,10 +66996,35 @@ b = -70;
 c = -120;
 };
 one = {
+four = -40;
 nine = -20;
 seven = -40;
 six = -30;
 two = -30;
+};
+one.oldstyle = {
+eight.oldstyle = -60;
+five.oldstyle = -70;
+nine.oldstyle = -60;
+seven.oldstyle = -70;
+six.oldstyle = -30;
+three.oldstyle = -40;
+};
+oneinferior = {
+fiveinferior = -20;
+fourinferior = -50;
+nineinferior = -30;
+seveninferior = -40;
+threeinferior = -20;
+twoinferior = -40;
+};
+onesuperior = {
+fivesuperior = -20;
+foursuperior = -50;
+ninesuperior = -40;
+sevensuperior = -40;
+threesuperior = -20;
+twosuperior = -40;
 };
 q = {
 "@MMK_R_I" = -60;
@@ -66922,6 +67044,16 @@ oe = -70;
 schwa = -50;
 x = -40;
 };
+seven = {
+eight = -20;
+four = -40;
+six = -40;
+two = -30;
+};
+six = {
+nine = -60;
+seven = -40;
+};
 three = {
 nine = -30;
 one = -30;
@@ -66929,12 +67061,20 @@ seven = -40;
 six = -40;
 two = -20;
 };
+three.oldstyle = {
+five.oldstyle = -30;
+};
 two = {
 eight = -20;
 four = -60;
 seven = -30;
 six = -30;
 zero = -20;
+};
+two.oldstyle = {
+eight.oldstyle = -40;
+five.oldstyle = -50;
+seven.oldstyle = -40;
 };
 uni03BC = {
 "@MMK_R_j" = -50;
@@ -66975,6 +67115,26 @@ zero = {
 one = -30;
 seven = -30;
 two = -20;
+};
+zero.oldstyle = {
+one.oldstyle = -20;
+two.oldstyle = 0;
+};
+zeroinferior = {
+fourinferior = -20;
+nineinferior = -20;
+oneinferior = -20;
+seveninferior = -50;
+sixinferior = -10;
+twoinferior = -20;
+};
+zerosuperior = {
+foursuperior = -20;
+ninesuperior = -20;
+onesuperior = -20;
+sevensuperior = -50;
+sixsuperior = -10;
+twosuperior = -20;
 };
 };
 };
