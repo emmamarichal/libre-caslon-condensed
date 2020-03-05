@@ -2,7 +2,7 @@
 .appVersion = "1300";
 DisplayStrings = (
 "½/onethird/twothirds ¼¾/oneeighth/threeeighths/fiveeighths/seveneighths",
-"nn.nn.nnn:nn:nnn{nn{nnn!nn!nnn¡nn¡nnn?nn?nnn¿nn¿nnnn·nn·nnn#nn#nnn"
+"HU.HH.UHU:HH:UHU{HH{UHU!HH!UHU¡HH¡UHU?HH?UHU¿HH¿UHHU·HH·UHU#HH#UHU(HH(UHU)HH)UHU{HH{UHU}HH}UHHU[HH[UHU]HH]UHU-HH-UHHU_HH_UHU/guilsinglleft HH/guilsinglleft UHU/guilsinglright HH/guilsinglright UHUH"
 );
 classes = (
 {
@@ -48798,9 +48798,7 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 580;
 }
 );
-leftKerningGroup = colon;
 leftMetricsKey = "=|exclam";
-rightKerningGroup = colon;
 rightMetricsKey = "=|exclam";
 unicode = 00A1;
 },
@@ -49054,9 +49052,7 @@ layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 width = 844;
 }
 );
-leftKerningGroup = colon;
 leftMetricsKey = "=|question";
-rightKerningGroup = colon;
 rightMetricsKey = "=|question";
 unicode = 00BF;
 },
@@ -65026,6 +65022,10 @@ x = -80;
 "@MMK_R_X" = -120;
 "@MMK_R_Y" = -160;
 "@MMK_R_Z" = -30;
+"@MMK_R_colon" = -50;
+"@MMK_R_guilsinglright" = -20;
+"@MMK_R_hyphen" = 50;
+"@MMK_R_period" = -60;
 "@MMK_R_uni1E9E" = -40;
 "@MMK_R_v" = 40;
 AE = -120;
@@ -65037,8 +65037,11 @@ foursuperior = -80;
 kgreenlandic = -20;
 nineinferior = -20;
 ninesuperior = -170;
+numbersign = 40;
 oe = -40;
 onesuperior = -100;
+periodcentered = 30;
+questiondown = -20;
 schwa = -40;
 seven = -50;
 sevensuperior = -200;
@@ -65046,6 +65049,7 @@ sixinferior = -30;
 sixsuperior = -130;
 threesuperior = -100;
 twosuperior = -170;
+underscore = -200;
 x = -40;
 zeroinferior = -50;
 zerosuperior = -140;
@@ -65541,6 +65545,10 @@ zero = -80;
 zero.oldstyle = -30;
 zeroinferior = -30;
 };
+"@MMK_L_colon" = {
+"@MMK_R_O" = -50;
+"@MMK_R_i" = -30;
+};
 "@MMK_L_e" = {
 "@MMK_R_A" = -130;
 "@MMK_R_I" = -120;
@@ -65670,6 +65678,9 @@ twosuperior = -100;
 x = -40;
 zerosuperior = -70;
 };
+"@MMK_L_guilsinglleft" = {
+"@MMK_R_O" = -40;
+};
 "@MMK_L_i" = {
 "@MMK_R_I" = -60;
 "@MMK_R_J" = -100;
@@ -65684,6 +65695,7 @@ zerosuperior = -70;
 "@MMK_R_h" = 0;
 "@MMK_R_j" = -60;
 "@MMK_R_o" = -30;
+"@MMK_R_period" = 30;
 "@MMK_R_s" = -20;
 "@MMK_R_u" = -10;
 "@MMK_R_uni1E9E" = -60;
@@ -65705,10 +65717,12 @@ kgreenlandic = -10;
 nine = -130;
 nine.oldstyle = -50;
 ninesuperior = -290;
+numbersign = -120;
 oe = -70;
 one = -140;
 one.oldstyle = -20;
 onesuperior = -230;
+question = -120;
 schwa = -30;
 seven = -150;
 seven.oldstyle = -60;
@@ -65859,11 +65873,13 @@ x = -60;
 "@MMK_R_Y" = -270;
 "@MMK_R_Z" = -90;
 "@MMK_R_a" = 10;
+"@MMK_R_colon" = -60;
 "@MMK_R_f" = -10;
 "@MMK_R_g" = -10;
 "@MMK_R_i" = -30;
 "@MMK_R_j" = -50;
 "@MMK_R_p" = -20;
+"@MMK_R_period" = -50;
 "@MMK_R_s" = -30;
 "@MMK_R_u" = -20;
 "@MMK_R_uni1E9E" = -70;
@@ -65872,9 +65888,12 @@ x = -60;
 AE = -90;
 H = -100;
 ae = -30;
+braceright = -40;
+bracketright = -40;
 eight = -50;
 eightinferior = 20;
 eightsuperior = -220;
+exclamdown = -60;
 five = -60;
 five.oldstyle = -30;
 fivesuperior = -220;
@@ -65885,10 +65904,14 @@ germandbls = -20;
 kgreenlandic = -25;
 nine = -50;
 ninesuperior = -260;
+numbersign = -60;
 oe = -50;
 one = -120;
 oneinferior = -30;
 onesuperior = -190;
+parenright = -40;
+question = -130;
+questiondown = -40;
 schwa = -40;
 seven = -190;
 seven.oldstyle = -40;
@@ -65900,6 +65923,7 @@ three = -60;
 threesuperior = -200;
 two = -70;
 twosuperior = -190;
+underscore = -160;
 x = -70;
 zero = -50;
 zerosuperior = -220;
@@ -65966,6 +65990,11 @@ twosuperior = -200;
 x = -110;
 zero = -70;
 zerosuperior = -250;
+};
+"@MMK_L_period" = {
+"@MMK_R_O" = -220;
+"@MMK_R_i" = -70;
+"@MMK_R_o" = -140;
 };
 "@MMK_L_r" = {
 "@MMK_R_A" = -260;
@@ -66347,6 +66376,12 @@ kgreenlandic = -60;
 oe = -100;
 r = -40;
 schwa = -80;
+};
+braceleft = {
+"@MMK_R_o" = -40;
+};
+bracketleft = {
+"@MMK_R_o" = -40;
 };
 d = {
 "@MMK_R_Y" = -160;
@@ -66894,6 +66929,10 @@ twosuperior = -50;
 uni03BC = -60;
 zero.oldstyle = -50;
 };
+numbersign = {
+"@MMK_R_O" = 20;
+"@MMK_R_o" = -70;
+};
 oe = {
 "@MMK_R_a" = -70;
 "@MMK_R_h" = -50;
@@ -67014,6 +67053,9 @@ twosuperior = -70;
 uni03BC = -60;
 x = -80;
 };
+parenleft = {
+"@MMK_R_o" = -40;
+};
 q = {
 "@MMK_R_I" = -50;
 "@MMK_R_O" = -40;
@@ -67031,6 +67073,14 @@ b = -10;
 oe = -50;
 schwa = -40;
 x = -40;
+};
+question = {
+"@MMK_R_i" = 20;
+"@MMK_R_o" = -40;
+};
+questiondown = {
+"@MMK_R_O" = -70;
+"@MMK_R_o" = -60;
 };
 seven = {
 "@MMK_R_A" = -140;
@@ -67427,6 +67477,11 @@ schwa = -30;
 sevensuperior = -30;
 uni03BC = -40;
 x = -40;
+};
+underscore = {
+"@MMK_R_O" = -330;
+"@MMK_R_i" = -50;
+"@MMK_R_o" = -140;
 };
 uni03BC = {
 "@MMK_R_j" = -40;
@@ -68054,6 +68109,10 @@ x = -80;
 "@MMK_R_X" = -100;
 "@MMK_R_Y" = -160;
 "@MMK_R_Z" = -20;
+"@MMK_R_colon" = -50;
+"@MMK_R_guilsinglright" = -20;
+"@MMK_R_hyphen" = 50;
+"@MMK_R_period" = -60;
 "@MMK_R_uni1E9E" = -30;
 "@MMK_R_v" = 40;
 "@MMK_R_zerosuperior" = 0;
@@ -68066,8 +68125,11 @@ foursuperior = -80;
 kgreenlandic = -20;
 nineinferior = -30;
 ninesuperior = -170;
+numbersign = 40;
 oe = -40;
 onesuperior = -80;
+periodcentered = 30;
+questiondown = -60;
 schwa = -40;
 seven = -50;
 sevensuperior = -190;
@@ -68075,6 +68137,7 @@ sixinferior = -40;
 sixsuperior = -130;
 threesuperior = -150;
 twosuperior = -170;
+underscore = -220;
 x = -30;
 zeroinferior = -30;
 zerosuperior = -130;
@@ -68583,6 +68646,10 @@ zero.oldstyle = -30;
 zeroinferior = -30;
 zerosuperior = -120;
 };
+"@MMK_L_colon" = {
+"@MMK_R_O" = -50;
+"@MMK_R_i" = -30;
+};
 "@MMK_L_e" = {
 "@MMK_R_A" = -140;
 "@MMK_R_I" = -120;
@@ -68709,6 +68776,9 @@ twosuperior = -100;
 x = -30;
 zerosuperior = -70;
 };
+"@MMK_L_guilsinglleft" = {
+"@MMK_R_O" = -20;
+};
 "@MMK_L_i" = {
 "@MMK_R_I" = -60;
 "@MMK_R_J" = -100;
@@ -68719,9 +68789,11 @@ zerosuperior = -70;
 "@MMK_R_Y" = -240;
 "@MMK_R_Z" = -60;
 "@MMK_R_a" = -30;
+"@MMK_R_colon" = -50;
 "@MMK_R_f" = -20;
 "@MMK_R_j" = -30;
 "@MMK_R_o" = -30;
+"@MMK_R_period" = 30;
 "@MMK_R_s" = -20;
 "@MMK_R_u" = -10;
 "@MMK_R_uni1E9E" = -60;
@@ -68743,10 +68815,12 @@ kgreenlandic = -10;
 nine = -130;
 nine.oldstyle = -30;
 ninesuperior = -290;
+numbersign = -110;
 oe = -40;
 one = -140;
 one.oldstyle = -40;
 onesuperior = -230;
+question = -90;
 schwa = -30;
 seven = -150;
 seven.oldstyle = -50;
@@ -68897,10 +68971,12 @@ x = -100;
 "@MMK_R_Y" = -270;
 "@MMK_R_Z" = -90;
 "@MMK_R_a" = 10;
+"@MMK_R_colon" = -60;
 "@MMK_R_f" = -30;
 "@MMK_R_g" = -10;
 "@MMK_R_j" = -70;
 "@MMK_R_p" = -30;
+"@MMK_R_period" = -30;
 "@MMK_R_s" = -30;
 "@MMK_R_u" = -20;
 "@MMK_R_uni1E9E" = -50;
@@ -68910,9 +68986,12 @@ AE = -90;
 H = -90;
 a = -20;
 ae = -30;
+braceright = -40;
+bracketright = -40;
 eight = -50;
 eightinferior = 20;
 eightsuperior = -220;
+exclamdown = -60;
 five = -50;
 five.oldstyle = -30;
 fivesuperior = -220;
@@ -68923,10 +69002,15 @@ germandbls = -40;
 kgreenlandic = -30;
 nine = -70;
 ninesuperior = -280;
+numbersign = -60;
 oe = -40;
 one = -120;
 oneinferior = -20;
 onesuperior = -190;
+parenright = -40;
+periodcentered = -30;
+question = -110;
+questiondown = -90;
 schwa = -50;
 seven = -210;
 seven.oldstyle = -30;
@@ -68938,6 +69022,7 @@ three = -60;
 threesuperior = -230;
 two = -50;
 twosuperior = -190;
+underscore = -160;
 x = -80;
 zero = -50;
 zerosuperior = -220;
@@ -69005,6 +69090,11 @@ twosuperior = -200;
 x = -130;
 zero = -90;
 zerosuperior = -250;
+};
+"@MMK_L_period" = {
+"@MMK_R_O" = -220;
+"@MMK_R_i" = -70;
+"@MMK_R_o" = -140;
 };
 "@MMK_L_r" = {
 "@MMK_R_A" = -260;
@@ -69390,6 +69480,12 @@ kgreenlandic = -60;
 oe = -100;
 r = -40;
 schwa = -100;
+};
+braceleft = {
+"@MMK_R_o" = -40;
+};
+bracketleft = {
+"@MMK_R_o" = -40;
 };
 c = {
 oe = -80;
@@ -69944,6 +70040,10 @@ uni03BC = -60;
 x = -70;
 zero.oldstyle = -50;
 };
+numbersign = {
+"@MMK_R_O" = 30;
+"@MMK_R_o" = -60;
+};
 oe = {
 "@MMK_R_a" = -90;
 "@MMK_R_h" = -70;
@@ -70062,6 +70162,9 @@ twosuperior = -60;
 uni03BC = -60;
 x = -80;
 };
+parenleft = {
+"@MMK_R_o" = -40;
+};
 q = {
 "@MMK_R_I" = -60;
 "@MMK_R_O" = -40;
@@ -70079,6 +70182,14 @@ b = -20;
 oe = -70;
 schwa = -50;
 x = -40;
+};
+question = {
+"@MMK_R_i" = 20;
+"@MMK_R_o" = -60;
+};
+questiondown = {
+"@MMK_R_O" = -70;
+"@MMK_R_o" = -50;
 };
 seven = {
 "@MMK_R_A" = -150;
@@ -70473,6 +70584,11 @@ schwa = -30;
 sevensuperior = -30;
 uni03BC = -40;
 x = -40;
+};
+underscore = {
+"@MMK_R_O" = -330;
+"@MMK_R_i" = -30;
+"@MMK_R_o" = -140;
 };
 uni03BC = {
 "@MMK_R_j" = -50;
