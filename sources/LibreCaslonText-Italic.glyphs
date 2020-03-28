@@ -64650,15 +64650,6 @@ linkStyle = Regular;
 name = Italic;
 },
 {
-interpolationWeight = 550;
-instanceInterpolations = {
-"D3934E74-9B53-4E98-B19F-CD3DFEE08352" = 0.5;
-master01 = 0.5;
-};
-name = "Medium Italic";
-weightClass = Medium;
-},
-{
 customParameters = (
 {
 name = postscriptFontName;
