@@ -1,7 +1,7 @@
 {
 .appVersion = "1286";
 DisplayStrings = (
-"Fan Fbn Fcn Fdn Fen Ffn Fgn Fhn Fin Fjn Fkn Fln Fmn Fnn Fon Fpn Fqn Frn Fsn Ftn Fun Fvn Fwn Fxn Fyn Fzn \012HGHGHGHHHGHOOGHG\012HJHHJHHJOOJOJJOOHHJJHH\012HKAHOKAOHORAOHRAH\012HPAHHPUHHPHPHHOOPAO\012OPUOPHOOUOOHHUHH\012 \"HHPYHH\", \"HHPXHH\", \"HHPWHH\", \"HHPVHH\"\012 \"OOPYOO\", \"OOPXOO\", \"OOPWOO\", \"OOPVOO\"\012\"HHROHH\", \"HHRHHH\", \"HHRUHH\"\012\"OOROOO\", \"OORHOO\", \"OORUOO\"\012HSHHSHSHSHSHSHSHS\012HHSHHSHHSHH- \"HHSVHH\", \"HHSWHH\", can be tighter\012- \"OOSVOO\", \"OOSWOO\", can be tighterOOSOOSOOSHHSHHH\012HH/uni1E9E/uni1E9E/uni1E9E HH\"HHHXHHH\"\"OOHXHOO\"\"HOOXOOH\"\"HOOXOOH\"HHHXSHH\012OOHXSOO"
+"Fan Fbn Fcn Fdn Fen Ffn Fgn Fhn Fin Fjn Fkn Fln Fmn Fnn Fon Fpn Fqn Frn Fsn Ftn Fun Fvn Fwn Fxn Fyn Fzn \012HGHGHGHHHGHOOGHG\012HJHHJHHJOOJOJJOOHHJJHH\012HKAHOKAOHORAOHRAH\012HPAHHPUHHPHPHHOOPAO\012OPUOPHOOUOOHHUHH\012 \"HHPYHH\", \"HHPXHH\", \"HHPWHH\", \"HHPVHH\"\012 \"OOPYOO\", \"OOPXOO\", \"OOPWOO\", \"OOPVOO\"\012\"HHROHH\", \"HHRHHH\", \"HHRUHH\"\012\"OOROOO\", \"OORHOO\", \"OORUOO\"\012HSHHSHSHSHSHSHSHS\012HHSHHSHHSHH- \"HHSVHH\", \"HHSWHH\", can be tighter\012- \"OOSVOO\", \"OOSWOO\", can be tighterOOSOOSOOSHHSHHH\012HH/uni1E9E/uni1E9E/uni1E9E HH\"HHHXHHH\"\"OOHXHOO\"\"HOOXOOH\"\"HOOXOOH\"HHHXSHH\012OOHXSOO\012H/uni1E9E Y/uni1E9E HO/uni1E9E Y/uni1E9E OH\012HOZOHOOZOOHHOZHOOZOOH\012HIZIHOIZIOHHIZHOOZIOH\012HOOOHOOOOOHHOOHOOOOOH\012IOHA\012HAHBHCHDHEHFHGHHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZIAIBICIDIEIFIGIHIIIJIKILIMINIOIPIQIRISITIUIVIWIXIYIZ\012HIXIHOIXIOHHXIHOOIXOHHIYIHOIYIOHHIYHOOIYOHHIZIHOIZIOHHIZHOOZIOH\012HOXOHOOXOOHHOXHOOXOOH\012noyonooyoonnoynonyoonoyonoyoo"
 );
 classes = (
 {
@@ -65056,6 +65056,7 @@ twosuperior = -80;
 "@MMK_R_A" = -90;
 "@MMK_R_C" = -30;
 "@MMK_R_K" = -5;
+"@MMK_R_O" = -20;
 "@MMK_R_S" = -30;
 "@MMK_R_Schwa" = -20;
 "@MMK_R_Thorn" = -60;
@@ -65294,7 +65295,7 @@ x = -80;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -70;
-"@MMK_R_I" = -35;
+"@MMK_R_I" = -50;
 "@MMK_R_J" = -20;
 "@MMK_R_K" = -30;
 "@MMK_R_N" = -30;
@@ -65823,6 +65824,7 @@ zero = -40;
 "@MMK_R_s" = -200;
 "@MMK_R_t" = -160;
 "@MMK_R_u" = -220;
+"@MMK_R_uni1E9E" = -60;
 "@MMK_R_v" = -170;
 "@MMK_R_y" = -120;
 "@MMK_R_z" = -170;
@@ -67135,7 +67137,7 @@ zerosuperior = -50;
 "@MMK_R_U" = -20;
 "@MMK_R_V" = -110;
 "@MMK_R_X" = -70;
-"@MMK_R_Y" = -70;
+"@MMK_R_Y" = -150;
 "@MMK_R_j" = -30;
 "@MMK_R_percent" = -100;
 "@MMK_R_quoteleft" = -150;
@@ -69763,6 +69765,7 @@ twosuperior = -80;
 "@MMK_L_I" = {
 "@MMK_R_A" = -80;
 "@MMK_R_C" = -30;
+"@MMK_R_O" = -20;
 "@MMK_R_OE" = 20;
 "@MMK_R_S" = -30;
 "@MMK_R_Schwa" = -10;
@@ -69999,7 +70002,7 @@ x = -80;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -60;
-"@MMK_R_I" = -30;
+"@MMK_R_I" = -80;
 "@MMK_R_J" = -10;
 "@MMK_R_K" = -10;
 "@MMK_R_N" = -50;
@@ -70535,6 +70538,7 @@ zero = -40;
 "@MMK_R_s" = -200;
 "@MMK_R_t" = -160;
 "@MMK_R_u" = -210;
+"@MMK_R_uni1E9E" = -60;
 "@MMK_R_v" = -200;
 "@MMK_R_y" = -150;
 "@MMK_R_z" = -170;
@@ -70592,7 +70596,7 @@ zeroinferior = -290;
 "@MMK_L_Z" = {
 "@MMK_R_A" = -20;
 "@MMK_R_C" = -30;
-"@MMK_R_I" = -20;
+"@MMK_R_I" = -40;
 "@MMK_R_J" = -30;
 "@MMK_R_T" = -60;
 "@MMK_R_Thorn" = -100;
@@ -71857,7 +71861,7 @@ zerosuperior = -60;
 "@MMK_R_U" = -40;
 "@MMK_R_V" = -170;
 "@MMK_R_X" = -70;
-"@MMK_R_Y" = -70;
+"@MMK_R_Y" = -150;
 "@MMK_R_j" = -30;
 "@MMK_R_percent" = -150;
 "@MMK_R_quoteleft" = -150;
