@@ -1,8 +1,5 @@
 {
 .appVersion = "1286";
-DisplayStrings = (
-"HZAZHOZAZOHHZAHOOAZOHHZÆZHOZÆZOHHZÆHOOÆZOH\012HZGZHOZGZOHHZGHOOGZOH\012HZSZHOZSZOHHZSHOOSZOH\012HZÞZHOZÞZOHHZÞHOOÞZOH\012HZMZHOZMZOHHMZHOOZMOHHZNZHOZNZOHHZNHOONZOH\012HZJZHOZJZOHHZJHOOJZOH\012HZ/uni1E9E ZHOZ/uni1E9E ZOHHZ/uni1E9E HOO/uni1E9E ZOHHZ/Schwa ZHOZ/Schwa ZOHHZ/Schwa HOO/Schwa ZOH\012HZTZHOZTZOHHZTHOOTZOHHZUZHOZUZOHHZUHOOUZOHHZVZHOZVZOHHZVHOOVZOH\012HZYZHOZYZOHHZYHOOZYOH"
-);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
