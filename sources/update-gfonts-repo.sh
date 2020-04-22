@@ -11,30 +11,39 @@
 #
 # add `push` to the end if you wish to push the result to GitHub
 
+# -------------------------------------------------------------------
+# UPDATE VARIABLES ABOVE AS NEEDED
+
+gFontsDir="/Users/stephennixon/type-repos/google-font-repos/fonts"
+gFontsSubDir="librecaslontext"
+
+
+libreCaslonDir=$(pwd)
+libreCaslonRomanVF=$libreCaslonDir/fonts/LibreCaslonText\[wght\].ttf
+libreCaslonItalicVF=$libreCaslonDir/fonts/LibreCaslonText-Italic\[wght\].ttf
+
+# NOTE: you must manually update `sed` lines below to update font METADATA.pb file
+
+# libreCaslonQADir=$libreCaslonDir/misc/googlefonts-qa
+
+# UPDATE VARIABLES ABOVE AS NEEDED
+# -------------------------------------------------------------------
+
+
 set -e
 source venv/bin/activate
 
-
-gFontsDir=$1
-if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
+# option to push to GitHub. Without this, it will do a dry run.
+pushToGitHub=$1
+if [[ "$pushToGitHub" = "-h" || $pushToGitHub = "--help" ]] ; then
     echo 'Add absolute path to your Google Fonts Git directory, like:'
     echo 'sources/update-gfonts-repo.sh /Users/username/type-repos/google-font-repos/fonts'
     exit 2
 fi
 
-# option to push to GitHub. Without this, it will do a dry run.
-pushToGitHub=$2
-
-libreCaslonDir=$(pwd)
-
-# libreCaslonQADir=$libreCaslonDir/misc/googlefonts-qa
-
-libreCaslonRomanVF=$libreCaslonDir/fonts/LibreCaslonText\[wght\].ttf
-libreCaslonItalicVF=$libreCaslonDir/fonts/LibreCaslonText-Italic\[wght\].ttf
-
 
 # -------------------------------------------------------------------
-# get latest font version to use in PR commit message ---------------
+# get latest font version to use in PR commit message 
 set +e
 
 ttx -t head $libreCaslonRomanVF
@@ -47,18 +56,51 @@ rm ${libreCaslonRomanVF/".ttf"/".ttx"}
 set -e
 
 # -------------------------------------------------------------------
-# navigate to google/fonts repo, get latest, then update inter branch
+# navigate to google/fonts repo, get latest, then clear branch & font subdirectory
 
 cd $gFontsDir
 git checkout master
 git pull upstream master
 git reset --hard
-git checkout -B inter
+git checkout -B $gFontsSubDir
 git clean -f -d
+rm -r ofl/$gFontsSubDir
 
 # -------------------------------------------------------------------
-# move fonts --------------------------------------------------------
+# copy fonts
 
-mkdir -p ofl/librecaslontext
+mkdir -p ofl/$gFontsSubDir
 
-cp $interFullVF    ofl/inter/Inter\[slnt,wght\].ttf
+cp $libreCaslonRomanVF    ofl/$gFontsSubDir/$(basename $libreCaslonRomanVF)
+cp $libreCaslonItalicVF    ofl/$gFontsSubDir/$(basename $libreCaslonItalicVF)
+
+# -------------------------------------------------------------------
+# make or move basic metadata 
+
+gftools add-font ofl/$gFontsSubDir # do this the first time, then edit as needed 
+
+# update these to be accurate if needed
+sed -i "" 's/SANS_SERIF/SERIF/g' ofl/$gFontsSubDir/METADATA.pb
+sed -i "" 's/UNKNOWN/Pablo Impallari/g' ofl/$gFontsSubDir/METADATA.pb
+
+cp $libreCaslonDir/OFL.txt ofl/$gFontsSubDir/OFL.txt
+
+cp $libreCaslonDir/gfonts-description.html ofl/$gFontsSubDir/DESCRIPTION.en_us.html
+
+
+# -------------------------------------------------------------------
+# copy static fonts
+
+cp -r $libreCaslonDir/fonts/static ofl/$gFontsSubDir/static
+
+# -------------------------------------------------------------------
+# adds and commits new changes, then force pushes
+
+if [[ $pushToGitHub = "push" ]] ; then
+    git add .
+    git commit -m "$gFontsSubDir: $fontVersion added."
+
+    # push to upstream branch (you must manually go to GitHub to make PR from there)
+    # this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
+    git push --force upstream $gFontsSubDir
+fi
