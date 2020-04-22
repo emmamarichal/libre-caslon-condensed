@@ -1,5 +1,8 @@
 {
-.appVersion = "1286";
+.appVersion = "1312";
+DisplayStrings = (
+Z
+);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -176,6 +179,7 @@ featurePrefixes = (
 automatic = 1;
 code = "languagesystem DFLT dflt;
 
+
 languagesystem latn dflt;
 languagesystem latn CAT;
 ";
@@ -313,6 +317,7 @@ name = ss01;
 {
 code = " # Kerning
 
+
 @_KERN_g = [ g gdotaccent gbreve gcircumflex gcommaaccent ];
 @_KERN_u = [ u udieresis uacute ugrave uhungarumlaut utilde ubreve uring umacron ucircumflex uogonek udotbelow ];
 @_KERN_w = [ w wdieresis wacute wgrave wcircumflex ];
@@ -380,6 +385,7 @@ code = " # Kerning
 @_KERN_period_2ND = [ period comma ellipsis quotesinglbase quotedblbase ];
 @_KERN_AE_2ND = [ AE AEacute ];
 @_KERN_a_2ND = [ a adieresis aacute agrave atilde abreve aring aringacute amacron acircumflex aogonek ae aeacute ];
+
 
 lookup kern0 {
     pos parenleft q -11 ;
@@ -12948,6 +12954,85 @@ nodes = (
 );
 };
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+paths = (
+{
+closed = 1;
+nodes = (
+"950 0 LINE",
+"1178 449 LINE",
+"1120 449 LINE SMOOTH",
+"1029 325 OFFCURVE",
+"934 215 OFFCURVE",
+"799 90 CURVE SMOOTH",
+"324 90 LINE",
+"1388 1210 LINE",
+"1436 1323 LINE",
+"497 1323 LINE",
+"270 913 LINE",
+"330 913 LINE SMOOTH",
+"434 1040 OFFCURVE",
+"537 1140 OFFCURVE",
+"649 1233 CURVE SMOOTH",
+"1058 1233 LINE",
+"-11 110 LINE",
+"-55 0 LINE"
+);
+}
+);
+width = 1261;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{469, 0}";
+},
+{
+name = topcap;
+position = "{993, 1427}";
+}
+);
+associatedMasterId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+background = {
+paths = (
+{
+closed = 0;
+nodes = (
+"951 0 LINE",
+"1111 402 LINE",
+"1051 402 LINE",
+"983 296 OFFCURVE",
+"904 199 OFFCURVE",
+"800 94 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"951 0 LINE",
+"1179 450 LINE",
+"1119 450 LINE",
+"1027 322 OFFCURVE",
+"921 204 OFFCURVE",
+"800 94 CURVE",
+"328 94 LINE",
+"1389 1209 LINE",
+"1435 1323 LINE",
+"498 1323 LINE",
+"270 913 LINE",
+"330 913 LINE",
+"434 1040 OFFCURVE",
+"539 1144 OFFCURVE",
+"649 1229 CURVE",
+"1055 1229 LINE",
+"-11 110 LINE",
+"-55 0 LINE"
+);
+}
+);
+};
+layerId = "747861B9-7182-4281-8EE8-82C3AAB3D81C";
+name = "Apr 22 20, 11:07";
 paths = (
 {
 closed = 1;
@@ -58190,6 +58275,94 @@ width = 1031;
 );
 },
 {
+glyphname = rightArrow;
+layers = (
+{
+components = (
+{
+name = leftArrow;
+transform = "{-1, 0, 0, -1, 1290, 1155}";
+}
+);
+layerId = master01;
+width = 1200;
+},
+{
+components = (
+{
+name = leftArrow;
+transform = "{-1, 0, 0, -1, 1290, 1155}";
+}
+);
+layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+width = 1200;
+}
+);
+unicode = 2192;
+},
+{
+glyphname = leftArrow;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"826 316 LINE",
+"252 579 LINE",
+"252 586 LINE",
+"826 846 LINE",
+"826 956 LINE",
+"123 620 LINE",
+"123 533 LINE",
+"826 199 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1170 519 LINE",
+"1170 646 LINE",
+"222 616 LINE",
+"222 549 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+paths = (
+{
+closed = 1;
+nodes = (
+"826 316 LINE",
+"252 579 LINE",
+"252 586 LINE",
+"826 846 LINE",
+"826 956 LINE",
+"123 620 LINE",
+"123 533 LINE",
+"826 199 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1170 519 LINE",
+"1170 646 LINE",
+"222 616 LINE",
+"222 549 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+unicode = 2190;
+},
+{
 glyphname = at;
 layers = (
 {
@@ -64654,6 +64827,25 @@ linkStyle = Regular;
 name = Italic;
 },
 {
+interpolationWeight = 500;
+interpolationWidth = 16;
+instanceInterpolations = {
+"D3934E74-9B53-4E98-B19F-CD3DFEE08352" = 0.33333;
+master01 = 0.66667;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+interpolationWeight = 600;
+instanceInterpolations = {
+"D3934E74-9B53-4E98-B19F-CD3DFEE08352" = 0.66667;
+master01 = 0.33333;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
 customParameters = (
 {
 name = postscriptFontName;
@@ -64675,6 +64867,7 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Bold;
 name = "Bold Italic";
+weightClass = Bold;
 }
 );
 kerning = {
@@ -64720,6 +64913,7 @@ master01 = {
 "@MMK_R_z" = -60;
 AE = -170;
 Euro = -200;
+ae = -110;
 ampersand = -150;
 asciicircum = -200;
 b = -120;
@@ -64776,7 +64970,6 @@ yen = -200;
 zero = -140;
 zero.oldstyle = -50;
 zerosuperior = -340;
-ae = -110;
 };
 "@MMK_L_B" = {
 "@MMK_R_A" = -90;
@@ -66864,11 +67057,11 @@ two = -100;
 two.oldstyle = -30;
 twosuperior = -200;
 underscore = -150;
+uni03BC = -60;
 x = -110;
 yen = -150;
 zero = -70;
 zerosuperior = -250;
-uni03BC = -60;
 };
 "@MMK_L_percent" = {
 "@MMK_R_T" = -150;
@@ -67245,6 +67438,7 @@ zerosuperior = -50;
 "@MMK_R_X" = -70;
 "@MMK_R_Y" = -150;
 "@MMK_R_j" = -30;
+"@MMK_R_o" = -30;
 "@MMK_R_percent" = -100;
 "@MMK_R_quoteleft" = -150;
 "@MMK_R_u" = -30;
@@ -67274,7 +67468,6 @@ underscore = -150;
 x = -70;
 yen = -70;
 zerosuperior = -150;
-"@MMK_R_o" = -30;
 };
 "@MMK_L_v" = {
 "@MMK_R_A" = -190;
@@ -67372,6 +67565,7 @@ two.oldstyle = -30;
 twoinferior = -70;
 twosuperior = -200;
 u = -40;
+uni03BC = -80;
 v = -30;
 x = -90;
 yen = -150;
@@ -67379,7 +67573,6 @@ zero = -70;
 zero.oldstyle = -30;
 zeroinferior = -70;
 zerosuperior = -200;
-uni03BC = -80;
 };
 "@MMK_L_z" = {
 "@MMK_R_I" = -80;
@@ -71551,12 +71744,12 @@ two = -50;
 twoinferior = -30;
 twosuperior = -250;
 underscore = -60;
+uni03BC = -90;
 x = -60;
 yen = -150;
 zero = -90;
 zero.oldstyle = -60;
 zerosuperior = -240;
-uni03BC = -90;
 };
 "@MMK_L_minus" = {
 "@MMK_R_Thorn" = -40;
@@ -71730,11 +71923,11 @@ two = -100;
 two.oldstyle = -70;
 twosuperior = -200;
 underscore = -150;
+uni03BC = -65;
 x = -130;
 yen = -150;
 zero = -90;
 zerosuperior = -250;
-uni03BC = -65;
 };
 "@MMK_L_percent" = {
 "@MMK_R_T" = -150;
@@ -72107,6 +72300,7 @@ zerosuperior = -60;
 "@MMK_R_X" = -70;
 "@MMK_R_Y" = -150;
 "@MMK_R_j" = -30;
+"@MMK_R_o" = -30;
 "@MMK_R_percent" = -150;
 "@MMK_R_quoteleft" = -150;
 "@MMK_R_u" = -30;
@@ -72136,7 +72330,6 @@ underscore = -150;
 x = -70;
 yen = -70;
 zerosuperior = -200;
-"@MMK_R_o" = -30;
 };
 "@MMK_L_v" = {
 "@MMK_R_A" = -190;

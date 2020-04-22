@@ -1,7 +1,9 @@
 {
-.appVersion = "1277";
+.appVersion = "1312";
 DisplayStrings = (
-".,:;/ellipsis !¡?¿·/bullet *#///backslash/period.tnum/comma.tnum/colon.tnum/semicolon.tnum/periodcentered.tnum/numbersign.tnum/slash.tnum (){}[]-­/endash/emdash _/underscore.tnum/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/quoteright «»/guilsinglleft/guilsinglright \"'/quotedbl.tnum/quotesingle.tnum"
+".,:;/ellipsis !¡?¿·/bullet *#///backslash/period.tnum/comma.tnum/colon.tnum/semicolon.tnum/periodcentered.tnum/numbersign.tnum/slash.tnum (){}[]-­/endash/emdash _/underscore.tnum/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/quoteright «»/guilsinglleft/guilsinglright \"'/quotedbl.tnum/quotesingle.tnum",
+"/leftArrow",
+"/rightArrow/leftArrow"
 );
 classes = (
 {
@@ -58915,6 +58917,12 @@ layerId = "7C8D72FA-6E62-4564-8BB2-D9F9BC4EB15A";
 width = 1200;
 },
 {
+components = (
+{
+name = leftArrow;
+transform = "{-1, 0, 0, -1, 1200, 1155}";
+}
+);
 layerId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 width = 1200;
 }
@@ -58954,6 +58962,30 @@ width = 1200;
 },
 {
 layerId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
+paths = (
+{
+closed = 1;
+nodes = (
+"786 316 LINE",
+"212 579 LINE",
+"212 586 LINE",
+"786 846 LINE",
+"786 956 LINE",
+"83 620 LINE",
+"83 533 LINE",
+"786 199 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1130 519 LINE",
+"1130 646 LINE",
+"182 616 LINE",
+"182 549 LINE"
+);
+}
+);
 width = 1200;
 }
 );
