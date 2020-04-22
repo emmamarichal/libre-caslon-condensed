@@ -2,10 +2,10 @@
 *(Autosaved)*
 .vscode
 dist/*.*
-master_ufo/*.*
-instance_ufo/*.*
-instance_ttf/*.*
-instance_otf/*.*
+master_ufo
+instance_ufo
+instance_ttf
+instance_otf
 autohinted/*.*
 virtual_env/*
 venv
