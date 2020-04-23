@@ -17,18 +17,12 @@
 gFontsDir="/Users/stephennixon/type-repos/google-font-repos/fonts" # absolute path to your google/fonts repo directory
 gFontsSubDir="librecaslontext"                                     # name for this directory within google/fonts/ofl
 
-
 libreCaslonDir=$(pwd)
 libreCaslonRomanVF=$libreCaslonDir/fonts/LibreCaslonText\[wght\].ttf
 libreCaslonItalicVF=$libreCaslonDir/fonts/LibreCaslonText-Italic\[wght\].ttf
 
-# NOTE: you must manually update `sed` lines below to properly update font METADATA.pb file
-
-# libreCaslonQADir=$libreCaslonDir/misc/googlefonts-qa
-
 # UPDATE VARIABLES ABOVE AS NEEDED
 # -------------------------------------------------------------------
-
 
 set -e
 source venv/bin/activate
@@ -40,7 +34,6 @@ if [[ "$pushToGitHub" = "-h" || $pushToGitHub = "--help" ]] ; then
     echo 'sources/update-gfonts-repo.sh /Users/username/type-repos/google-font-repos/fonts'
     exit 2
 fi
-
 
 # -------------------------------------------------------------------
 # get latest font version to use in PR commit message 
@@ -89,7 +82,6 @@ sed -i "" "s/UNKNOWN/$designer/g" ofl/$gFontsSubDir/METADATA.pb
 cp $libreCaslonDir/OFL.txt ofl/$gFontsSubDir/OFL.txt
 
 cp $libreCaslonDir/gfonts-description.html ofl/$gFontsSubDir/DESCRIPTION.en_us.html
-
 
 # -------------------------------------------------------------------
 # copy static fonts
