@@ -7,3 +7,27 @@ This variable font upgrade was started in Q4 2018, and now it is Q2 2020. Largel
 I've added a fontmake line for `sources/LibreCaslonText-Italic.glyphs` to `build.sh`, and after fixing an errant point in the glyph `Z` plus copying arrows from the Regular to the 
 
 ![roman & italic variable font build](vf-build.gif)
+
+## Fixing
+
+### Ligature Carets
+
+Earlier, I had added ligature carets, but then turned them off by changing their names.
+
+So, I changed their names back with the following macro:
+
+```
+font = Glyphs.font
+
+def fixCarets(layer):
+    for anchor in layer.anchors:
+        anchor.name = anchor.name.replace("lig_","").replace("carrot","caret").replace("_temp_off","")
+
+
+for glyph in font.glyphs:
+    if "_" in glyph.name:
+        print(glyph.name)
+        for layer in glyph.layers:
+            print("    ", layer.name)
+        	fixCarets(layer)
+```

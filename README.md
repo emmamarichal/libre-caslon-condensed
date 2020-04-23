@@ -72,6 +72,8 @@ The sources can be built with FontMake, but I've put together some specific buil
 
 The build process requires you to open up a terminal and navigate to this project's directory.
 
+NOTE: the build scripts are written to be run on macOS. If you are building on another platform, they may require some adjustment.
+
 ## Step 1: Install Requirements
 
 I suggest using a Python virtual environment to build this project. If you've never set up a virtual environment before, it's worthwhile because it will save you time in the future. [Read more about virtual environments in this guide](https://towardsdatascience.com/virtual-environments-104c62d48c54).
@@ -114,18 +116,10 @@ The `-R` applies your permission to each of the shell scripts in the directory, 
 
 You can then build sources by running shell scripts in `sources/scripts/`.
 
-Build the Roman variable font by running the following command while at the root of the directory:
+Build the variable & static fonts by running the following command while at the root of the directory:
 
 ```
 sources/build.sh
-```
-
-If you've set up your dependencies correctly, it should build and place fonts into the `/fonts` sub-directory. If not, please let me know in the [issues](https://github.com/thundernixon/Libre-Caslon/issues).
-
-If you would like to run checks on the fonts, you can run:
-
-```
-sources/check.sh
 ```
 
 </details>
