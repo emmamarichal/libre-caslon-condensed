@@ -14,15 +14,15 @@
 # -------------------------------------------------------------------
 # UPDATE VARIABLES ABOVE AS NEEDED
 
-gFontsDir="/Users/stephennixon/type-repos/google-font-repos/fonts"
-gFontsSubDir="librecaslontext"
+gFontsDir="/Users/stephennixon/type-repos/google-font-repos/fonts" # absolute path to your google/fonts repo directory
+gFontsSubDir="librecaslontext"                                     # name for this directory within google/fonts/ofl
 
 
 libreCaslonDir=$(pwd)
 libreCaslonRomanVF=$libreCaslonDir/fonts/LibreCaslonText\[wght\].ttf
 libreCaslonItalicVF=$libreCaslonDir/fonts/LibreCaslonText-Italic\[wght\].ttf
 
-# NOTE: you must manually update `sed` lines below to update font METADATA.pb file
+# NOTE: you must manually update `sed` lines below to properly update font METADATA.pb file
 
 # libreCaslonQADir=$libreCaslonDir/misc/googlefonts-qa
 
@@ -79,9 +79,12 @@ cp $libreCaslonItalicVF    ofl/$gFontsSubDir/$(basename $libreCaslonItalicVF)
 
 gftools add-font ofl/$gFontsSubDir # do this the first time, then edit as needed 
 
+category="SERIF"
+designer="Pablo Impallari"
+
 # update these to be accurate if needed
-sed -i "" 's/SANS_SERIF/SERIF/g' ofl/$gFontsSubDir/METADATA.pb
-sed -i "" 's/UNKNOWN/Pablo Impallari/g' ofl/$gFontsSubDir/METADATA.pb
+sed -i "" "s/SANS_SERIF/$category/g" ofl/$gFontsSubDir/METADATA.pb
+sed -i "" "s/UNKNOWN/$designer/g" ofl/$gFontsSubDir/METADATA.pb
 
 cp $libreCaslonDir/OFL.txt ofl/$gFontsSubDir/OFL.txt
 
