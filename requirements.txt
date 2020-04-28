@@ -1,3 +1,5 @@
 fontmake
 git+https://github.com/googlefonts/gftools
 fontbakery
+gftools
+statmake>=0.2.2

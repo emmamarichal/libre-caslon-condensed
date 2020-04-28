@@ -34,13 +34,9 @@ rm -rf master_ufo/ instance_ufo/
 
 echo "Fixing VF Meta"
 vfs=$(ls fonts/*-VF.ttf)
-# add STAT table
-gftools fix-vf-meta $vfs;
-
-for vf in $vfs
-do
-	# make normal name
-	mv ${vf/".ttf"/".ttf.fix"} $vf
+for vf in $vfs; do
+	# use statmake to set STAT table
+	python sources/scripts/set-stat-table.py $vf
 
 	# other table fixes
 	gftools fix-dsig -f $vf
