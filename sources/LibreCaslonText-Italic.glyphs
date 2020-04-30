@@ -182,6 +182,10 @@ code = "languagesystem DFLT dflt;
 
 
 
+
+
+
+
 languagesystem latn dflt;
 languagesystem latn CAT;
 ";
@@ -322,6 +326,10 @@ code = " # Kerning
 
 
 
+
+
+
+
 @_KERN_g = [ g gdotaccent gbreve gcircumflex gcommaaccent ];
 @_KERN_u = [ u udieresis uacute ugrave uhungarumlaut utilde ubreve uring umacron ucircumflex uogonek udotbelow ];
 @_KERN_w = [ w wdieresis wacute wgrave wcircumflex ];
@@ -389,6 +397,10 @@ code = " # Kerning
 @_KERN_period_2ND = [ period comma ellipsis quotesinglbase quotedblbase ];
 @_KERN_AE_2ND = [ AE AEacute ];
 @_KERN_a_2ND = [ a adieresis aacute agrave atilde abreve aring aringacute amacron acircumflex aogonek ae aeacute ];
+
+
+
+
 
 
 
@@ -3467,44 +3479,40 @@ ascender = 1409;
 capHeight = 1323;
 customParameters = (
 {
-name = typoAscender;
-value = 1940;
-},
-{
-name = typoDescender;
-value = -520;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 1940;
-},
-{
-name = hheaDescender;
-value = -520;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1696;
-},
-{
-name = winDescent;
-value = 531;
-},
-{
 name = underlineThickness;
 value = 86;
 },
 {
 name = underlinePosition;
 value = -129;
+},
+{
+name = typoAscender;
+value = 970;
+},
+{
+name = typoDescender;
+value = -260;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 970;
+},
+{
+name = winDescent;
+value = 260;
+},
+{
+name = hheaAscender;
+value = 970;
+},
+{
+name = hheaDescender;
+value = -260;
 }
 );
 descender = -430;
@@ -3568,44 +3576,40 @@ ascender = 1409;
 capHeight = 1323;
 customParameters = (
 {
-name = typoAscender;
-value = 1940;
-},
-{
-name = typoDescender;
-value = -520;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 1940;
-},
-{
-name = hheaDescender;
-value = -520;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1696;
-},
-{
-name = winDescent;
-value = 531;
-},
-{
 name = underlineThickness;
 value = 86;
 },
 {
 name = underlinePosition;
 value = -129;
+},
+{
+name = typoAscender;
+value = 970;
+},
+{
+name = typoDescender;
+value = -260;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 970;
+},
+{
+name = winDescent;
+value = 260;
+},
+{
+name = hheaAscender;
+value = 970;
+},
+{
+name = hheaDescender;
+value = -260;
 }
 );
 descender = -430;
