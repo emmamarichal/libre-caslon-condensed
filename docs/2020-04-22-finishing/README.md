@@ -46,4 +46,42 @@ When both are scaled to a UPM of 2000:
 | ---------- | ----- | ----- | ----------- |
 | cap height | 1540  | 1323  | 1.164021164 |
 
-I could scale the current font by 1.164021164, scaling the UPM to 2000 * 1.164021164, or 2328.042328, then changing it back to 2000 without scaling. Then, I could fix vertical metrics.
+I could scale the current font by 1.164021164, scaling the UPM to 2000 * 1.164021164, or `2328.042328` (rounded to `2328`), then changing it back to 2000 without scaling. Then, I can fix vertical metrics to make them similar as well. To make current "normal" metrics easily accessible in the future (if needed), I have made a local branch of `normal-metrics` and I've pushed that to my remote.
+
+After my first adjustment, it's actually slightly bigger than the original:
+
+![](assets/2020-04-30-23-02-22.png)
+
+This is because I slightly adjusted the overall weight of the previous "Regular" as well, to better match the color of the Italics ([2018-11-19-finding-a-regular-weight](2018-11-19-finding-a-regular-weight)). It would be good to match the old "Regular" as closely as possible, however, because that is very likely the most-used part of the existing family.
+
+### Trying again, scaling by overall width
+
+```python
+"""
+	Script to check combined width of ASCII uppercase + lowercase.
+"""
+
+import string
+
+alphabet = " ".join(string.ascii_letters).split(" ")
+
+font = Glyphs.font
+
+totalWidth = 0
+
+
+for name in alphabet:
+	totalWidth += font.glyphs[name].layers[0].width
+
+print(totalWidth)
+```
+
+|            | old   | newer   | change by   |
+| ---------- | ----- | ------- | ----------- |
+| cap height | 66456 | 57712   | 1.151510951 |
+
+`2000 * 1.151510951 = 2303.021902`, so I'll scale to `2303` then change back to 2000.
+
+![old libre caslon text compared to newest experiment](assets/2020-04-30-23-34-31.png)
+
+Much closer! Not 100% the same, but probably close enough to cause extremely little noticeable difference.
