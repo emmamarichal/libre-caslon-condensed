@@ -186,6 +186,14 @@ code = "languagesystem DFLT dflt;
 
 
 
+
+
+
+
+
+
+
+
 languagesystem latn dflt;
 languagesystem latn CAT;
 ";
@@ -330,6 +338,14 @@ code = " # Kerning
 
 
 
+
+
+
+
+
+
+
+
 @_KERN_g = [ g gdotaccent gbreve gcircumflex gcommaaccent ];
 @_KERN_u = [ u udieresis uacute ugrave uhungarumlaut utilde ubreve uring umacron ucircumflex uogonek udotbelow ];
 @_KERN_w = [ w wdieresis wacute wgrave wcircumflex ];
@@ -397,6 +413,14 @@ code = " # Kerning
 @_KERN_period_2ND = [ period comma ellipsis quotesinglbase quotedblbase ];
 @_KERN_AE_2ND = [ AE AEacute ];
 @_KERN_a_2ND = [ a adieresis aacute agrave atilde abreve aring aringacute amacron acircumflex aogonek ae aeacute ];
+
+
+
+
+
+
+
+
 
 
 
@@ -3488,11 +3512,11 @@ value = -129;
 },
 {
 name = typoAscender;
-value = 970;
+value = 1940;
 },
 {
 name = typoDescender;
-value = -260;
+value = -520;
 },
 {
 name = typoLineGap;
@@ -3500,19 +3524,27 @@ value = 0;
 },
 {
 name = winAscent;
-value = 970;
+value = 1940;
 },
 {
 name = winDescent;
-value = 260;
+value = 520;
 },
 {
 name = hheaAscender;
-value = 970;
+value = 1940;
 },
 {
 name = hheaDescender;
-value = -260;
+value = -520;
+},
+{
+name = strikeoutPosition;
+value = 636;
+},
+{
+name = strikeoutSize;
+value = 100;
 }
 );
 descender = -430;
@@ -3585,11 +3617,11 @@ value = -129;
 },
 {
 name = typoAscender;
-value = 970;
+value = 1940;
 },
 {
 name = typoDescender;
-value = -260;
+value = -520;
 },
 {
 name = typoLineGap;
@@ -3597,19 +3629,27 @@ value = 0;
 },
 {
 name = winAscent;
-value = 970;
+value = 1940;
 },
 {
 name = winDescent;
-value = 260;
+value = 520;
 },
 {
 name = hheaAscender;
-value = 970;
+value = 1940;
 },
 {
 name = hheaDescender;
-value = -260;
+value = -520;
+},
+{
+name = strikeoutPosition;
+value = 636;
+},
+{
+name = strikeoutSize;
+value = 100;
 }
 );
 descender = -430;

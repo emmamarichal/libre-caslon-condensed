@@ -31,3 +31,19 @@ for glyph in font.glyphs:
             print("    ", layer.name)
         	fixCarets(layer)
 ```
+
+## Sizing
+
+Back in the earliest work on upgrading this family, I found that it was much larger in body size and line length than typical fallback fonts (see [2018-10-22-experiments](2018-10-22-experiments/README.md) for details.
+
+However, this scaling may actually be a blocker for merging the font into Google Fonts. According to the Google Fonts site, Libre Caslon Text was served 3.97M times over the last week, and is featured in more than 11,000 websites. The size change is fairly dramatic, so that might disrupt a lot of users.
+
+If I were to scale it back, here is how I could do so:
+
+When both are scaled to a UPM of 2000:
+
+|            | old   | newer | change      |
+| ---------- | ----- | ----- | ----------- |
+| cap height | 1540  | 1323  | 1.164021164 |
+
+I could scale the current font by 1.164021164, scaling the UPM to 2000 * 1.164021164, or 2328.042328, then changing it back to 2000 without scaling. Then, I could fix vertical metrics.
