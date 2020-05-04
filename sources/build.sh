@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+source venv/bin/activate
 
 # ------------------------------------------------------
 # static fonts
