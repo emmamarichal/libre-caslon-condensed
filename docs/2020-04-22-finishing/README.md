@@ -84,4 +84,22 @@ print(totalWidth)
 
 ![old libre caslon text compared to newest experiment](assets/2020-04-30-23-34-31.png)
 
-Much closer! Not 100% the same, but probably close enough to cause extremely little noticeable difference.
+Much closer! Not 100% the same, but probably close enough to cause extremely little noticeable difference. The remaining differences are largely due to shifting the weight of the Regular, as mentioned above.
+
+
+## Fixing missing glyphs
+
+Some glyphs have gone “missing” from this font, according to Diffenator.
+
+![libre caslon missing glyphs, before](assets/2020-05-04-10-29-11.png)
+
+![libre caslon missing glyphs, after](assets/2020-05-04-10-29-30.png)
+
+```
+f_f=ff    # FB00
+f_i=fi    # FB01
+f_l=fl    # FB02
+f_f_i=ffi # FB03
+f_f_l=ffl # FB04
+s_t=st    # FB06
+```

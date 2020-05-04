@@ -1,8 +1,5 @@
 {
 .appVersion = "1312";
-DisplayStrings = (
-xH
-);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -35952,6 +35949,58 @@ leftKerningGroup = f;
 rightKerningGroup = t;
 },
 {
+glyphname = fi;
+layers = (
+{
+components = (
+{
+name = f_i;
+}
+);
+layerId = "7C8D72FA-6E62-4564-8BB2-D9F9BC4EB15A";
+width = 1262;
+},
+{
+components = (
+{
+name = f_i;
+}
+);
+layerId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
+width = 1479;
+}
+);
+leftMetricsKey = f_i;
+rightMetricsKey = f_i;
+unicode = FB01;
+},
+{
+glyphname = fl;
+layers = (
+{
+components = (
+{
+name = f_l;
+}
+);
+layerId = "7C8D72FA-6E62-4564-8BB2-D9F9BC4EB15A";
+width = 1259;
+},
+{
+components = (
+{
+name = f_l;
+}
+);
+layerId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
+width = 1484;
+}
+);
+leftMetricsKey = f_l;
+rightMetricsKey = f_l;
+unicode = FB02;
+},
+{
 glyphname = s_t;
 layers = (
 {
@@ -65715,6 +65764,102 @@ nodes = (
 width = 306;
 }
 );
+},
+{
+glyphname = ff;
+layers = (
+{
+components = (
+{
+name = f_f;
+}
+);
+layerId = "7C8D72FA-6E62-4564-8BB2-D9F9BC4EB15A";
+width = 1375;
+},
+{
+components = (
+{
+name = f_f;
+}
+);
+layerId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
+width = 1588;
+}
+);
+unicode = FB00;
+},
+{
+glyphname = ffi;
+layers = (
+{
+components = (
+{
+name = f_f_i;
+}
+);
+layerId = "7C8D72FA-6E62-4564-8BB2-D9F9BC4EB15A";
+width = 1923;
+},
+{
+components = (
+{
+name = f_f_i;
+}
+);
+layerId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
+width = 2232;
+}
+);
+unicode = FB03;
+},
+{
+glyphname = st;
+layers = (
+{
+components = (
+{
+name = s_t;
+}
+);
+layerId = "7C8D72FA-6E62-4564-8BB2-D9F9BC4EB15A";
+width = 1545;
+},
+{
+components = (
+{
+name = s_t;
+}
+);
+layerId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
+width = 1734;
+}
+);
+unicode = FB06;
+},
+{
+glyphname = ffl;
+layers = (
+{
+components = (
+{
+name = f_f_l;
+}
+);
+layerId = "7C8D72FA-6E62-4564-8BB2-D9F9BC4EB15A";
+width = 1918;
+},
+{
+components = (
+{
+name = f_f_l;
+}
+);
+layerId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
+width = 2236;
+}
+);
+unicode = FB04;
 }
 );
 instances = (

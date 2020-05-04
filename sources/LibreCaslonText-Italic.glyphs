@@ -1,8 +1,5 @@
 {
 .appVersion = "1312";
-DisplayStrings = (
-"/c_p/c_t/e_t/f_b/f_f/f_f_b/f_f_h/f_f_i/f_f_j/f_f_k/f_f_l/f_f_t/f_h/f_i/f_j/f_k/f_l/f_t/s_p/s_t"
-);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -210,6 +207,38 @@ code = "languagesystem DFLT dflt;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 languagesystem latn dflt;
 languagesystem latn CAT;
 ";
@@ -378,6 +407,38 @@ code = " # Kerning
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @_KERN_g = [ g gdotaccent gbreve gcircumflex gcommaaccent ];
 @_KERN_u = [ u udieresis uacute ugrave uhungarumlaut utilde ubreve uring umacron ucircumflex uogonek udotbelow ];
 @_KERN_w = [ w wdieresis wacute wgrave wcircumflex ];
@@ -445,6 +506,38 @@ code = " # Kerning
 @_KERN_period_2ND = [ period comma ellipsis quotesinglbase quotedblbase ];
 @_KERN_AE_2ND = [ AE AEacute ];
 @_KERN_a_2ND = [ a adieresis aacute agrave atilde abreve aring aringacute amacron acircumflex aogonek ae aeacute ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -34736,6 +34829,58 @@ leftKerningGroup = f;
 rightKerningGroup = t;
 },
 {
+glyphname = fi;
+layers = (
+{
+components = (
+{
+name = f_i;
+}
+);
+layerId = master01;
+width = 1278;
+},
+{
+components = (
+{
+name = f_i;
+}
+);
+layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+width = 1459;
+}
+);
+leftMetricsKey = f_i;
+rightMetricsKey = f_i;
+unicode = FB01;
+},
+{
+glyphname = fl;
+layers = (
+{
+components = (
+{
+name = f_l;
+}
+);
+layerId = master01;
+width = 1288;
+},
+{
+components = (
+{
+name = f_l;
+}
+);
+layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+width = 1490;
+}
+);
+leftMetricsKey = f_l;
+rightMetricsKey = f_l;
+unicode = FB02;
+},
+{
 glyphname = s_p;
 layers = (
 {
@@ -64954,6 +65099,102 @@ nodes = (
 width = 427;
 }
 );
+},
+{
+glyphname = ff;
+layers = (
+{
+components = (
+{
+name = f_f;
+}
+);
+layerId = master01;
+width = 1316;
+},
+{
+components = (
+{
+name = f_f;
+}
+);
+layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+width = 1528;
+}
+);
+unicode = FB00;
+},
+{
+glyphname = ffi;
+layers = (
+{
+components = (
+{
+name = f_f_i;
+}
+);
+layerId = master01;
+width = 1953;
+},
+{
+components = (
+{
+name = f_f_i;
+}
+);
+layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+width = 2225;
+}
+);
+unicode = FB03;
+},
+{
+glyphname = ffl;
+layers = (
+{
+components = (
+{
+name = f_f_l;
+}
+);
+layerId = master01;
+width = 1951;
+},
+{
+components = (
+{
+name = f_f_l;
+}
+);
+layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+width = 2235;
+}
+);
+unicode = FB04;
+},
+{
+glyphname = st;
+layers = (
+{
+components = (
+{
+name = s_t;
+}
+);
+layerId = master01;
+width = 1495;
+},
+{
+components = (
+{
+name = s_t;
+}
+);
+layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
+width = 1696;
+}
+);
+unicode = FB06;
 }
 );
 instances = (
