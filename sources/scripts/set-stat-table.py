@@ -1,5 +1,5 @@
 """
-	Script to use statmake to add STAT table to Libre Caslon 
+    Script to use statmake to add STAT table to Libre Caslon
 """
 
 import sys
@@ -15,7 +15,7 @@ STAT = {
             "name": "Weight",
             "tag": "wght",
             "locations": [
-                                {
+                {
                     "name": "Regular",
                     "value": 400,
                     "linked_value": 700,
@@ -54,6 +54,7 @@ STAT = {
     ]
 }
 
+
 def makeStylespace(font_path):
 
     stylespace = statmake.classes.Stylespace.from_dict(STAT)
@@ -71,5 +72,6 @@ def makeStylespace(font_path):
         additional_locations=addedLocs
     )
     font.save(font_path)
+
 
 makeStylespace(font_path)
