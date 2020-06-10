@@ -1,5 +1,5 @@
 {
-.appVersion = "1338";
+.appVersion = "1339";
 DisplayStrings = (
 "/quoteright/napostrophe"
 );
@@ -65201,20 +65201,6 @@ unicode = FB06;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFontName;
-value = "LibreCaslonText-Italic";
-},
-{
-name = postscriptFullName;
-value = "Libre Caslon Text Italic";
-},
-{
-name = styleMapFamilyName;
-value = "Libre Caslon Text";
-}
-);
 interpolationWeight = 400;
 instanceInterpolations = {
 master01 = 1;
@@ -65243,20 +65229,6 @@ name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = postscriptFontName;
-value = "LibreCaslonText-BoldItalic";
-},
-{
-name = postscriptFullName;
-value = "Libre Caslon Text Bold Italic";
-},
-{
-name = styleMapFamilyName;
-value = "Libre Caslon Text";
-}
-);
 interpolationWeight = 700;
 instanceInterpolations = {
 "D3934E74-9B53-4E98-B19F-CD3DFEE08352" = 1;
