@@ -78,7 +78,7 @@ print(totalWidth)
 
 |            | old   | newer   | change by   |
 | ---------- | ----- | ------- | ----------- |
-| cap height | 66456 | 57712   | 1.151510951 |
+| alphabet width | 66456 | 57712   | 1.151510951 |
 
 `2000 * 1.151510951 = 2303.021902`, so I'll scale to `2303` then change back to 2000.
 
