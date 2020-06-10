@@ -33,7 +33,7 @@ fontmake -g sources/LibreCaslonText-Italic.glyphs -o variable --output-path font
 rm -rf master_ufo/ instance_ufo/
 
 
-echo "Fixing VF Meta"
+echo "Fixing VF Metadata"
 vfs=$(ls fonts/*-VF.ttf)
 for vf in $vfs; do
 	# use statmake to set STAT table
