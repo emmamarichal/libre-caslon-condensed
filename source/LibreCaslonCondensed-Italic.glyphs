@@ -1,5 +1,8 @@
 {
-.appVersion = "3134";
+.appVersion = "3414";
+DisplayStrings = (
+"/f_f_i/f_f_i/f_f_i/f_f_i/f.fragment_3/f.fragment_3/f.fragment_3/f.fragment_3"
+);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -10,7 +13,7 @@ code = "Euro.tnum bar.tnum cent.tnum colon.tnum comma.tnum degree.tnum divide.tn
 name = tnum2;
 }
 );
-copyright = "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)";
+copyright = "Copyright 2020 The Libre Caslon Condensed Project Authors (https://github.com/ertekinno/libre-caslon-condensed)";
 customParameters = (
 {
 name = openTypeOS2Panose;
@@ -26,46 +29,6 @@ value = (
 0,
 4
 );
-},
-{
-name = openTypeOS2StrikeoutPosition;
-value = 250;
-},
-{
-name = openTypeOS2StrikeoutSize;
-value = 50;
-},
-{
-name = openTypeOS2SubscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SubscriptXSize;
-value = 700;
-},
-{
-name = openTypeOS2SubscriptYOffset;
-value = 140;
-},
-{
-name = openTypeOS2SubscriptYSize;
-value = 650;
-},
-{
-name = openTypeOS2SuperscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SuperscriptXSize;
-value = 700;
-},
-{
-name = openTypeOS2SuperscriptYOffset;
-value = 477;
-},
-{
-name = openTypeOS2SuperscriptYSize;
-value = 650;
 },
 {
 name = fsType;
@@ -98,11 +61,11 @@ value = 1;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 name = Axes;
@@ -31718,9 +31681,11 @@ position = "{1108, 0}";
 associatedMasterId = master01;
 components = (
 {
+alignment = -1;
 name = f.fragment_dot_2;
 },
 {
+alignment = -1;
 name = i.fragment_1;
 transform = "{1, 0, 0, 1, 1303, 0}";
 }
@@ -31960,9 +31925,11 @@ position = "{1108, 0}";
 associatedMasterId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 components = (
 {
+alignment = -1;
 name = f.fragment_dot_2;
 },
 {
+alignment = -1;
 name = i.fragment_1;
 transform = "{1, 0, 0, 1, 1452, 0}";
 }
@@ -37288,9 +37255,11 @@ width = 641;
 associatedMasterId = master01;
 components = (
 {
+alignment = -1;
 name = f.fragment_2;
 },
 {
+alignment = -1;
 name = f.fragment_1;
 transform = "{1, 0, 0, 1, 641, 0}";
 }
@@ -37568,9 +37537,11 @@ width = 641;
 associatedMasterId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
 components = (
 {
+alignment = -1;
 name = f.fragment_2;
 },
 {
+alignment = -1;
 name = f.fragment_1;
 transform = "{1, 0, 0, 1, 641, 0}";
 }

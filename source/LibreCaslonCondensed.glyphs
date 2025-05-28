@@ -1,5 +1,8 @@
 {
-.appVersion = "3134";
+.appVersion = "3414";
+DisplayStrings = (
+"ÄÄ/Ccaron/Ccircumflex/Ccircumflex/Ebreve/Ebreve ËË/Edotbelow/Edotbelow ÈÈ/Emacron/Emacron/Gbreve/Gbreve/Gcircumflex/Gcircumflex/Gcommaaccent/Gcommaaccent/Hcircumflex/Hcircumflex/Hdotbelow/Hdotbelow/IJ/IJ/Idotaccent/Idotaccent/Idotbelow/Idotbelow/Imacron/Imacron/Itilde/Itilde/Jcircumflex/Jcircumflex/Lcaron/Lcommaaccent/Lcommaaccent/Nacute/Nacute/Ncaron/Obreve/Obreve/Odotbelow/Odotbelow/Rcaron/Scaron/Scircumflex/Scircumflex/Tdotbelow/Tdotbelow/Ubreve/Ubreve ÛÛÜÜ/Udotbelow/Udotbelow/Umacron/Umacron/Uring/Uring/Zcaron/Zdotaccent/Zdotaccent/Zdotbelow/Zdotbelow/uni01C4/uni01C4/uni01C7/uni01C7/uni01C8/uni01C8/uni01CA/uni01CA/uni01CB/uni01CB/uni01F1/uni01F1/uni01F2/uni01F2/uni0218/uni0218/uni021A/uni021A ääààããëë/hdotbelow/hdotbelow/ibreve/ibreve îîïï/idotbelow/idotbelow/ij/ij/imacron/imacron/itilde/itilde/jcircumflex/jcircumflex/kcommaaccent/kcommaaccent/ncommaaccent/ncommaaccent/obreve/obreve öö/odotbelow/odotbelow/rcommaaccent/rcommaaccent/rdotbelow/rdotbelow/sdotbelow/sdotbelow/tdotbelow/tdotbelow/udotbelow/udotbelow/uni015F/uni015F/uni01C9/uni01C9/uni01CC/uni01CC/uni01F3/uni01F3/uni021B/uni021B/uring/uring/ycircumflex/ycircumflex/ydieresis/ydieresis/ytilde/ytilde/zdotbelow/zdotbelow"
+);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -10,7 +13,7 @@ code = "Euro.tnum bar.tnum cent.tnum colon.tnum comma.tnum degree.tnum divide.tn
 name = tnum2;
 }
 );
-copyright = "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)";
+copyright = "Copyright 2020 The Libre Caslon Condensed Project Authors (https://github.com/ertekinno/libre-caslon-condensed)";
 customParameters = (
 {
 name = openTypeOS2Panose;
@@ -26,46 +29,6 @@ value = (
 0,
 4
 );
-},
-{
-name = openTypeOS2StrikeoutPosition;
-value = 250;
-},
-{
-name = openTypeOS2StrikeoutSize;
-value = 50;
-},
-{
-name = openTypeOS2SubscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SubscriptXSize;
-value = 700;
-},
-{
-name = openTypeOS2SubscriptYOffset;
-value = 140;
-},
-{
-name = openTypeOS2SubscriptYSize;
-value = 650;
-},
-{
-name = openTypeOS2SuperscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SuperscriptXSize;
-value = 700;
-},
-{
-name = openTypeOS2SuperscriptYOffset;
-value = 477;
-},
-{
-name = openTypeOS2SuperscriptYSize;
-value = 650;
 },
 {
 name = fsType;
@@ -98,11 +61,11 @@ value = 1;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 name = Axes;
@@ -2778,9 +2741,11 @@ width = 1237;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = dieresis.cap;
 transform = "{1, 0, 0, 1, 410, -53}";
 }
@@ -4011,6 +3976,7 @@ alignment = -1;
 name = C;
 },
 {
+alignment = -1;
 name = caron.cap;
 transform = "{1, 0, 0, 1, 546, 0}";
 }
@@ -4110,9 +4076,11 @@ width = 1287;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = C;
 },
 {
+alignment = -1;
 name = circumflex.cap;
 transform = "{1, 0, 0, 1, 546, 0}";
 }
@@ -5132,9 +5100,11 @@ width = 1158;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = breve.cap;
 transform = "{1, 0, 0, 1, 414, 0}";
 }
@@ -5284,9 +5254,11 @@ width = 1158;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = dieresis.cap;
 transform = "{1, 0, 0, 1, 393, -53}";
 }
@@ -5386,9 +5358,11 @@ width = 1158;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 562, 0}";
 }
@@ -5436,9 +5410,11 @@ width = 1158;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = grave.cap;
 transform = "{1, 0, 0, 1, 418, 0}";
 }
@@ -5484,9 +5460,11 @@ width = 1158;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = macron.cap;
 transform = "{1, 0, 0, 1, 403, 0}";
 }
@@ -5964,9 +5942,11 @@ width = 1354;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = G;
 },
 {
+alignment = -1;
 name = breve.cap;
 transform = "{1, 0, 0, 1, 574, 0}";
 }
@@ -6012,9 +5992,11 @@ width = 1354;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = G;
 },
 {
+alignment = -1;
 name = circumflex.cap;
 transform = "{1, 0, 0, 1, 554, 0}";
 }
@@ -6060,9 +6042,11 @@ width = 1354;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = G;
 },
 {
+alignment = -1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 715, 21}";
 }
@@ -6523,9 +6507,11 @@ width = 1461;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = H;
 },
 {
+alignment = -1;
 name = circumflex.cap;
 transform = "{1, 0, 0, 1, 543, 0}";
 }
@@ -6573,9 +6559,11 @@ width = 1461;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = H;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 708, 0}";
 }
@@ -6739,9 +6727,11 @@ width = 1321;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = J;
 transform = "{1, 0, 0, 1, 740, 0}";
 }
@@ -6995,9 +6985,11 @@ width = 673;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = dotaccent.cap;
 transform = "{1, 0, 0, 1, 226, 0}";
 }
@@ -7045,9 +7037,11 @@ width = 673;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 226, 0}";
 }
@@ -7147,9 +7141,11 @@ width = 673;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = macron.cap;
 transform = "{1, 0, 0, 1, 70, 0}";
 }
@@ -7245,9 +7241,11 @@ width = 673;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = tilde.cap;
 transform = "{1, 0, 0, 1, 50, 0}";
 }
@@ -7437,9 +7435,11 @@ width = 648;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = J;
 },
 {
+alignment = -1;
 name = circumflex.cap;
 transform = "{1, 0, 0, 1, 48, 0}";
 }
@@ -7913,6 +7913,7 @@ alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = caron.cap;
 transform = "{1, 0, 0, 1, 130, 0}";
 }
@@ -7960,9 +7961,11 @@ width = 1106;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 607, 21}";
 }
@@ -8390,9 +8393,11 @@ width = 1390;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = acute.cap;
 transform = "{1, 0, 0, 1, 631, 0}";
 }
@@ -8442,6 +8447,7 @@ alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = caron.cap;
 transform = "{1, 0, 0, 1, 518, 0}";
 }
@@ -9089,9 +9095,11 @@ width = 1375;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = breve.cap;
 transform = "{1, 0, 0, 1, 538, 0}";
 }
@@ -9243,9 +9251,11 @@ width = 1375;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 683, 0}";
 }
@@ -10911,6 +10921,7 @@ alignment = -1;
 name = R;
 },
 {
+alignment = -1;
 name = caron.cap;
 transform = "{1, 0, 0, 1, 418, 0}";
 }
@@ -11450,6 +11461,7 @@ alignment = -1;
 name = S;
 },
 {
+alignment = -1;
 name = caron.cap;
 transform = "{1, 0, 0, 1, 298, 0}";
 }
@@ -11497,9 +11509,11 @@ width = 1024;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = S;
 },
 {
+alignment = -1;
 name = circumflex.cap;
 transform = "{1, 0, 0, 1, 298, 0}";
 }
@@ -12090,9 +12104,11 @@ width = 1232;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = T;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 604, -5}";
 }
@@ -12377,9 +12393,11 @@ width = 1300;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = breve.cap;
 transform = "{1, 0, 0, 1, 552, 0}";
 }
@@ -12425,9 +12443,11 @@ width = 1300;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = circumflex.cap;
 transform = "{1, 0, 0, 1, 532, 0}";
 }
@@ -12473,9 +12493,11 @@ width = 1300;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = dieresis.cap;
 transform = "{1, 0, 0, 1, 531, -53}";
 }
@@ -12523,9 +12545,11 @@ width = 1300;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 647, 0}";
 }
@@ -12677,9 +12701,11 @@ width = 1300;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = macron.cap;
 transform = "{1, 0, 0, 1, 541, 0}";
 }
@@ -12776,9 +12802,11 @@ width = 1300;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = ring.cap;
 transform = "{1, 0, 0, 1, 686, 0}";
 }
@@ -14646,6 +14674,7 @@ alignment = -1;
 name = Z;
 },
 {
+alignment = -1;
 name = caron.cap;
 transform = "{1, 0, 0, 1, 395, 0}";
 }
@@ -14693,9 +14722,11 @@ width = 1156;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = Z;
 },
 {
+alignment = -1;
 name = dotaccent.cap;
 transform = "{1, 0, 0, 1, 560, 0}";
 }
@@ -14743,9 +14774,11 @@ width = 1156;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = Z;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 484, 0}";
 }
@@ -14901,13 +14934,16 @@ width = 2533;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = D;
 },
 {
+alignment = -1;
 name = Z;
 transform = "{1, 0, 0, 1, 1591, 0}";
 },
 {
+alignment = -1;
 name = caron.cap;
 transform = "{1, 0, 0, 1, 1986, 0}";
 }
@@ -15023,9 +15059,11 @@ width = 1739;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = J;
 transform = "{1, 0, 0, 1, 1368, 0}";
 }
@@ -15069,9 +15107,11 @@ width = 1628;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = j;
 transform = "{1, 0, 0, 1, 1383, 0}";
 }
@@ -15115,9 +15155,11 @@ width = 2038;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = J;
 transform = "{1, 0, 0, 1, 1639, 0}";
 }
@@ -15161,9 +15203,11 @@ width = 1891;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = j;
 transform = "{1, 0, 0, 1, 1618, 0}";
 }
@@ -15219,9 +15263,11 @@ position = "{2274, 1643}";
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = D;
 },
 {
+alignment = -1;
 name = Z;
 transform = "{1, 0, 0, 1, 1591, 0}";
 }
@@ -15272,9 +15318,11 @@ width = 2286;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = D;
 },
 {
+alignment = -1;
 name = z;
 transform = "{1, 0, 0, 1, 1596, 0}";
 }
@@ -15319,9 +15367,11 @@ width = 1024;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = S;
 },
 {
+alignment = -1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 470, 21}";
 }
@@ -15367,9 +15417,11 @@ width = 1232;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = T;
 },
 {
+alignment = -1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 620, 16}";
 }
@@ -15871,9 +15923,11 @@ width = 926;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 211, 0}";
 }
@@ -15921,9 +15975,11 @@ width = 926;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 356, 0}";
 }
@@ -16200,9 +16256,11 @@ width = 926;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 201, 0}";
 }
@@ -18674,9 +18732,11 @@ width = 956;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = e;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 303, 0}";
 }
@@ -20867,9 +20927,11 @@ width = 1078;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = h;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 474, 0}";
 }
@@ -21214,9 +21276,11 @@ width = 570;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = dotlessi;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 14, 0}";
 }
@@ -21262,9 +21326,11 @@ width = 570;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = dotlessi;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 32, 0}";
 }
@@ -21310,9 +21376,11 @@ width = 570;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = dotlessi;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -7, 0}";
 }
@@ -21360,9 +21428,11 @@ width = 570;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = i;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 159, 0}";
 }
@@ -21462,9 +21532,11 @@ width = 1092;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = i;
 },
 {
+alignment = -1;
 name = j;
 transform = "{1, 0, 0, 1, 594, 0}";
 }
@@ -21510,9 +21582,11 @@ width = 570;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = dotlessi;
 },
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -17, 0}";
 }
@@ -21608,9 +21682,11 @@ width = 570;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = dotlessi;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -17, 0}";
 }
@@ -21971,9 +22047,11 @@ width = 522;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = dotlessj;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 19, 0}";
 }
@@ -22205,9 +22283,11 @@ width = 1053;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = k;
 },
 {
+alignment = -1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 516, 21}";
 }
@@ -23910,9 +23990,11 @@ width = 1097;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = n;
 },
 {
+alignment = -1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 485, 21}";
 }
@@ -24526,9 +24608,11 @@ width = 1017;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 320, 0}";
 }
@@ -24626,9 +24710,11 @@ width = 1017;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 299, 0}";
 }
@@ -24676,9 +24762,11 @@ width = 1017;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 465, -5}";
 }
@@ -26378,9 +26466,11 @@ width = 782;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = r;
 },
 {
+alignment = -1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 177, 16}";
 }
@@ -26428,9 +26518,11 @@ width = 782;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = r;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 161, -5}";
 }
@@ -26940,9 +27032,11 @@ width = 742;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = s;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 258, 0}";
 }
@@ -27703,9 +27797,11 @@ width = 643;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 270, 0}";
 }
@@ -28402,9 +28498,11 @@ width = 1052;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 693, 0}";
 }
@@ -28610,9 +28708,11 @@ width = 744;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = s;
 },
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, 186, 0}";
 }
@@ -28780,9 +28880,11 @@ width = 1086;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = j;
 transform = "{1, 0, 0, 1, 577, 0}";
 }
@@ -28826,9 +28928,11 @@ width = 1619;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = n;
 },
 {
+alignment = -1;
 name = j;
 transform = "{1, 0, 0, 1, 1209, 0}";
 }
@@ -28872,9 +28976,11 @@ width = 1970;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = z;
 transform = "{1, 0, 0, 1, 1201, 0}";
 }
@@ -28972,9 +29078,11 @@ width = 643;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = commaaccent;
 transform = "{1, 0, 0, 1, 286, 21}";
 }
@@ -29071,9 +29179,11 @@ width = 1060;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, 400, 0}";
 }
@@ -30623,9 +30733,11 @@ width = 982;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = y;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 336, 0}";
 }
@@ -30671,9 +30783,11 @@ width = 982;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = y;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 297, 0}";
 }
@@ -30769,9 +30883,11 @@ width = 982;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = y;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 287, 0}";
 }
@@ -31101,9 +31217,11 @@ width = 904;
 associatedMasterId = "FA6D65B5-4623-4FAC-A199-3F662257AC29";
 components = (
 {
+alignment = -1;
 name = z;
 },
 {
+alignment = -1;
 name = dotbelow;
 transform = "{1, 0, 0, 1, 362, 0}";
 }
