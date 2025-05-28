@@ -283,6 +283,7 @@ name = onum;
 {
 code = "	sub ampersand by ampersand.ss01;";
 name = ss01;
+notes = "Name: Ampersand";
 },
 {
 code = " # Kerning
