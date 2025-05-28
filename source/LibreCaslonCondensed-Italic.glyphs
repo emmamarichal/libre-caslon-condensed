@@ -1,5 +1,8 @@
 {
 .appVersion = "3414";
+DisplayStrings = (
+I
+);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -3637,11 +3640,15 @@ position = "{1041, 1479}";
 },
 {
 position = "{1776, 1441}";
+},
+{
+angle = 70.6724;
+position = "{-103, 217}";
 }
 );
 iconName = Light_Condensed;
 id = master01;
-italicAngle = 22.583;
+italicAngle = 19;
 weightValue = 400;
 xHeight = 1049;
 },
@@ -3744,7 +3751,7 @@ position = "{350, 68}";
 }
 );
 id = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
-italicAngle = 22.583;
+italicAngle = 19;
 weight = Bold;
 weightValue = 700;
 xHeight = 1049;
