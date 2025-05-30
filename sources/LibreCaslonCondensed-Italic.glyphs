@@ -1,8 +1,5 @@
 {
 .appVersion = "3414";
-DisplayStrings = (
-I
-);
 classes = (
 {
 code = "Euro bar cent colon comma degree divide dollar eight equal five four greater less minus multiply nine numbersign one paragraph percent period periodcentered plus plusminus quotedbl quotesingle section semicolon seven six slash sterling three two underscore yen zero";
@@ -80,7 +77,6 @@ Tag = wght;
 date = "2020-04-22 21:30:27 +0000";
 designer = "Pablo Impallari, Rodrigo Fuenzalida, Katja Schimmel, Ertekin Erdin";
 designerURL = "https://fonts.google.com/";
-disablesNiceNames = 1;
 familyName = "Libre Caslon Condensed";
 featurePrefixes = (
 {
@@ -89622,7 +89618,7 @@ nodes = (
 components = (
 {
 name = zero.denominator;
-transform = "{1, 0, 0, 1, 268, 644}";
+transform = "{1, 0, 0, 1, 222, 644}";
 }
 );
 layerId = master01;
@@ -89671,7 +89667,7 @@ components = (
 {
 alignment = 1;
 name = zero.denominator;
-transform = "{1, 0, 0, 1, 254, 610}";
+transform = "{1, 0, 0, 1, 210, 610}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -89710,7 +89706,7 @@ nodes = (
 components = (
 {
 name = one.denominator;
-transform = "{1, 0, 0, 1, 265, 636}";
+transform = "{1, 0, 0, 1, 219, 636}";
 }
 );
 layerId = master01;
@@ -89744,7 +89740,7 @@ components = (
 {
 alignment = 1;
 name = one.denominator;
-transform = "{1, 0, 0, 1, 256, 615}";
+transform = "{1, 0, 0, 1, 212, 615}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -89795,7 +89791,7 @@ nodes = (
 components = (
 {
 name = two.denominator;
-transform = "{1, 0, 0, 1, 264, 634}";
+transform = "{1, 0, 0, 1, 218, 634}";
 }
 );
 layerId = master01;
@@ -89841,7 +89837,7 @@ components = (
 {
 alignment = 1;
 name = two.denominator;
-transform = "{1, 0, 0, 1, 256, 615}";
+transform = "{1, 0, 0, 1, 212, 615}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -89912,7 +89908,7 @@ components = (
 {
 alignment = 1;
 name = three.denominator;
-transform = "{1, 0, 0, 1, 268, 645}";
+transform = "{1, 0, 0, 1, 222, 645}";
 }
 );
 layerId = master01;
@@ -89975,7 +89971,7 @@ nodes = (
 components = (
 {
 name = three.denominator;
-transform = "{1, 0, 0, 1, 255, 613}";
+transform = "{1, 0, 0, 1, 211, 613}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -90022,7 +90018,7 @@ components = (
 {
 alignment = 1;
 name = four.denominator;
-transform = "{1, 0, 0, 1, 265, 636}";
+transform = "{1, 0, 0, 1, 219, 636}";
 }
 );
 layerId = master01;
@@ -90062,7 +90058,7 @@ components = (
 {
 alignment = 1;
 name = four.denominator;
-transform = "{1, 0, 0, 1, 256, 615}";
+transform = "{1, 0, 0, 1, 212, 615}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -90123,7 +90119,7 @@ nodes = (
 components = (
 {
 name = five.denominator;
-transform = "{1, 0, 0, 1, 268, 644}";
+transform = "{1, 0, 0, 1, 222, 644}";
 }
 );
 layerId = master01;
@@ -90177,7 +90173,7 @@ nodes = (
 components = (
 {
 name = five.denominator;
-transform = "{1, 0, 0, 1, 256, 615}";
+transform = "{1, 0, 0, 1, 212, 615}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -90241,7 +90237,7 @@ components = (
 {
 alignment = 1;
 name = six.denominator;
-transform = "{1, 0, 0, 1, 267, 643}";
+transform = "{1, 0, 0, 1, 221, 643}";
 }
 );
 layerId = master01;
@@ -90343,7 +90339,7 @@ components = (
 {
 alignment = 1;
 name = seven.denominator;
-transform = "{1, 0, 0, 1, 268, 645}";
+transform = "{1, 0, 0, 1, 222, 645}";
 }
 );
 layerId = master01;
@@ -90383,7 +90379,7 @@ components = (
 {
 alignment = 1;
 name = seven.denominator;
-transform = "{1, 0, 0, 1, 256, 615}";
+transform = "{1, 0, 0, 1, 212, 615}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -90462,7 +90458,7 @@ components = (
 {
 alignment = 1;
 name = eight.denominator;
-transform = "{1, 0, 0, 1, 267, 641}";
+transform = "{1, 0, 0, 1, 221, 641}";
 }
 );
 layerId = master01;
@@ -90594,7 +90590,7 @@ nodes = (
 components = (
 {
 name = nine.denominator;
-transform = "{1, 0, 0, 1, 270, 649}";
+transform = "{1, 0, 0, 1, 223, 649}";
 }
 );
 layerId = master01;
@@ -90650,7 +90646,7 @@ nodes = (
 components = (
 {
 name = nine.denominator;
-transform = "{1, 0, 0, 1, 254, 611}";
+transform = "{1, 0, 0, 1, 210, 611}";
 }
 );
 layerId = "D3934E74-9B53-4E98-B19F-CD3DFEE08352";
@@ -93746,7 +93742,7 @@ nodes = (
 components = (
 {
 name = zeroinferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
@@ -95600,7 +95596,7 @@ nodes = (
 components = (
 {
 name = zeroinferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
@@ -95688,7 +95684,7 @@ nodes = (
 components = (
 {
 name = oneinferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
@@ -95772,7 +95768,7 @@ nodes = (
 components = (
 {
 name = twoinferior;
-transform = "{1, 0, 0, 1, 470, 1130}";
+transform = "{1, 0, 0, 1, 389, 1130}";
 }
 );
 layerId = master01;
@@ -95886,7 +95882,7 @@ nodes = (
 components = (
 {
 name = threeinferior;
-transform = "{1, 0, 0, 1, 470, 1130}";
+transform = "{1, 0, 0, 1, 389, 1130}";
 }
 );
 layerId = master01;
@@ -95994,7 +95990,7 @@ nodes = (
 components = (
 {
 name = fourinferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
@@ -96093,7 +96089,7 @@ nodes = (
 components = (
 {
 name = fiveinferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
@@ -96209,7 +96205,7 @@ nodes = (
 components = (
 {
 name = sixinferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
@@ -96310,7 +96306,7 @@ nodes = (
 components = (
 {
 name = seveninferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
@@ -96435,7 +96431,7 @@ nodes = (
 components = (
 {
 name = eightinferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
@@ -96577,7 +96573,7 @@ nodes = (
 components = (
 {
 name = nineinferior;
-transform = "{1, 0, 0, 1, 469, 1128}";
+transform = "{1, 0, 0, 1, 388, 1128}";
 }
 );
 layerId = master01;
