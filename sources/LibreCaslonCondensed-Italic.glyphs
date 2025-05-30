@@ -1,9 +1,6 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
-DisplayStrings = (
-c
-);
 axes = (
 {
 name = Weight;
@@ -73,70 +70,12 @@ featurePrefixes = (
 automatic = 1;
 code = "languagesystem DFLT dflt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
 languagesystem latn CAT;
 ";
 name = Languagesystems;
@@ -151,11 +90,12 @@ feature ordn;
 feature sinf;
 feature sups;
 feature dnom;
+feature numr;
 feature onum;
 feature ss01;
 feature locl;
 feature subs;
-feature salt;
+feature case;
 ";
 tag = aalt;
 },
@@ -3503,12 +3443,41 @@ tag = kern;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language CAT;
-	sub  l' periodcentered' l by ldot;
-	sub  L' periodcentered' L by Ldot;
+code = "lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language CAT;
+lookup locl_latn_1 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_1;
 ";
 tag = locl;
 },
@@ -3529,9 +3498,9 @@ tag = subs;
 },
 {
 automatic = 1;
-code = "sub ampersand by ampersand.ss01;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 ";
-tag = salt;
+tag = case;
 }
 );
 fontMaster = (
@@ -3661,7 +3630,7 @@ pos = -495;
 pos = 19;
 }
 );
-name = Regular;
+name = Italic;
 },
 {
 axesValues = (
@@ -3784,7 +3753,7 @@ pos = -495;
 pos = 19;
 }
 );
-name = Bold;
+name = "Bold Italic";
 }
 );
 glyphs = (
@@ -3801,7 +3770,7 @@ pos = (778,0);
 },
 {
 name = topcap;
-pos = (1040,1643);
+pos = (1100,1643);
 }
 );
 background = {
@@ -3987,7 +3956,7 @@ pos = (838,0);
 },
 {
 name = topcap;
-pos = (984,1643);
+pos = (1064,1643);
 }
 );
 background = {
@@ -4258,7 +4227,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (834,0);
+pos = (894,0);
 ref = acute.cap;
 scale = (0.84,1);
 }
@@ -4350,7 +4319,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (384,0);
+pos = (464,0);
 ref = acute.cap;
 scale = (0.84,1);
 }
@@ -4458,7 +4427,7 @@ ref = A;
 },
 {
 alignment = -1;
-pos = (787,0);
+pos = (887,0);
 ref = breve.cap;
 scale = (0.84,1);
 }
@@ -4555,7 +4524,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (330,0);
+pos = (410,0);
 ref = breve.cap;
 scale = (0.84,1);
 }
@@ -4657,7 +4626,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (767,0);
+pos = (827,0);
 ref = circumflex.cap;
 scale = (0.84,1);
 }
@@ -4749,7 +4718,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (260,0);
+pos = (340,0);
 ref = circumflex.cap;
 scale = (0.84,1);
 }
@@ -4868,7 +4837,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (778,0);
+pos = (838,0);
 ref = dieresis.cap;
 scale = (0.84,1);
 }
@@ -4977,7 +4946,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (252,0);
+pos = (332,0);
 ref = dieresis.cap;
 scale = (0.84,1);
 }
@@ -5172,7 +5141,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (326,0);
+pos = (406,0);
 ref = grave.cap;
 scale = (0.84,1);
 }
@@ -5267,7 +5236,7 @@ ref = A;
 },
 {
 alignment = -1;
-pos = (737,-2);
+pos = (817,-2);
 ref = macron.cap;
 scale = (0.84,1);
 }
@@ -5351,7 +5320,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (261,0);
+pos = (341,0);
 ref = macron.cap;
 scale = (0.84,1);
 }
@@ -5464,7 +5433,7 @@ ref = A;
 },
 {
 alignment = -1;
-pos = (660,0);
+pos = (650,0);
 ref = ogonek;
 scale = (0.84,1);
 }
@@ -5686,7 +5655,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (911,0);
+pos = (971,0);
 ref = ring.cap;
 scale = (0.84,1);
 }
@@ -5796,7 +5765,7 @@ alignment = -1;
 ref = A;
 },
 {
-pos = (383,0);
+pos = (463,0);
 ref = ring.cap;
 scale = (0.84,1);
 }
@@ -5938,32 +5907,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1225,1734,o),
-(1252,1761,o),
-(1252,1804,cs),
-(1252,1848,o),
-(1228,1872,o),
-(1179,1872,cs),
-(1163,1872,o),
-(1150,1868,o),
-(1135,1862,c),
-(1137,1734,l)
+(1296,1734,o),
+(1323,1761,o),
+(1323,1804,cs),
+(1323,1848,o),
+(1299,1872,o),
+(1250,1872,cs),
+(1234,1872,o),
+(1221,1868,o),
+(1206,1862,c),
+(1208,1734,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(956,1810,l),
-(851,1769,l),
-(858,1721,l),
-(951,1718,l)
+(1027,1810,l),
+(922,1769,l),
+(929,1721,l),
+(1022,1718,l)
 );
 },
 {
 ref = A;
 },
 {
-pos = (900,0);
+pos = (971,0);
 ref = ring.cap;
 scale = (0.84,1);
 }
@@ -6095,32 +6064,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1222,1721,o),
-(1256,1754,o),
-(1256,1807,cs),
-(1256,1859,o),
-(1226,1887,o),
-(1168,1887,cs),
-(1149,1887,o),
-(1132,1883,o),
-(1115,1876,c),
-(1118,1721,ls)
+(1293,1721,o),
+(1327,1754,o),
+(1327,1807,cs),
+(1327,1859,o),
+(1297,1887,o),
+(1239,1887,cs),
+(1220,1887,o),
+(1203,1883,o),
+(1186,1876,c),
+(1189,1721,ls)
 );
 },
 {
 closed = 1;
 nodes = (
-(900,1814,l),
-(774,1763,l),
-(783,1707,l),
-(894,1703,l)
+(971,1814,l),
+(845,1763,l),
+(854,1707,l),
+(965,1703,l)
 );
 },
 {
 ref = A;
 },
 {
-pos = (387,0);
+pos = (458,0);
 ref = ring.cap;
 scale = (0.84,1);
 }
@@ -6231,7 +6200,7 @@ ref = A;
 },
 {
 alignment = -1;
-pos = (703,31);
+pos = (841,31);
 ref = tilde.cap;
 scale = (0.84,1);
 }
@@ -6331,7 +6300,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (273,0);
+pos = (353,0);
 ref = tilde.cap;
 scale = (0.84,1);
 }
@@ -36362,7 +36331,7 @@ ref = acute;
 scale = (0.84,1);
 }
 );
-width = 1336;
+width = 1346;
 },
 {
 background = {
@@ -36483,9 +36452,11 @@ ref = acute;
 scale = (0.84,1);
 }
 );
-width = 1336;
+width = 1464;
 }
 );
+metricLeft = a;
+metricRight = e;
 unicode = 509;
 },
 {
@@ -50232,11 +50203,11 @@ ref = l;
 },
 {
 alignment = -1;
-pos = (432,0);
+pos = (412,0);
 ref = periodcentered;
 }
 );
-width = 760;
+width = 923;
 },
 {
 background = {
@@ -50317,7 +50288,7 @@ pos = (432,0);
 ref = periodcentered;
 }
 );
-width = 869;
+width = 931;
 }
 );
 metricLeft = l;
